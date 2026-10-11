@@ -1,0 +1,56 @@
+[
+  {
+    "id": "PRM001",
+    "nombre": "Semana del Celular",
+    "descuentoPct": 15,
+    "categoriaId": "CAT02",
+    "productoId": null,
+    "fechaInicio": "2026-10-05",
+    "fechaFin": "2026-10-18"
+  },
+  {
+    "id": "PRM002",
+    "nombre": "Hot Cocina",
+    "descuentoPct": 20,
+    "categoriaId": "CAT05",
+    "productoId": null,
+    "fechaInicio": "2026-10-01",
+    "fechaFin": "2026-10-31"
+  },
+  {
+    "id": "PRM003",
+    "nombre": "Liquidación de auriculares",
+    "descuentoPct": 10,
+    "categoriaId": null,
+    "productoId": "PRD005",
+    "fechaInicio": "2026-10-08",
+    "fechaFin": "2026-10-15"
+  },
+  {
+    "id": "PRM004",
+    "nombre": "Día del Libro",
+    "descuentoPct": 25,
+    "categoriaId": "CAT08",
+    "productoId": null,
+    "fechaInicio": "2026-09-01",
+    "fechaFin": "2026-09-30"
+  },
+  {
+    "id": "PRM005",
+    "nombre": "Black Notebook",
+    "descuentoPct": 30,
+    "categoriaId": "CAT03",
+    "productoId": null,
+    "fechaInicio": "2026-11-27",
+    "fechaFin": "2026-11-30"
+  },
+  {
+    "id": "PRM006",
+    "nombre": "Corré más",
+    "descuentoPct": 12,
+    "categoriaId": "CAT07",
+    "productoId": null,
+    "fechaInicio": "2026-10-10",
+    "fechaFin": "2026-12-31"
+  }
+]

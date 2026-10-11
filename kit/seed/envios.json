@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ENV001",
+    "ordenId": "ORD001",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-11T14:22:00Z",
+    "fechaEstimadaEntrega": "2026-08-16",
+    "fechaEntrega": "2026-08-15T14:22:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV002",
+    "ordenId": "ORD002",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-19T10:05:00Z",
+    "fechaEstimadaEntrega": "2026-08-24",
+    "fechaEntrega": "2026-08-23T10:05:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV003",
+    "ordenId": "ORD003",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-26T19:40:00Z",
+    "fechaEstimadaEntrega": "2026-08-31",
+    "fechaEntrega": "2026-08-30T19:40:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV004",
+    "ordenId": "ORD004",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-03T09:15:00Z",
+    "fechaEstimadaEntrega": "2026-09-08",
+    "fechaEntrega": "2026-09-07T09:15:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV005",
+    "ordenId": "ORD005",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-10T16:50:00Z",
+    "fechaEstimadaEntrega": "2026-09-15",
+    "fechaEntrega": "2026-09-14T16:50:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV006",
+    "ordenId": "ORD006",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-15T21:10:00Z",
+    "fechaEstimadaEntrega": "2026-09-20",
+    "fechaEntrega": "2026-09-19T21:10:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV007",
+    "ordenId": "ORD007",
+    "transportista": "Andes Logística",
+    "estado": "demorado",
+    "fechaDespacho": "2026-10-01T09:00:00Z",
+    "fechaEstimadaEntrega": "2026-10-06",
+    "fechaEntrega": null,
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV008",
+    "ordenId": "ORD008",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-08T08:30:00Z",
+    "fechaEstimadaEntrega": "2026-10-13",
+    "fechaEntrega": null,
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV009",
+    "ordenId": "ORD011",
+    "transportista": "Correo Pampa",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-15",
+    "fechaEntrega": null,
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV010",
+    "ordenId": "ORD012",
+    "transportista": "Andes Logística",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-16",
+    "fechaEntrega": null,
+    "destinoCiudad": "Mendoza"
+  }
+]

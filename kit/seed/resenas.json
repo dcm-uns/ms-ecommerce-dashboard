@@ -1,0 +1,92 @@
+[
+  {
+    "id": "RES001",
+    "productoId": "PRD001",
+    "clienteId": "CLI001",
+    "puntaje": 5,
+    "titulo": "Excelente equipo",
+    "texto": "La cámara y la batería superaron mis expectativas.",
+    "fecha": "2026-08-20T18:00:00Z"
+  },
+  {
+    "id": "RES002",
+    "productoId": "PRD005",
+    "clienteId": "CLI002",
+    "puntaje": 4,
+    "titulo": "Buen sonido",
+    "texto": "Cancelan bien el ruido, pero la batería rinde menos de lo anunciado.",
+    "fecha": "2026-08-28T20:10:00Z"
+  },
+  {
+    "id": "RES003",
+    "productoId": "PRD007",
+    "clienteId": "CLI002",
+    "puntaje": 2,
+    "titulo": "Se calienta y hace ruido",
+    "texto": "A los pocos usos empezó a hacer ruido y a oler a quemado.",
+    "fecha": "2026-08-30T09:30:00Z"
+  },
+  {
+    "id": "RES004",
+    "productoId": "PRD003",
+    "clienteId": "CLI003",
+    "puntaje": 5,
+    "titulo": "Muy rápida",
+    "texto": "Arranca en segundos y alcanza de sobra para programar.",
+    "fecha": "2026-09-03T21:00:00Z"
+  },
+  {
+    "id": "RES005",
+    "productoId": "PRD005",
+    "clienteId": "CLI003",
+    "puntaje": 4,
+    "titulo": "Cómodos",
+    "texto": "Livianos y cómodos para usar todo el día.",
+    "fecha": "2026-09-04T10:45:00Z"
+  },
+  {
+    "id": "RES006",
+    "productoId": "PRD008",
+    "clienteId": "CLI004",
+    "puntaje": 3,
+    "titulo": "Cumplen, nada más",
+    "texto": "Amortiguan bien, pero el talle viene algo chico.",
+    "fecha": "2026-09-12T17:20:00Z"
+  },
+  {
+    "id": "RES007",
+    "productoId": "PRD006",
+    "clienteId": "CLI005",
+    "puntaje": 5,
+    "titulo": "Café de bar en casa",
+    "texto": "El vaporizador hace una espuma excelente.",
+    "fecha": "2026-09-18T08:30:00Z"
+  },
+  {
+    "id": "RES008",
+    "productoId": "PRD011",
+    "clienteId": "CLI005",
+    "puntaje": 4,
+    "titulo": "Claro y práctico",
+    "texto": "Buenos ejemplos, aunque le faltan ejercicios resueltos.",
+    "fecha": "2026-09-19T19:00:00Z"
+  },
+  {
+    "id": "RES009",
+    "productoId": "PRD010",
+    "clienteId": "CLI001",
+    "puntaje": 4,
+    "titulo": "Buena pelota",
+    "texto": "Mantiene bien la forma y el pique.",
+    "fecha": "2026-09-24T16:00:00Z"
+  },
+  {
+    "id": "RES010",
+    "productoId": "PRD011",
+    "clienteId": "CLI001",
+    "puntaje": 5,
+    "titulo": "Imprescindible",
+    "texto": "Lo uso como material de consulta en el trabajo.",
+    "fecha": "2026-09-24T16:05:00Z"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "PAG001",
+    "ordenId": "ORD001",
+    "medio": "tarjeta_credito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-08-10T14:25:00Z"
+  },
+  {
+    "id": "PAG002",
+    "ordenId": "ORD002",
+    "medio": "billetera_virtual",
+    "monto": 184000,
+    "estado": "aprobado",
+    "fecha": "2026-08-18T10:08:00Z"
+  },
+  {
+    "id": "PAG003",
+    "ordenId": "ORD003",
+    "medio": "tarjeta_credito",
+    "monto": 955000,
+    "estado": "aprobado",
+    "fecha": "2026-08-25T19:43:00Z"
+  },
+  {
+    "id": "PAG004",
+    "ordenId": "ORD004",
+    "medio": "transferencia",
+    "monto": 98000,
+    "estado": "aprobado",
+    "fecha": "2026-09-02T09:18:00Z"
+  },
+  {
+    "id": "PAG005",
+    "ordenId": "ORD005",
+    "medio": "tarjeta_debito",
+    "monto": 148000,
+    "estado": "aprobado",
+    "fecha": "2026-09-09T16:53:00Z"
+  },
+  {
+    "id": "PAG006",
+    "ordenId": "ORD006",
+    "medio": "billetera_virtual",
+    "monto": 60000,
+    "estado": "aprobado",
+    "fecha": "2026-09-14T21:13:00Z"
+  },
+  {
+    "id": "PAG007",
+    "ordenId": "ORD007",
+    "medio": "tarjeta_credito",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-09-29T11:33:00Z"
+  },
+  {
+    "id": "PAG008",
+    "ordenId": "ORD008",
+    "medio": "transferencia",
+    "monto": 157000,
+    "estado": "aprobado",
+    "fecha": "2026-10-06T13:48:00Z"
+  },
+  {
+    "id": "PAG009",
+    "ordenId": "ORD009",
+    "medio": "transferencia",
+    "monto": 345000,
+    "estado": "pendiente",
+    "fecha": "2026-10-07T08:23:00Z"
+  },
+  {
+    "id": "PAG010",
+    "ordenId": "ORD010",
+    "medio": "tarjeta_credito",
+    "monto": 1350000,
+    "estado": "reembolsado",
+    "fecha": "2026-10-08T17:08:00Z"
+  },
+  {
+    "id": "PAG011",
+    "ordenId": "ORD011",
+    "medio": "billetera_virtual",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-10-09T12:03:00Z"
+  },
+  {
+    "id": "PAG012",
+    "ordenId": "ORD012",
+    "medio": "tarjeta_debito",
+    "monto": 179000,
+    "estado": "aprobado",
+    "fecha": "2026-10-10T15:38:00Z"
+  }
+]

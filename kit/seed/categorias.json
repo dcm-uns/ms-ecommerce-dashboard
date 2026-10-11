@@ -1,0 +1,50 @@
+[
+  {
+    "id": "CAT01",
+    "nombre": "Electrónica",
+    "padreId": null,
+    "descripcion": "Dispositivos electrónicos y accesorios"
+  },
+  {
+    "id": "CAT02",
+    "nombre": "Celulares",
+    "padreId": "CAT01",
+    "descripcion": "Teléfonos inteligentes"
+  },
+  {
+    "id": "CAT03",
+    "nombre": "Notebooks",
+    "padreId": "CAT01",
+    "descripcion": "Computadoras portátiles"
+  },
+  {
+    "id": "CAT04",
+    "nombre": "Hogar",
+    "padreId": null,
+    "descripcion": "Muebles y artículos para el hogar"
+  },
+  {
+    "id": "CAT05",
+    "nombre": "Cocina",
+    "padreId": "CAT04",
+    "descripcion": "Electrodomésticos y utensilios de cocina"
+  },
+  {
+    "id": "CAT06",
+    "nombre": "Deportes",
+    "padreId": null,
+    "descripcion": "Artículos deportivos"
+  },
+  {
+    "id": "CAT07",
+    "nombre": "Calzado deportivo",
+    "padreId": "CAT06",
+    "descripcion": "Zapatillas para running, trail y más"
+  },
+  {
+    "id": "CAT08",
+    "nombre": "Libros",
+    "padreId": null,
+    "descripcion": "Libros técnicos y de interés general"
+  }
+]

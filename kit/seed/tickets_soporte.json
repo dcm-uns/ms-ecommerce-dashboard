@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TKT001",
+    "clienteId": "CLI006",
+    "ordenId": "ORD007",
+    "categoria": "envio",
+    "asunto": "Pedido demorado",
+    "descripcion": "Mi silla debía llegar el 6 de octubre y todavía no tengo novedades.",
+    "estado": "abierto",
+    "fechaCreacion": "2026-10-08T10:00:00Z"
+  },
+  {
+    "id": "TKT002",
+    "clienteId": "CLI002",
+    "ordenId": "ORD002",
+    "categoria": "producto",
+    "asunto": "Licuadora con ruido anormal",
+    "descripcion": "La licuadora hace un ruido metálico a velocidad alta.",
+    "estado": "en_proceso",
+    "fechaCreacion": "2026-09-02T18:20:00Z"
+  },
+  {
+    "id": "TKT003",
+    "clienteId": "CLI007",
+    "ordenId": "ORD009",
+    "categoria": "pago",
+    "asunto": "Transferencia no acreditada",
+    "descripcion": "Hice la transferencia hace dos días y la orden sigue pendiente.",
+    "estado": "abierto",
+    "fechaCreacion": "2026-10-09T09:40:00Z"
+  },
+  {
+    "id": "TKT004",
+    "clienteId": "CLI008",
+    "ordenId": "ORD010",
+    "categoria": "pago",
+    "asunto": "Reembolso no recibido",
+    "descripcion": "Cancelé la compra y todavía no veo el reembolso.",
+    "estado": "en_proceso",
+    "fechaCreacion": "2026-10-10T11:15:00Z"
+  },
+  {
+    "id": "TKT005",
+    "clienteId": "CLI004",
+    "ordenId": "ORD008",
+    "categoria": "envio",
+    "asunto": "Consulta de seguimiento",
+    "descripcion": "¿Cómo puedo seguir el estado de mi envío?",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-10-09T20:05:00Z"
+  },
+  {
+    "id": "TKT006",
+    "clienteId": "CLI001",
+    "ordenId": "ORD006",
+    "categoria": "producto",
+    "asunto": "Libro con página dañada",
+    "descripcion": "Llegó con varias páginas arrugadas.",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-09-21T14:30:00Z"
+  },
+  {
+    "id": "TKT007",
+    "clienteId": "CLI005",
+    "ordenId": "ORD012",
+    "categoria": "otro",
+    "asunto": "Cambio de dirección de entrega",
+    "descripcion": "Necesito cambiar la dirección antes del despacho.",
+    "estado": "abierto",
+    "fechaCreacion": "2026-10-10T18:00:00Z"
+  },
+  {
+    "id": "TKT008",
+    "clienteId": "CLI003",
+    "ordenId": "ORD003",
+    "categoria": "producto",
+    "asunto": "Falta cable en la caja",
+    "descripcion": "Los auriculares vinieron sin el cable de carga.",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-09-01T12:10:00Z"
+  }
+]

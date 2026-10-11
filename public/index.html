@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard de microservicios</title>
+<style>
+  :root { --bg:#f5f6f8; --card:#fff; --txt:#1c2330; --mut:#6b7585; --bd:#e1e5ea; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.45 system-ui,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--txt); }
+  header { background:#1c2330; color:#fff; padding:16px 24px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+  header h1 { margin:0; font-size:20px; }
+  main { max-width:1200px; margin:0 auto; padding:20px; }
+  .summary { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px; }
+  .chip { background:var(--card); border:1px solid var(--bd); border-radius:20px; padding:4px 12px; font-size:13px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; }
+  .card { background:var(--card); border:1px solid var(--bd); border-radius:10px; padding:14px; display:flex; flex-direction:column; gap:8px; border-top:4px solid var(--c); }
+  .card h2 { margin:0; font-size:16px; display:flex; justify-content:space-between; align-items:center; gap:8px; }
+  .badge { font-size:12px; font-weight:600; padding:2px 10px; border-radius:12px; color:#fff; background:var(--c); text-transform:uppercase; }
+  .libre { --c:#8a94a3; } .registrado { --c:#2f6fdd; } .online { --c:#1f9d55; } .offline { --c:#d33a3a; }
+  .mut { color:var(--mut); font-size:13px; }
+  .url { display:flex; gap:6px; align-items:center; }
+  .url code { flex:1; background:#f0f2f5; padding:4px 6px; border-radius:5px; overflow-wrap:anywhere; font-size:13px; }
+  .err { color:#b02a2a; font-size:13px; overflow-wrap:anywhere; }
+  .actions { display:flex; gap:8px; margin-top:auto; flex-wrap:wrap; }
+  button { font:inherit; padding:5px 12px; border-radius:6px; border:1px solid #b9c0ca; background:#fff; cursor:pointer; }
+  button.primary { background:#2f6fdd; color:#fff; border-color:#2f6fdd; }
+  button.danger { color:#b02a2a; border-color:#d9a0a0; }
+  button:disabled { opacity:.5; cursor:wait; }
+  dialog { border:1px solid var(--bd); border-radius:10px; padding:20px; width:min(480px,92vw); }
+  dialog::backdrop { background:rgba(0,0,0,.4); }
+  label { display:block; margin:10px 0 4px; font-weight:600; font-size:13px; }
+  input, select, textarea { width:100%; font:inherit; padding:6px 8px; border:1px solid #b9c0ca; border-radius:6px; }
+  .msg { margin-top:10px; font-size:14px; }
+  .msg.bad { color:#b02a2a; } .msg.good { color:#1f9d55; }
+  header .right { display:flex; gap:8px; align-items:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Dashboard de microservicios</h1>
+  <div class="right">
+    <span id="adminTag" class="mut" style="color:#9fe0b6" hidden>Modo admin</span>
+    <button id="btnRegister" class="primary">Registrar microservicio</button>
+    <button id="btnAdmin">Admin</button>
+  </div>
+</header>
+<main>
+  <div class="summary" id="summary"></div>
+  <div class="grid" id="grid"></div>
+  <p class="mut" id="updated"></p>
+</main>
+
+<dialog id="dlgRegister">
+  <form method="dialog" id="formRegister">
+    <h2 style="margin-top:0">Registrar microservicio</h2>
+    <label for="rCodigo">Microservicio</label>
+    <select id="rCodigo" required></select>
+    <label for="rUrl">URL base pública</label>
+    <input id="rUrl" type="url" required placeholder="https://mi-servicio.onrender.com">
+    <label for="rGrupo">Nombre del grupo (opcional)</label>
+    <input id="rGrupo" maxlength="80">
+    <label for="rEst">Estudiantes (uno por línea)</label>
+    <textarea id="rEst" rows="4" required></textarea>
+    <div class="msg" id="rMsg"></div>
+    <div class="actions" style="margin-top:14px">
+      <button type="submit" class="primary" id="rSubmit">Registrar</button>
+      <button type="button" data-close>Cerrar</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlgAdmin">
+  <form method="dialog" id="formAdmin">
+    <h2 style="margin-top:0">Administrador</h2>
+    <label for="aToken">Token de administrador</label>
+    <input id="aToken" type="password" autocomplete="off">
+    <div class="msg" id="aMsg"></div>
+    <div class="actions" style="margin-top:14px">
+      <button type="submit" class="primary">Ingresar</button>
+      <button type="button" id="aLogout">Salir del modo admin</button>
+      <button type="button" data-close>Cerrar</button>
+    </div>
+  </form>
+</dialog>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let items = [];
+let token = sessionStorage.getItem('adminToken') || '';
+const busy = new Set();
+
+function el(tag, props = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === 'class') e.className = v; else if (k.startsWith('on')) e[k] = v; else e[k] = v;
+  }
+  for (const k of kids) e.append(k);
+  return e;
+}
+const fmt = (iso) => iso ? new Date(iso).toLocaleString() : '—';
+
+async function api(method, url, body, auth) {
+  const res = await fetch(url, {
+    method,
+    headers: { 'content-type': 'application/json', ...(auth ? { authorization: 'Bearer ' + token } : {}) },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw Object.assign(new Error(data.message || 'Error ' + res.status), { status: res.status });
+  return data;
+}
+
+function render() {
+  $('adminTag').hidden = !token;
+  const counts = { libre: 0, registrado: 0, online: 0, offline: 0 };
+  items.forEach((i) => counts[i.estado]++);
+  $('summary').replaceChildren(...Object.entries(counts).map(([k, v]) => el('span', { class: 'chip', textContent: `${k}: ${v}` })));
+
+  $('grid').replaceChildren(...items.map((m) => {
+    const card = el('div', { class: 'card ' + m.estado });
+    card.append(el('h2', {}, el('span', { textContent: m.codigo }), el('span', { class: 'badge', textContent: m.estado })));
+    card.append(el('div', { class: 'mut', textContent: m.descripcion }));
+    if (m.url) {
+      card.append(el('div', { class: 'url' },
+        el('code', { textContent: m.url }),
+        el('button', { textContent: 'Copiar', onclick: () => navigator.clipboard.writeText(m.url) })));
+      card.append(el('div', {}, el('strong', { textContent: (m.grupo ? m.grupo + ': ' : 'Equipo: ') }), document.createTextNode(m.estudiantes.join(', '))));
+      const c = m.ultimoCheck;
+      card.append(el('div', { class: 'mut', textContent: c ? `Última prueba: ${fmt(c.at)} (${c.ms} ms)` : 'Sin pruebas aún' }));
+      if (c && !c.ok) card.append(el('div', { class: 'err', textContent: c.error }));
+    } else {
+      card.append(el('div', { class: 'mut', textContent: 'Disponible para registrar.' }));
+    }
+    const actions = el('div', { class: 'actions' });
+    if (m.url) {
+      actions.append(el('button', { textContent: busy.has(m.codigo) ? 'Probando…' : 'Ping', disabled: busy.has(m.codigo), onclick: () => ping(m.codigo) }));
+    } else {
+      actions.append(el('button', { class: 'primary', textContent: 'Registrar', onclick: () => openRegister(m.codigo) }));
+    }
+    if (token && m.url) actions.append(el('button', { class: 'danger', textContent: 'Liberar', onclick: () => liberar(m) }));
+    card.append(actions);
+    return card;
+  }));
+}
+
+async function load() {
+  try {
+    items = await api('GET', '/api/microservicios');
+    $('updated').textContent = 'Actualizado: ' + new Date().toLocaleTimeString();
+    render();
+  } catch (e) { $('updated').textContent = 'Error al cargar: ' + e.message; }
+}
+
+async function ping(codigo) {
+  busy.add(codigo); render();
+  try {
+    const upd = await api('POST', `/api/microservicios/${encodeURIComponent(codigo)}/ping`);
+    items = items.map((i) => i.codigo === codigo ? upd : i);
+  } catch (e) { alert(e.message); }
+  busy.delete(codigo); render();
+}
+
+async function liberar(m) {
+  if (!confirm(`¿Liberar ${m.codigo}? Se borrará la registración de ${m.estudiantes.join(', ')}.`)) return;
+  try { await api('POST', `/api/admin/microservicios/${encodeURIComponent(m.codigo)}/liberar`, null, true); await load(); }
+  catch (e) {
+    if (e.status === 401) { token = ''; sessionStorage.removeItem('adminToken'); render(); }
+    alert(e.message);
+  }
+}
+
+function openRegister(codigo) {
+  const libres = items.filter((i) => i.estado === 'libre');
+  $('rCodigo').replaceChildren(...libres.map((i) => el('option', { value: i.codigo, textContent: i.codigo })));
+  if (codigo) $('rCodigo').value = codigo;
+  $('rMsg').textContent = '';
+  $('dlgRegister').showModal();
+}
+
+$('btnRegister').onclick = () => openRegister();
+$('btnAdmin').onclick = () => { $('aMsg').textContent = ''; $('aToken').value = ''; $('dlgAdmin').showModal(); };
+document.querySelectorAll('[data-close]').forEach((b) => b.onclick = () => b.closest('dialog').close());
+
+$('formRegister').onsubmit = async (ev) => {
+  ev.preventDefault();
+  const msg = $('rMsg'); msg.className = 'msg'; msg.textContent = 'Probando el microservicio…';
+  $('rSubmit').disabled = true;
+  try {
+    const r = await api('POST', '/api/register', {
+      codigo: $('rCodigo').value, url: $('rUrl').value, grupo: $('rGrupo').value || undefined,
+      estudiantes: $('rEst').value.split('\n').map((s) => s.trim()).filter(Boolean),
+    });
+    msg.className = 'msg good'; msg.textContent = `¡${r.codigo} registrado!`;
+    await load();
+    setTimeout(() => $('dlgRegister').close(), 1200);
+  } catch (e) { msg.className = 'msg bad'; msg.textContent = e.message; }
+  $('rSubmit').disabled = false;
+};
+
+$('formAdmin').onsubmit = async (ev) => {
+  ev.preventDefault();
+  token = $('aToken').value;
+  try {
+    await api('GET', '/api/admin/check', null, true);
+    sessionStorage.setItem('adminToken', token);
+    $('dlgAdmin').close(); render();
+  } catch (e) { token = ''; $('aMsg').className = 'msg bad'; $('aMsg').textContent = e.message; }
+};
+$('aLogout').onclick = () => { token = ''; sessionStorage.removeItem('adminToken'); $('dlgAdmin').close(); render(); };
+
+load();
+setInterval(load, 30000);
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dashboard-microservicios
+    runtime: node
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/microservicios
+    envVars:
+      - key: ADMIN_TOKEN
+        sync: false
+      - key: MONGODB_URI
+        sync: false

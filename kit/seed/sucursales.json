@@ -1,0 +1,44 @@
+[
+  {
+    "id": "SUC01",
+    "nombre": "Tienda Bahía Blanca Centro",
+    "ciudad": "Bahía Blanca",
+    "provincia": "Buenos Aires",
+    "tipo": "tienda"
+  },
+  {
+    "id": "SUC02",
+    "nombre": "Tienda Palermo",
+    "ciudad": "Ciudad de Buenos Aires",
+    "provincia": "CABA",
+    "tipo": "tienda"
+  },
+  {
+    "id": "SUC03",
+    "nombre": "Tienda Nueva Córdoba",
+    "ciudad": "Córdoba",
+    "provincia": "Córdoba",
+    "tipo": "tienda"
+  },
+  {
+    "id": "SUC04",
+    "nombre": "Depósito Central Rosario",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "tipo": "deposito"
+  },
+  {
+    "id": "SUC05",
+    "nombre": "Tienda Mendoza Centro",
+    "ciudad": "Mendoza",
+    "provincia": "Mendoza",
+    "tipo": "tienda"
+  },
+  {
+    "id": "SUC06",
+    "nombre": "Depósito Norte Tucumán",
+    "ciudad": "San Miguel de Tucumán",
+    "provincia": "Tucumán",
+    "tipo": "deposito"
+  }
+]

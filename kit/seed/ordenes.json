@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ORD001",
+    "clienteId": "CLI001",
+    "fecha": "2026-08-10T14:22:00Z",
+    "estado": "entregada",
+    "total": 450000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD002",
+    "clienteId": "CLI002",
+    "fecha": "2026-08-18T10:05:00Z",
+    "estado": "entregada",
+    "total": 184000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD003",
+    "clienteId": "CLI003",
+    "fecha": "2026-08-25T19:40:00Z",
+    "estado": "entregada",
+    "total": 955000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD004",
+    "clienteId": "CLI004",
+    "fecha": "2026-09-02T09:15:00Z",
+    "estado": "entregada",
+    "total": 98000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD005",
+    "clienteId": "CLI005",
+    "fecha": "2026-09-09T16:50:00Z",
+    "estado": "entregada",
+    "total": 148000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD006",
+    "clienteId": "CLI001",
+    "fecha": "2026-09-14T21:10:00Z",
+    "estado": "entregada",
+    "total": 60000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD007",
+    "clienteId": "CLI006",
+    "fecha": "2026-09-29T11:30:00Z",
+    "estado": "enviada",
+    "total": 185000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD008",
+    "clienteId": "CLI004",
+    "fecha": "2026-10-06T13:45:00Z",
+    "estado": "enviada",
+    "total": 157000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD009",
+    "clienteId": "CLI007",
+    "fecha": "2026-10-07T08:20:00Z",
+    "estado": "pendiente",
+    "total": 345000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD010",
+    "clienteId": "CLI008",
+    "fecha": "2026-10-08T17:05:00Z",
+    "estado": "cancelada",
+    "total": 1350000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD011",
+    "clienteId": "CLI002",
+    "fecha": "2026-10-09T12:00:00Z",
+    "estado": "pagada",
+    "total": 450000,
+    "moneda": "ARS"
+  },
+  {
+    "id": "ORD012",
+    "clienteId": "CLI005",
+    "fecha": "2026-10-10T15:35:00Z",
+    "estado": "pagada",
+    "total": 179000,
+    "moneda": "ARS"
+  }
+]
