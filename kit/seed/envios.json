@@ -98,5 +98,2935 @@
     "fechaEstimadaEntrega": "2026-10-16",
     "fechaEntrega": null,
     "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV011",
+    "ordenId": "ORD013",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-02T13:20:00Z",
+    "fechaEstimadaEntrega": "2026-04-09",
+    "fechaEntrega": "2026-04-07T15:20:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV012",
+    "ordenId": "ORD014",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-05T20:38:00Z",
+    "fechaEstimadaEntrega": "2026-04-12",
+    "fechaEntrega": "2026-04-12T00:38:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV013",
+    "ordenId": "ORD015",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-09T05:01:00Z",
+    "fechaEstimadaEntrega": "2026-04-13",
+    "fechaEntrega": "2026-04-12T05:01:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV014",
+    "ordenId": "ORD016",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-09T02:53:00Z",
+    "fechaEstimadaEntrega": "2026-04-16",
+    "fechaEntrega": "2026-04-15T03:53:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV015",
+    "ordenId": "ORD017",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-11T02:49:00Z",
+    "fechaEstimadaEntrega": "2026-04-16",
+    "fechaEntrega": "2026-04-15T07:49:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV016",
+    "ordenId": "ORD018",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-12T20:27:00Z",
+    "fechaEstimadaEntrega": "2026-04-15",
+    "fechaEntrega": "2026-04-15T01:27:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV017",
+    "ordenId": "ORD019",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-13T17:01:00Z",
+    "fechaEstimadaEntrega": "2026-04-20",
+    "fechaEntrega": "2026-04-19T20:01:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV018",
+    "ordenId": "ORD020",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-14T12:11:00Z",
+    "fechaEstimadaEntrega": "2026-04-22",
+    "fechaEntrega": "2026-04-20T14:11:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV019",
+    "ordenId": "ORD021",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-14T23:18:00Z",
+    "fechaEstimadaEntrega": "2026-04-17",
+    "fechaEntrega": "2026-04-17T03:18:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV020",
+    "ordenId": "ORD022",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-16T18:56:00Z",
+    "fechaEstimadaEntrega": "2026-04-24",
+    "fechaEntrega": "2026-04-22T18:56:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV021",
+    "ordenId": "ORD023",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-17T13:27:00Z",
+    "fechaEstimadaEntrega": "2026-04-22",
+    "fechaEntrega": "2026-04-20T17:27:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV022",
+    "ordenId": "ORD024",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-16T19:16:00Z",
+    "fechaEstimadaEntrega": "2026-04-20",
+    "fechaEntrega": "2026-04-18T21:16:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV023",
+    "ordenId": "ORD025",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-18T23:41:00Z",
+    "fechaEstimadaEntrega": "2026-04-23",
+    "fechaEntrega": "2026-04-22T01:41:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV024",
+    "ordenId": "ORD027",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-22T12:59:00Z",
+    "fechaEstimadaEntrega": "2026-04-27",
+    "fechaEntrega": "2026-04-25T12:59:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV025",
+    "ordenId": "ORD028",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-23T16:29:00Z",
+    "fechaEstimadaEntrega": "2026-04-27",
+    "fechaEntrega": "2026-04-25T20:29:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV026",
+    "ordenId": "ORD029",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-23T00:02:00Z",
+    "fechaEstimadaEntrega": "2026-04-30",
+    "fechaEntrega": "2026-04-28T02:02:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV027",
+    "ordenId": "ORD030",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-25T00:20:00Z",
+    "fechaEstimadaEntrega": "2026-05-02",
+    "fechaEntrega": "2026-04-29T04:20:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV028",
+    "ordenId": "ORD031",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-29T00:41:00Z",
+    "fechaEstimadaEntrega": "2026-05-04",
+    "fechaEntrega": "2026-05-02T02:41:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV029",
+    "ordenId": "ORD032",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-30T01:54:00Z",
+    "fechaEstimadaEntrega": "2026-05-04",
+    "fechaEntrega": "2026-05-03T05:54:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV030",
+    "ordenId": "ORD033",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-04-30T23:44:00Z",
+    "fechaEstimadaEntrega": "2026-05-04",
+    "fechaEntrega": "2026-05-03T03:44:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV031",
+    "ordenId": "ORD034",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-02T01:48:00Z",
+    "fechaEstimadaEntrega": "2026-05-09",
+    "fechaEntrega": "2026-05-07T05:48:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV032",
+    "ordenId": "ORD035",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-02T12:54:00Z",
+    "fechaEstimadaEntrega": "2026-05-05",
+    "fechaEntrega": "2026-05-03T15:54:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV033",
+    "ordenId": "ORD036",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-04T16:23:00Z",
+    "fechaEstimadaEntrega": "2026-05-09",
+    "fechaEntrega": "2026-05-07T21:23:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV034",
+    "ordenId": "ORD037",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-04T20:24:00Z",
+    "fechaEstimadaEntrega": "2026-05-11",
+    "fechaEntrega": "2026-05-09T21:24:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV035",
+    "ordenId": "ORD038",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-05T16:21:00Z",
+    "fechaEstimadaEntrega": "2026-05-13",
+    "fechaEntrega": "2026-05-12T16:21:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV036",
+    "ordenId": "ORD039",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-05T22:06:00Z",
+    "fechaEstimadaEntrega": "2026-05-13",
+    "fechaEntrega": "2026-05-16T01:06:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV037",
+    "ordenId": "ORD040",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-07T18:11:00Z",
+    "fechaEstimadaEntrega": "2026-05-14",
+    "fechaEntrega": "2026-05-12T22:11:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV038",
+    "ordenId": "ORD041",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-09T09:53:00Z",
+    "fechaEstimadaEntrega": "2026-05-13",
+    "fechaEntrega": "2026-05-11T13:53:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV039",
+    "ordenId": "ORD042",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-12T12:31:00Z",
+    "fechaEstimadaEntrega": "2026-05-17",
+    "fechaEntrega": "2026-05-15T14:31:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV040",
+    "ordenId": "ORD043",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-14T11:04:00Z",
+    "fechaEstimadaEntrega": "2026-05-18",
+    "fechaEntrega": "2026-05-17T14:04:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV041",
+    "ordenId": "ORD044",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-13T13:44:00Z",
+    "fechaEstimadaEntrega": "2026-05-17",
+    "fechaEntrega": "2026-05-16T15:44:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV042",
+    "ordenId": "ORD045",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-15T02:37:00Z",
+    "fechaEstimadaEntrega": "2026-05-19",
+    "fechaEntrega": "2026-05-23T05:37:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV043",
+    "ordenId": "ORD046",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-15T22:49:00Z",
+    "fechaEstimadaEntrega": "2026-05-19",
+    "fechaEntrega": "2026-05-18T01:49:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV044",
+    "ordenId": "ORD047",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-16T02:08:00Z",
+    "fechaEstimadaEntrega": "2026-05-23",
+    "fechaEntrega": "2026-05-22T07:08:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV045",
+    "ordenId": "ORD048",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-16T15:49:00Z",
+    "fechaEstimadaEntrega": "2026-05-23",
+    "fechaEntrega": "2026-05-20T15:49:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV046",
+    "ordenId": "ORD049",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-18T09:53:00Z",
+    "fechaEstimadaEntrega": "2026-05-21",
+    "fechaEntrega": "2026-05-19T09:53:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV047",
+    "ordenId": "ORD050",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-18T13:36:00Z",
+    "fechaEstimadaEntrega": "2026-05-25",
+    "fechaEntrega": "2026-05-22T17:36:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV048",
+    "ordenId": "ORD051",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-18T13:52:00Z",
+    "fechaEstimadaEntrega": "2026-05-25",
+    "fechaEntrega": "2026-05-24T15:52:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV049",
+    "ordenId": "ORD052",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-20T20:48:00Z",
+    "fechaEstimadaEntrega": "2026-05-23",
+    "fechaEntrega": "2026-05-21T20:48:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV050",
+    "ordenId": "ORD053",
+    "transportista": "Andes Logística",
+    "estado": "demorado",
+    "fechaDespacho": "2026-05-21T00:33:00Z",
+    "fechaEstimadaEntrega": "2026-05-25",
+    "fechaEntrega": null,
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV051",
+    "ordenId": "ORD054",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-22T22:32:00Z",
+    "fechaEstimadaEntrega": "2026-05-27",
+    "fechaEntrega": "2026-05-26T22:32:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV052",
+    "ordenId": "ORD055",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-22T14:04:00Z",
+    "fechaEstimadaEntrega": "2026-05-29",
+    "fechaEntrega": "2026-05-27T14:04:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV053",
+    "ordenId": "ORD056",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-23T18:36:00Z",
+    "fechaEstimadaEntrega": "2026-05-27",
+    "fechaEntrega": "2026-05-25T23:36:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV054",
+    "ordenId": "ORD057",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-25T02:23:00Z",
+    "fechaEstimadaEntrega": "2026-06-01",
+    "fechaEntrega": "2026-06-02T07:23:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV055",
+    "ordenId": "ORD058",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-29T12:09:00Z",
+    "fechaEstimadaEntrega": "2026-06-03",
+    "fechaEntrega": "2026-06-02T15:09:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV056",
+    "ordenId": "ORD060",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-29T18:36:00Z",
+    "fechaEstimadaEntrega": "2026-06-06",
+    "fechaEntrega": "2026-06-03T18:36:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV057",
+    "ordenId": "ORD061",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-05-30T13:24:00Z",
+    "fechaEstimadaEntrega": "2026-06-04",
+    "fechaEntrega": "2026-06-02T18:24:00Z",
+    "destinoCiudad": "Santa Fe"
+  },
+  {
+    "id": "ENV058",
+    "ordenId": "ORD062",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-01T12:06:00Z",
+    "fechaEstimadaEntrega": "2026-06-06",
+    "fechaEntrega": "2026-06-07T13:06:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV059",
+    "ordenId": "ORD063",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-02T19:56:00Z",
+    "fechaEstimadaEntrega": "2026-06-06",
+    "fechaEntrega": "2026-06-05T19:56:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV060",
+    "ordenId": "ORD064",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-03T00:05:00Z",
+    "fechaEstimadaEntrega": "2026-06-07",
+    "fechaEntrega": "2026-06-05T02:05:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV061",
+    "ordenId": "ORD065",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-02T16:21:00Z",
+    "fechaEstimadaEntrega": "2026-06-06",
+    "fechaEntrega": "2026-06-05T20:21:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV062",
+    "ordenId": "ORD066",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-03T11:34:00Z",
+    "fechaEstimadaEntrega": "2026-06-10",
+    "fechaEntrega": "2026-06-07T14:34:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV063",
+    "ordenId": "ORD067",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-02T15:21:00Z",
+    "fechaEstimadaEntrega": "2026-06-07",
+    "fechaEntrega": "2026-06-12T19:21:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV064",
+    "ordenId": "ORD068",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-03T15:50:00Z",
+    "fechaEstimadaEntrega": "2026-06-07",
+    "fechaEntrega": "2026-06-06T18:50:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV065",
+    "ordenId": "ORD069",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-03T18:48:00Z",
+    "fechaEstimadaEntrega": "2026-06-11",
+    "fechaEntrega": "2026-06-10T20:48:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV066",
+    "ordenId": "ORD070",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-04T03:47:00Z",
+    "fechaEstimadaEntrega": "2026-06-12",
+    "fechaEntrega": "2026-06-11T08:47:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV067",
+    "ordenId": "ORD071",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-04T17:56:00Z",
+    "fechaEstimadaEntrega": "2026-06-07",
+    "fechaEntrega": "2026-06-05T17:56:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV068",
+    "ordenId": "ORD072",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-06T00:58:00Z",
+    "fechaEstimadaEntrega": "2026-06-13",
+    "fechaEntrega": "2026-06-11T02:58:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV069",
+    "ordenId": "ORD073",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-06T14:04:00Z",
+    "fechaEstimadaEntrega": "2026-06-11",
+    "fechaEntrega": "2026-06-11T18:04:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV070",
+    "ordenId": "ORD074",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-06T16:28:00Z",
+    "fechaEstimadaEntrega": "2026-06-14",
+    "fechaEntrega": "2026-06-14T17:28:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV071",
+    "ordenId": "ORD075",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-06T23:43:00Z",
+    "fechaEstimadaEntrega": "2026-06-14",
+    "fechaEntrega": "2026-06-16T04:43:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV072",
+    "ordenId": "ORD076",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-06T15:24:00Z",
+    "fechaEstimadaEntrega": "2026-06-10",
+    "fechaEntrega": "2026-06-09T15:24:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV073",
+    "ordenId": "ORD077",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-08T20:57:00Z",
+    "fechaEstimadaEntrega": "2026-06-12",
+    "fechaEntrega": "2026-06-10T21:57:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV074",
+    "ordenId": "ORD079",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-10T21:22:00Z",
+    "fechaEstimadaEntrega": "2026-06-17",
+    "fechaEntrega": "2026-06-14T22:22:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV075",
+    "ordenId": "ORD080",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-11T00:16:00Z",
+    "fechaEstimadaEntrega": "2026-06-19",
+    "fechaEntrega": "2026-06-18T02:16:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV076",
+    "ordenId": "ORD081",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-11T23:21:00Z",
+    "fechaEstimadaEntrega": "2026-06-18",
+    "fechaEntrega": "2026-06-15T23:21:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV077",
+    "ordenId": "ORD082",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-13T01:56:00Z",
+    "fechaEstimadaEntrega": "2026-06-20",
+    "fechaEntrega": "2026-06-19T04:56:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV078",
+    "ordenId": "ORD083",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-13T20:49:00Z",
+    "fechaEstimadaEntrega": "2026-06-17",
+    "fechaEntrega": "2026-06-16T20:49:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV079",
+    "ordenId": "ORD084",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-14T15:31:00Z",
+    "fechaEstimadaEntrega": "2026-06-21",
+    "fechaEntrega": "2026-06-20T18:31:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV080",
+    "ordenId": "ORD085",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-13T16:52:00Z",
+    "fechaEstimadaEntrega": "2026-06-20",
+    "fechaEntrega": "2026-06-19T16:52:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV081",
+    "ordenId": "ORD086",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-15T22:59:00Z",
+    "fechaEstimadaEntrega": "2026-06-23",
+    "fechaEntrega": "2026-06-22T01:59:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV082",
+    "ordenId": "ORD087",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-15T14:57:00Z",
+    "fechaEstimadaEntrega": "2026-06-23",
+    "fechaEntrega": "2026-06-20T17:57:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV083",
+    "ordenId": "ORD088",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-17T20:38:00Z",
+    "fechaEstimadaEntrega": "2026-06-25",
+    "fechaEntrega": "2026-06-22T22:38:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV084",
+    "ordenId": "ORD089",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-17T23:53:00Z",
+    "fechaEstimadaEntrega": "2026-06-25",
+    "fechaEntrega": "2026-06-29T23:53:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV085",
+    "ordenId": "ORD090",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-18T20:32:00Z",
+    "fechaEstimadaEntrega": "2026-06-25",
+    "fechaEntrega": "2026-06-24T22:32:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV086",
+    "ordenId": "ORD091",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-18T16:13:00Z",
+    "fechaEstimadaEntrega": "2026-06-25",
+    "fechaEntrega": "2026-06-22T21:13:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV087",
+    "ordenId": "ORD092",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-19T20:53:00Z",
+    "fechaEstimadaEntrega": "2026-06-26",
+    "fechaEntrega": "2026-06-27T22:53:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV088",
+    "ordenId": "ORD093",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-18T23:16:00Z",
+    "fechaEstimadaEntrega": "2026-06-22",
+    "fechaEntrega": "2026-06-21T02:16:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV089",
+    "ordenId": "ORD094",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-19T19:04:00Z",
+    "fechaEstimadaEntrega": "2026-06-23",
+    "fechaEntrega": "2026-06-22T19:04:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV090",
+    "ordenId": "ORD095",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-21T13:18:00Z",
+    "fechaEstimadaEntrega": "2026-06-25",
+    "fechaEntrega": "2026-06-24T16:18:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV091",
+    "ordenId": "ORD096",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-21T14:25:00Z",
+    "fechaEstimadaEntrega": "2026-06-28",
+    "fechaEntrega": "2026-06-26T15:25:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV092",
+    "ordenId": "ORD097",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-21T12:39:00Z",
+    "fechaEstimadaEntrega": "2026-06-25",
+    "fechaEntrega": "2026-06-23T13:39:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV093",
+    "ordenId": "ORD098",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-21T20:16:00Z",
+    "fechaEstimadaEntrega": "2026-06-26",
+    "fechaEntrega": "2026-06-24T21:16:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV094",
+    "ordenId": "ORD099",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-26T20:33:00Z",
+    "fechaEstimadaEntrega": "2026-07-04",
+    "fechaEntrega": "2026-07-03T22:33:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV095",
+    "ordenId": "ORD100",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-27T20:24:00Z",
+    "fechaEstimadaEntrega": "2026-07-04",
+    "fechaEntrega": "2026-07-01T22:24:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV096",
+    "ordenId": "ORD101",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-27T15:41:00Z",
+    "fechaEstimadaEntrega": "2026-07-04",
+    "fechaEntrega": "2026-07-03T15:41:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV097",
+    "ordenId": "ORD102",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-29T04:38:00Z",
+    "fechaEstimadaEntrega": "2026-07-03",
+    "fechaEntrega": "2026-07-01T05:38:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV098",
+    "ordenId": "ORD103",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-29T18:54:00Z",
+    "fechaEstimadaEntrega": "2026-07-03",
+    "fechaEntrega": "2026-07-01T20:54:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV099",
+    "ordenId": "ORD104",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-30T01:45:00Z",
+    "fechaEstimadaEntrega": "2026-07-04",
+    "fechaEntrega": "2026-07-07T04:45:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV100",
+    "ordenId": "ORD105",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-30T15:05:00Z",
+    "fechaEstimadaEntrega": "2026-07-05",
+    "fechaEntrega": "2026-07-04T16:05:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV101",
+    "ordenId": "ORD106",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-06-30T00:43:00Z",
+    "fechaEstimadaEntrega": "2026-07-05",
+    "fechaEntrega": "2026-07-03T00:43:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV102",
+    "ordenId": "ORD107",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-03T10:17:00Z",
+    "fechaEstimadaEntrega": "2026-07-11",
+    "fechaEntrega": "2026-07-09T12:17:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV103",
+    "ordenId": "ORD108",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-02T18:53:00Z",
+    "fechaEstimadaEntrega": "2026-07-07",
+    "fechaEntrega": "2026-07-05T23:53:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV104",
+    "ordenId": "ORD109",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-02T23:07:00Z",
+    "fechaEstimadaEntrega": "2026-07-10",
+    "fechaEntrega": "2026-07-09T23:07:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV105",
+    "ordenId": "ORD110",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-02T21:54:00Z",
+    "fechaEstimadaEntrega": "2026-07-06",
+    "fechaEntrega": "2026-07-09T00:54:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV106",
+    "ordenId": "ORD111",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-04T10:11:00Z",
+    "fechaEstimadaEntrega": "2026-07-08",
+    "fechaEntrega": "2026-07-06T14:11:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV107",
+    "ordenId": "ORD112",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-04T00:39:00Z",
+    "fechaEstimadaEntrega": "2026-07-11",
+    "fechaEntrega": "2026-07-10T03:39:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV108",
+    "ordenId": "ORD113",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-03T21:44:00Z",
+    "fechaEstimadaEntrega": "2026-07-10",
+    "fechaEntrega": "2026-07-10T00:44:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV109",
+    "ordenId": "ORD115",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-04T14:43:00Z",
+    "fechaEstimadaEntrega": "2026-07-11",
+    "fechaEntrega": "2026-07-13T19:43:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV110",
+    "ordenId": "ORD116",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-05T12:20:00Z",
+    "fechaEstimadaEntrega": "2026-07-10",
+    "fechaEntrega": "2026-07-08T15:20:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV111",
+    "ordenId": "ORD117",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-07T02:08:00Z",
+    "fechaEstimadaEntrega": "2026-07-15",
+    "fechaEntrega": "2026-07-14T03:08:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV112",
+    "ordenId": "ORD120",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-07T12:11:00Z",
+    "fechaEstimadaEntrega": "2026-07-12",
+    "fechaEntrega": "2026-07-10T12:11:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV113",
+    "ordenId": "ORD121",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-08T22:35:00Z",
+    "fechaEstimadaEntrega": "2026-07-11",
+    "fechaEntrega": "2026-07-11T03:35:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV114",
+    "ordenId": "ORD122",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-07T22:07:00Z",
+    "fechaEstimadaEntrega": "2026-07-14",
+    "fechaEntrega": "2026-07-13T02:07:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV115",
+    "ordenId": "ORD123",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-07T23:28:00Z",
+    "fechaEstimadaEntrega": "2026-07-14",
+    "fechaEntrega": "2026-07-14T02:28:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV116",
+    "ordenId": "ORD124",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-11T21:18:00Z",
+    "fechaEstimadaEntrega": "2026-07-15",
+    "fechaEntrega": "2026-07-14T02:18:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV117",
+    "ordenId": "ORD125",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-10T19:26:00Z",
+    "fechaEstimadaEntrega": "2026-07-17",
+    "fechaEntrega": "2026-07-15T19:26:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV118",
+    "ordenId": "ORD126",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-11T23:07:00Z",
+    "fechaEstimadaEntrega": "2026-07-14",
+    "fechaEntrega": "2026-07-13T04:07:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV119",
+    "ordenId": "ORD127",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-13T21:00:00Z",
+    "fechaEstimadaEntrega": "2026-07-20",
+    "fechaEntrega": "2026-07-18T21:00:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV120",
+    "ordenId": "ORD128",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-12T23:09:00Z",
+    "fechaEstimadaEntrega": "2026-07-20",
+    "fechaEntrega": "2026-07-20T03:09:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV121",
+    "ordenId": "ORD129",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-15T00:04:00Z",
+    "fechaEstimadaEntrega": "2026-07-19",
+    "fechaEntrega": "2026-07-18T00:04:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV122",
+    "ordenId": "ORD130",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-15T10:21:00Z",
+    "fechaEstimadaEntrega": "2026-07-19",
+    "fechaEntrega": "2026-07-18T15:21:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV123",
+    "ordenId": "ORD131",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-16T01:09:00Z",
+    "fechaEstimadaEntrega": "2026-07-23",
+    "fechaEntrega": "2026-07-22T01:09:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV124",
+    "ordenId": "ORD133",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-16T17:38:00Z",
+    "fechaEstimadaEntrega": "2026-07-23",
+    "fechaEntrega": "2026-07-21T19:38:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV125",
+    "ordenId": "ORD135",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-19T04:39:00Z",
+    "fechaEstimadaEntrega": "2026-07-24",
+    "fechaEntrega": "2026-07-23T08:39:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV126",
+    "ordenId": "ORD137",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-18T14:51:00Z",
+    "fechaEstimadaEntrega": "2026-07-23",
+    "fechaEntrega": "2026-07-21T16:51:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV127",
+    "ordenId": "ORD138",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-19T22:56:00Z",
+    "fechaEstimadaEntrega": "2026-07-26",
+    "fechaEntrega": "2026-07-25T03:56:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV128",
+    "ordenId": "ORD139",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-19T23:05:00Z",
+    "fechaEstimadaEntrega": "2026-07-27",
+    "fechaEntrega": "2026-07-26T03:05:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV129",
+    "ordenId": "ORD140",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-20T02:27:00Z",
+    "fechaEstimadaEntrega": "2026-07-27",
+    "fechaEntrega": "2026-07-25T02:27:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV130",
+    "ordenId": "ORD141",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-21T00:55:00Z",
+    "fechaEstimadaEntrega": "2026-07-26",
+    "fechaEntrega": "2026-07-24T01:55:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV131",
+    "ordenId": "ORD142",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-21T12:02:00Z",
+    "fechaEstimadaEntrega": "2026-07-25",
+    "fechaEntrega": "2026-07-23T14:02:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV132",
+    "ordenId": "ORD144",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-23T11:32:00Z",
+    "fechaEstimadaEntrega": "2026-07-31",
+    "fechaEntrega": "2026-07-29T12:32:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV133",
+    "ordenId": "ORD145",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-24T19:55:00Z",
+    "fechaEstimadaEntrega": "2026-07-29",
+    "fechaEntrega": "2026-07-29T00:55:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV134",
+    "ordenId": "ORD146",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-25T17:34:00Z",
+    "fechaEstimadaEntrega": "2026-08-02",
+    "fechaEntrega": "2026-07-30T19:34:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV135",
+    "ordenId": "ORD147",
+    "transportista": "Andes Logística",
+    "estado": "demorado",
+    "fechaDespacho": "2026-07-25T00:49:00Z",
+    "fechaEstimadaEntrega": "2026-07-30",
+    "fechaEntrega": null,
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV136",
+    "ordenId": "ORD148",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-25T03:49:00Z",
+    "fechaEstimadaEntrega": "2026-07-29",
+    "fechaEntrega": "2026-07-28T03:49:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV137",
+    "ordenId": "ORD150",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-27T22:42:00Z",
+    "fechaEstimadaEntrega": "2026-07-31",
+    "fechaEntrega": "2026-07-30T22:42:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV138",
+    "ordenId": "ORD151",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-28T18:55:00Z",
+    "fechaEstimadaEntrega": "2026-08-04",
+    "fechaEntrega": "2026-08-02T20:55:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV139",
+    "ordenId": "ORD152",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-29T01:00:00Z",
+    "fechaEstimadaEntrega": "2026-08-01",
+    "fechaEntrega": "2026-07-31T04:00:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV140",
+    "ordenId": "ORD153",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-30T11:06:00Z",
+    "fechaEstimadaEntrega": "2026-08-07",
+    "fechaEntrega": "2026-08-06T13:06:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV141",
+    "ordenId": "ORD154",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-31T16:13:00Z",
+    "fechaEstimadaEntrega": "2026-08-04",
+    "fechaEntrega": "2026-08-02T18:13:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV142",
+    "ordenId": "ORD155",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-01T11:05:00Z",
+    "fechaEstimadaEntrega": "2026-08-08",
+    "fechaEntrega": "2026-08-06T13:05:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV143",
+    "ordenId": "ORD156",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-31T18:21:00Z",
+    "fechaEstimadaEntrega": "2026-08-07",
+    "fechaEntrega": "2026-08-04T19:21:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV144",
+    "ordenId": "ORD157",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-07-31T23:53:00Z",
+    "fechaEstimadaEntrega": "2026-08-04",
+    "fechaEntrega": "2026-08-03T02:53:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV145",
+    "ordenId": "ORD158",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-02T16:39:00Z",
+    "fechaEstimadaEntrega": "2026-08-07",
+    "fechaEntrega": "2026-08-06T17:39:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV146",
+    "ordenId": "ORD159",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-04T18:57:00Z",
+    "fechaEstimadaEntrega": "2026-08-11",
+    "fechaEntrega": "2026-08-10T19:57:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV147",
+    "ordenId": "ORD160",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-03T23:43:00Z",
+    "fechaEstimadaEntrega": "2026-08-07",
+    "fechaEntrega": "2026-08-06T23:43:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV148",
+    "ordenId": "ORD161",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-05T18:34:00Z",
+    "fechaEstimadaEntrega": "2026-08-13",
+    "fechaEntrega": "2026-08-16T23:34:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV149",
+    "ordenId": "ORD162",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-05T03:29:00Z",
+    "fechaEstimadaEntrega": "2026-08-10",
+    "fechaEntrega": "2026-08-08T04:29:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV150",
+    "ordenId": "ORD163",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-05T17:33:00Z",
+    "fechaEstimadaEntrega": "2026-08-09",
+    "fechaEntrega": "2026-08-08T18:33:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV151",
+    "ordenId": "ORD164",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-06T19:37:00Z",
+    "fechaEstimadaEntrega": "2026-08-11",
+    "fechaEntrega": "2026-08-10T19:37:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV152",
+    "ordenId": "ORD165",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-07T01:58:00Z",
+    "fechaEstimadaEntrega": "2026-08-12",
+    "fechaEntrega": "2026-08-16T01:58:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV153",
+    "ordenId": "ORD166",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-07T03:38:00Z",
+    "fechaEstimadaEntrega": "2026-08-14",
+    "fechaEntrega": "2026-08-17T05:38:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV154",
+    "ordenId": "ORD167",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-07T12:53:00Z",
+    "fechaEstimadaEntrega": "2026-08-11",
+    "fechaEntrega": "2026-08-13T13:53:00Z",
+    "destinoCiudad": "Mar del Plata"
+  },
+  {
+    "id": "ENV155",
+    "ordenId": "ORD168",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-07T03:35:00Z",
+    "fechaEstimadaEntrega": "2026-08-10",
+    "fechaEntrega": "2026-08-09T05:35:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV156",
+    "ordenId": "ORD169",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-07T10:54:00Z",
+    "fechaEstimadaEntrega": "2026-08-11",
+    "fechaEntrega": "2026-08-09T15:54:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV157",
+    "ordenId": "ORD170",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-07T16:07:00Z",
+    "fechaEstimadaEntrega": "2026-08-14",
+    "fechaEntrega": "2026-08-11T19:07:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV158",
+    "ordenId": "ORD171",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-07T16:24:00Z",
+    "fechaEstimadaEntrega": "2026-08-12",
+    "fechaEntrega": "2026-08-10T16:24:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV159",
+    "ordenId": "ORD172",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-10T13:31:00Z",
+    "fechaEstimadaEntrega": "2026-08-14",
+    "fechaEntrega": "2026-08-13T16:31:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV160",
+    "ordenId": "ORD173",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-09T21:50:00Z",
+    "fechaEstimadaEntrega": "2026-08-16",
+    "fechaEntrega": "2026-08-13T22:50:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV161",
+    "ordenId": "ORD174",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-10T03:02:00Z",
+    "fechaEstimadaEntrega": "2026-08-15",
+    "fechaEntrega": "2026-08-13T06:02:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV162",
+    "ordenId": "ORD175",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-10T12:37:00Z",
+    "fechaEstimadaEntrega": "2026-08-17",
+    "fechaEntrega": "2026-08-18T16:37:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV163",
+    "ordenId": "ORD176",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-10T23:49:00Z",
+    "fechaEstimadaEntrega": "2026-08-14",
+    "fechaEntrega": "2026-08-19T04:49:00Z",
+    "destinoCiudad": "Mar del Plata"
+  },
+  {
+    "id": "ENV164",
+    "ordenId": "ORD177",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-11T00:49:00Z",
+    "fechaEstimadaEntrega": "2026-08-16",
+    "fechaEntrega": "2026-08-14T00:49:00Z",
+    "destinoCiudad": "Santa Fe"
+  },
+  {
+    "id": "ENV165",
+    "ordenId": "ORD178",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-12T20:14:00Z",
+    "fechaEstimadaEntrega": "2026-08-19",
+    "fechaEntrega": "2026-08-24T01:14:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV166",
+    "ordenId": "ORD179",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-12T18:16:00Z",
+    "fechaEstimadaEntrega": "2026-08-16",
+    "fechaEntrega": "2026-08-15T18:16:00Z",
+    "destinoCiudad": "Mar del Plata"
+  },
+  {
+    "id": "ENV167",
+    "ordenId": "ORD180",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-13T18:31:00Z",
+    "fechaEstimadaEntrega": "2026-08-18",
+    "fechaEntrega": "2026-08-16T22:31:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV168",
+    "ordenId": "ORD181",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-14T14:25:00Z",
+    "fechaEstimadaEntrega": "2026-08-18",
+    "fechaEntrega": "2026-08-16T14:25:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV169",
+    "ordenId": "ORD182",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-15T02:46:00Z",
+    "fechaEstimadaEntrega": "2026-08-22",
+    "fechaEntrega": "2026-08-20T03:46:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV170",
+    "ordenId": "ORD183",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-17T18:00:00Z",
+    "fechaEstimadaEntrega": "2026-08-20",
+    "fechaEntrega": "2026-08-18T19:00:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV171",
+    "ordenId": "ORD184",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-17T23:41:00Z",
+    "fechaEstimadaEntrega": "2026-08-21",
+    "fechaEntrega": "2026-08-20T00:41:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV172",
+    "ordenId": "ORD185",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-19T13:53:00Z",
+    "fechaEstimadaEntrega": "2026-08-24",
+    "fechaEntrega": "2026-08-23T14:53:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV173",
+    "ordenId": "ORD186",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-18T13:38:00Z",
+    "fechaEstimadaEntrega": "2026-08-21",
+    "fechaEntrega": "2026-08-19T13:38:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV174",
+    "ordenId": "ORD187",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-19T18:36:00Z",
+    "fechaEstimadaEntrega": "2026-08-23",
+    "fechaEntrega": "2026-08-22T22:36:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV175",
+    "ordenId": "ORD188",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-19T22:25:00Z",
+    "fechaEstimadaEntrega": "2026-08-26",
+    "fechaEntrega": "2026-08-24T01:25:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV176",
+    "ordenId": "ORD189",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-20T12:05:00Z",
+    "fechaEstimadaEntrega": "2026-08-27",
+    "fechaEntrega": "2026-08-26T12:05:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV177",
+    "ordenId": "ORD190",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-19T11:18:00Z",
+    "fechaEstimadaEntrega": "2026-08-23",
+    "fechaEntrega": "2026-08-21T12:18:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV178",
+    "ordenId": "ORD191",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-20T10:44:00Z",
+    "fechaEstimadaEntrega": "2026-08-27",
+    "fechaEntrega": "2026-08-24T12:44:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV179",
+    "ordenId": "ORD192",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-21T17:35:00Z",
+    "fechaEstimadaEntrega": "2026-08-24",
+    "fechaEntrega": "2026-08-23T17:35:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV180",
+    "ordenId": "ORD193",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-21T01:27:00Z",
+    "fechaEstimadaEntrega": "2026-08-25",
+    "fechaEntrega": "2026-08-23T06:27:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV181",
+    "ordenId": "ORD194",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-22T04:24:00Z",
+    "fechaEstimadaEntrega": "2026-08-25",
+    "fechaEntrega": "2026-08-24T08:24:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV182",
+    "ordenId": "ORD195",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-23T11:23:00Z",
+    "fechaEstimadaEntrega": "2026-08-30",
+    "fechaEntrega": "2026-08-28T12:23:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV183",
+    "ordenId": "ORD197",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-23T10:35:00Z",
+    "fechaEstimadaEntrega": "2026-08-27",
+    "fechaEntrega": "2026-08-25T13:35:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV184",
+    "ordenId": "ORD198",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-24T14:50:00Z",
+    "fechaEstimadaEntrega": "2026-09-01",
+    "fechaEntrega": "2026-08-31T18:50:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV185",
+    "ordenId": "ORD199",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-23T20:26:00Z",
+    "fechaEstimadaEntrega": "2026-08-30",
+    "fechaEntrega": "2026-08-27T23:26:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV186",
+    "ordenId": "ORD200",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-24T21:34:00Z",
+    "fechaEstimadaEntrega": "2026-08-31",
+    "fechaEntrega": "2026-09-02T02:34:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV187",
+    "ordenId": "ORD201",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-24T19:22:00Z",
+    "fechaEstimadaEntrega": "2026-08-28",
+    "fechaEntrega": "2026-08-27T20:22:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV188",
+    "ordenId": "ORD202",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-26T15:16:00Z",
+    "fechaEstimadaEntrega": "2026-09-02",
+    "fechaEntrega": "2026-09-01T20:16:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV189",
+    "ordenId": "ORD203",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-26T15:34:00Z",
+    "fechaEstimadaEntrega": "2026-09-02",
+    "fechaEntrega": "2026-09-01T20:34:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV190",
+    "ordenId": "ORD204",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-26T18:45:00Z",
+    "fechaEstimadaEntrega": "2026-08-30",
+    "fechaEntrega": "2026-08-28T22:45:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV191",
+    "ordenId": "ORD205",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-26T16:48:00Z",
+    "fechaEstimadaEntrega": "2026-09-02",
+    "fechaEntrega": "2026-08-31T16:48:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV192",
+    "ordenId": "ORD206",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-26T21:24:00Z",
+    "fechaEstimadaEntrega": "2026-08-29",
+    "fechaEntrega": "2026-08-27T23:24:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV193",
+    "ordenId": "ORD207",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-27T20:40:00Z",
+    "fechaEstimadaEntrega": "2026-09-01",
+    "fechaEntrega": "2026-08-31T21:40:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV194",
+    "ordenId": "ORD208",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-27T21:35:00Z",
+    "fechaEstimadaEntrega": "2026-08-31",
+    "fechaEntrega": "2026-08-30T01:35:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV195",
+    "ordenId": "ORD210",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-28T11:04:00Z",
+    "fechaEstimadaEntrega": "2026-09-05",
+    "fechaEntrega": "2026-09-04T12:04:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV196",
+    "ordenId": "ORD211",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-29T19:04:00Z",
+    "fechaEstimadaEntrega": "2026-09-05",
+    "fechaEntrega": "2026-09-06T19:04:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV197",
+    "ordenId": "ORD212",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-29T17:51:00Z",
+    "fechaEstimadaEntrega": "2026-09-02",
+    "fechaEntrega": "2026-09-01T20:51:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV198",
+    "ordenId": "ORD213",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-29T21:55:00Z",
+    "fechaEstimadaEntrega": "2026-09-05",
+    "fechaEntrega": "2026-09-05T00:55:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV199",
+    "ordenId": "ORD214",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-31T16:08:00Z",
+    "fechaEstimadaEntrega": "2026-09-07",
+    "fechaEntrega": "2026-09-06T18:08:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV200",
+    "ordenId": "ORD215",
+    "transportista": "Correo Pampa",
+    "estado": "demorado",
+    "fechaDespacho": "2026-08-31T01:22:00Z",
+    "fechaEstimadaEntrega": "2026-09-08",
+    "fechaEntrega": null,
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV201",
+    "ordenId": "ORD216",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-01T00:25:00Z",
+    "fechaEstimadaEntrega": "2026-09-05",
+    "fechaEntrega": "2026-09-04T04:25:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV202",
+    "ordenId": "ORD217",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-01T12:36:00Z",
+    "fechaEstimadaEntrega": "2026-09-08",
+    "fechaEntrega": "2026-09-07T17:36:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV203",
+    "ordenId": "ORD218",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-08-31T11:12:00Z",
+    "fechaEstimadaEntrega": "2026-09-04",
+    "fechaEntrega": "2026-09-08T13:12:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV204",
+    "ordenId": "ORD219",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-02T15:44:00Z",
+    "fechaEstimadaEntrega": "2026-09-09",
+    "fechaEntrega": "2026-09-06T19:44:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV205",
+    "ordenId": "ORD220",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-02T20:31:00Z",
+    "fechaEstimadaEntrega": "2026-09-09",
+    "fechaEntrega": "2026-09-08T00:31:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV206",
+    "ordenId": "ORD221",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-02T23:29:00Z",
+    "fechaEstimadaEntrega": "2026-09-06",
+    "fechaEntrega": "2026-09-05T01:29:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV207",
+    "ordenId": "ORD222",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-03T22:34:00Z",
+    "fechaEstimadaEntrega": "2026-09-07",
+    "fechaEntrega": "2026-09-06T03:34:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV208",
+    "ordenId": "ORD223",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-04T00:11:00Z",
+    "fechaEstimadaEntrega": "2026-09-12",
+    "fechaEntrega": "2026-09-09T01:11:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV209",
+    "ordenId": "ORD224",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-04T08:24:00Z",
+    "fechaEstimadaEntrega": "2026-09-11",
+    "fechaEntrega": "2026-09-09T09:24:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV210",
+    "ordenId": "ORD225",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-05T22:31:00Z",
+    "fechaEstimadaEntrega": "2026-09-08",
+    "fechaEntrega": "2026-09-07T23:31:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV211",
+    "ordenId": "ORD226",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-05T21:45:00Z",
+    "fechaEstimadaEntrega": "2026-09-10",
+    "fechaEntrega": "2026-09-09T00:45:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV212",
+    "ordenId": "ORD227",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-05T11:34:00Z",
+    "fechaEstimadaEntrega": "2026-09-13",
+    "fechaEntrega": "2026-09-11T16:34:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV213",
+    "ordenId": "ORD228",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-05T12:14:00Z",
+    "fechaEstimadaEntrega": "2026-09-13",
+    "fechaEntrega": "2026-09-10T15:14:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV214",
+    "ordenId": "ORD229",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-05T22:00:00Z",
+    "fechaEstimadaEntrega": "2026-09-12",
+    "fechaEntrega": "2026-09-12T00:00:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV215",
+    "ordenId": "ORD230",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-06T21:47:00Z",
+    "fechaEstimadaEntrega": "2026-09-10",
+    "fechaEntrega": "2026-09-10T00:47:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV216",
+    "ordenId": "ORD231",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-06T14:16:00Z",
+    "fechaEstimadaEntrega": "2026-09-10",
+    "fechaEntrega": "2026-09-09T16:16:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV217",
+    "ordenId": "ORD232",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-08T03:16:00Z",
+    "fechaEstimadaEntrega": "2026-09-15",
+    "fechaEntrega": "2026-09-12T05:16:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV218",
+    "ordenId": "ORD233",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-08T17:59:00Z",
+    "fechaEstimadaEntrega": "2026-09-15",
+    "fechaEntrega": "2026-09-13T21:59:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV219",
+    "ordenId": "ORD234",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-09T15:08:00Z",
+    "fechaEstimadaEntrega": "2026-09-16",
+    "fechaEntrega": "2026-09-13T16:08:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV220",
+    "ordenId": "ORD235",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-08T17:44:00Z",
+    "fechaEstimadaEntrega": "2026-09-15",
+    "fechaEntrega": "2026-09-12T18:44:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV221",
+    "ordenId": "ORD236",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-09T21:28:00Z",
+    "fechaEstimadaEntrega": "2026-09-17",
+    "fechaEntrega": "2026-09-18T01:28:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV222",
+    "ordenId": "ORD237",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-10T21:13:00Z",
+    "fechaEstimadaEntrega": "2026-09-14",
+    "fechaEntrega": "2026-09-12T21:13:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV223",
+    "ordenId": "ORD238",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-11T00:31:00Z",
+    "fechaEstimadaEntrega": "2026-09-18",
+    "fechaEntrega": "2026-09-15T02:31:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV224",
+    "ordenId": "ORD239",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-11T22:37:00Z",
+    "fechaEstimadaEntrega": "2026-09-16",
+    "fechaEntrega": "2026-09-16T00:37:00Z",
+    "destinoCiudad": "Santa Fe"
+  },
+  {
+    "id": "ENV225",
+    "ordenId": "ORD240",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-12T14:44:00Z",
+    "fechaEstimadaEntrega": "2026-09-19",
+    "fechaEntrega": "2026-09-16T16:44:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV226",
+    "ordenId": "ORD241",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-14T17:21:00Z",
+    "fechaEstimadaEntrega": "2026-09-18",
+    "fechaEntrega": "2026-09-17T19:21:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV227",
+    "ordenId": "ORD242",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-15T17:05:00Z",
+    "fechaEstimadaEntrega": "2026-09-22",
+    "fechaEntrega": "2026-09-20T20:05:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV228",
+    "ordenId": "ORD243",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-15T21:06:00Z",
+    "fechaEstimadaEntrega": "2026-09-22",
+    "fechaEntrega": "2026-09-20T00:06:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV229",
+    "ordenId": "ORD244",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-14T22:58:00Z",
+    "fechaEstimadaEntrega": "2026-09-18",
+    "fechaEntrega": "2026-09-17T01:58:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV230",
+    "ordenId": "ORD245",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-14T22:11:00Z",
+    "fechaEstimadaEntrega": "2026-09-21",
+    "fechaEntrega": "2026-09-20T03:11:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV231",
+    "ordenId": "ORD246",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-17T13:44:00Z",
+    "fechaEstimadaEntrega": "2026-09-21",
+    "fechaEntrega": "2026-09-19T14:44:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV232",
+    "ordenId": "ORD247",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-17T15:04:00Z",
+    "fechaEstimadaEntrega": "2026-09-21",
+    "fechaEntrega": "2026-09-20T15:04:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV233",
+    "ordenId": "ORD248",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-17T17:09:00Z",
+    "fechaEstimadaEntrega": "2026-09-24",
+    "fechaEntrega": "2026-09-23T18:09:00Z",
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV234",
+    "ordenId": "ORD249",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-18T12:09:00Z",
+    "fechaEstimadaEntrega": "2026-09-25",
+    "fechaEntrega": "2026-09-23T16:09:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV235",
+    "ordenId": "ORD250",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-18T11:22:00Z",
+    "fechaEstimadaEntrega": "2026-09-22",
+    "fechaEntrega": "2026-09-20T12:22:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV236",
+    "ordenId": "ORD251",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-19T15:51:00Z",
+    "fechaEstimadaEntrega": "2026-09-27",
+    "fechaEntrega": "2026-09-24T18:51:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV237",
+    "ordenId": "ORD253",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-19T16:04:00Z",
+    "fechaEstimadaEntrega": "2026-09-27",
+    "fechaEntrega": "2026-09-26T20:04:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV238",
+    "ordenId": "ORD254",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-19T16:34:00Z",
+    "fechaEstimadaEntrega": "2026-09-22",
+    "fechaEntrega": "2026-09-20T16:34:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV239",
+    "ordenId": "ORD255",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-19T13:12:00Z",
+    "fechaEstimadaEntrega": "2026-09-22",
+    "fechaEntrega": "2026-09-26T13:12:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV240",
+    "ordenId": "ORD256",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-20T21:06:00Z",
+    "fechaEstimadaEntrega": "2026-09-24",
+    "fechaEntrega": "2026-09-23T00:06:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV241",
+    "ordenId": "ORD257",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-20T14:10:00Z",
+    "fechaEstimadaEntrega": "2026-09-27",
+    "fechaEntrega": "2026-09-30T15:10:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV242",
+    "ordenId": "ORD258",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-21T19:44:00Z",
+    "fechaEstimadaEntrega": "2026-09-24",
+    "fechaEntrega": "2026-09-22T19:44:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV243",
+    "ordenId": "ORD259",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-22T11:37:00Z",
+    "fechaEstimadaEntrega": "2026-09-27",
+    "fechaEntrega": "2026-09-25T14:37:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV244",
+    "ordenId": "ORD260",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-23T20:41:00Z",
+    "fechaEstimadaEntrega": "2026-09-27",
+    "fechaEntrega": "2026-09-27T01:41:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV245",
+    "ordenId": "ORD261",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-24T09:16:00Z",
+    "fechaEstimadaEntrega": "2026-09-28",
+    "fechaEntrega": "2026-09-26T09:16:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV246",
+    "ordenId": "ORD262",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-23T16:00:00Z",
+    "fechaEstimadaEntrega": "2026-09-27",
+    "fechaEntrega": "2026-09-25T21:00:00Z",
+    "destinoCiudad": "Mar del Plata"
+  },
+  {
+    "id": "ENV247",
+    "ordenId": "ORD263",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-23T16:35:00Z",
+    "fechaEstimadaEntrega": "2026-10-01",
+    "fechaEntrega": "2026-09-29T18:35:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV248",
+    "ordenId": "ORD264",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-23T15:40:00Z",
+    "fechaEstimadaEntrega": "2026-09-30",
+    "fechaEntrega": "2026-09-30T18:40:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV249",
+    "ordenId": "ORD265",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-23T19:43:00Z",
+    "fechaEstimadaEntrega": "2026-09-28",
+    "fechaEntrega": "2026-09-27T23:43:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV250",
+    "ordenId": "ORD266",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-24T17:10:00Z",
+    "fechaEstimadaEntrega": "2026-09-28",
+    "fechaEntrega": "2026-09-26T19:10:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV251",
+    "ordenId": "ORD267",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-24T10:03:00Z",
+    "fechaEstimadaEntrega": "2026-09-29",
+    "fechaEntrega": "2026-09-28T15:03:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV252",
+    "ordenId": "ORD268",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-24T15:31:00Z",
+    "fechaEstimadaEntrega": "2026-10-01",
+    "fechaEntrega": "2026-09-30T17:31:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV253",
+    "ordenId": "ORD269",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-24T14:24:00Z",
+    "fechaEstimadaEntrega": "2026-09-27",
+    "fechaEntrega": "2026-09-27T17:24:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV254",
+    "ordenId": "ORD270",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-25T15:42:00Z",
+    "fechaEstimadaEntrega": "2026-09-29",
+    "fechaEntrega": "2026-09-27T17:42:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV255",
+    "ordenId": "ORD271",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-25T01:38:00Z",
+    "fechaEstimadaEntrega": "2026-09-29",
+    "fechaEntrega": "2026-10-02T04:38:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV256",
+    "ordenId": "ORD272",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-26T14:15:00Z",
+    "fechaEstimadaEntrega": "2026-09-30",
+    "fechaEntrega": "2026-09-29T15:15:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV257",
+    "ordenId": "ORD273",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-25T16:27:00Z",
+    "fechaEstimadaEntrega": "2026-09-28",
+    "fechaEntrega": "2026-09-26T20:27:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV258",
+    "ordenId": "ORD274",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-26T23:15:00Z",
+    "fechaEstimadaEntrega": "2026-10-01",
+    "fechaEntrega": "2026-10-01T03:15:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV259",
+    "ordenId": "ORD275",
+    "transportista": "Correo Pampa",
+    "estado": "demorado",
+    "fechaDespacho": "2026-09-27T13:27:00Z",
+    "fechaEstimadaEntrega": "2026-10-04",
+    "fechaEntrega": null,
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV260",
+    "ordenId": "ORD276",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-26T23:50:00Z",
+    "fechaEstimadaEntrega": "2026-10-04",
+    "fechaEntrega": "2026-10-03T01:50:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV261",
+    "ordenId": "ORD277",
+    "transportista": "Andes Logística",
+    "estado": "demorado",
+    "fechaDespacho": "2026-09-28T15:02:00Z",
+    "fechaEstimadaEntrega": "2026-10-05",
+    "fechaEntrega": null,
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV262",
+    "ordenId": "ORD278",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-28T16:40:00Z",
+    "fechaEstimadaEntrega": "2026-10-03",
+    "fechaEntrega": "2026-10-01T21:40:00Z",
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV263",
+    "ordenId": "ORD279",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-29T13:42:00Z",
+    "fechaEstimadaEntrega": "2026-10-04",
+    "fechaEntrega": "2026-10-03T16:42:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV264",
+    "ordenId": "ORD280",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-29T00:42:00Z",
+    "fechaEstimadaEntrega": "2026-10-06",
+    "fechaEntrega": "2026-10-03T00:42:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV265",
+    "ordenId": "ORD281",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-30T20:33:00Z",
+    "fechaEstimadaEntrega": "2026-10-04",
+    "fechaEntrega": "2026-10-03T20:33:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV266",
+    "ordenId": "ORD282",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-29T20:40:00Z",
+    "fechaEstimadaEntrega": "2026-10-04",
+    "fechaEntrega": "2026-10-03T20:40:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV267",
+    "ordenId": "ORD283",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-09-30T03:17:00Z",
+    "fechaEstimadaEntrega": "2026-10-05",
+    "fechaEntrega": "2026-10-03T03:17:00Z",
+    "destinoCiudad": "Santa Fe"
+  },
+  {
+    "id": "ENV268",
+    "ordenId": "ORD284",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-01T13:11:00Z",
+    "fechaEstimadaEntrega": "2026-10-08",
+    "fechaEntrega": "2026-10-07T18:11:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV269",
+    "ordenId": "ORD285",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-01T14:37:00Z",
+    "fechaEstimadaEntrega": "2026-10-09",
+    "fechaEntrega": "2026-10-06T19:37:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV270",
+    "ordenId": "ORD286",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-02T22:57:00Z",
+    "fechaEstimadaEntrega": "2026-10-07",
+    "fechaEntrega": "2026-10-05T22:57:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV271",
+    "ordenId": "ORD287",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-02T12:24:00Z",
+    "fechaEstimadaEntrega": "2026-10-05",
+    "fechaEntrega": "2026-10-04T15:24:00Z",
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV272",
+    "ordenId": "ORD288",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-03T14:02:00Z",
+    "fechaEstimadaEntrega": "2026-10-10",
+    "fechaEntrega": "2026-10-07T16:02:00Z",
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV273",
+    "ordenId": "ORD289",
+    "transportista": "Andes Logística",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-02T12:32:00Z",
+    "fechaEstimadaEntrega": "2026-10-09",
+    "fechaEntrega": "2026-10-06T12:32:00Z",
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV274",
+    "ordenId": "ORD290",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-02T16:43:00Z",
+    "fechaEstimadaEntrega": "2026-10-06",
+    "fechaEntrega": "2026-10-05T18:43:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV275",
+    "ordenId": "ORD292",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-03T00:30:00Z",
+    "fechaEstimadaEntrega": "2026-10-07",
+    "fechaEntrega": "2026-10-05T05:30:00Z",
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV276",
+    "ordenId": "ORD293",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-04T15:04:00Z",
+    "fechaEstimadaEntrega": "2026-10-12",
+    "fechaEntrega": "2026-10-10T16:04:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV277",
+    "ordenId": "ORD294",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-03T14:13:00Z",
+    "fechaEstimadaEntrega": "2026-10-11",
+    "fechaEntrega": "2026-10-10T19:13:00Z",
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV278",
+    "ordenId": "ORD295",
+    "transportista": "Expreso Sur",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-03T18:37:00Z",
+    "fechaEstimadaEntrega": "2026-10-07",
+    "fechaEntrega": "2026-10-05T18:37:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV279",
+    "ordenId": "ORD296",
+    "transportista": "Andes Logística",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-05T14:09:00Z",
+    "fechaEstimadaEntrega": "2026-10-13",
+    "fechaEntrega": null,
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV280",
+    "ordenId": "ORD297",
+    "transportista": "Andes Logística",
+    "estado": "demorado",
+    "fechaDespacho": "2026-10-05T18:24:00Z",
+    "fechaEstimadaEntrega": "2026-10-10",
+    "fechaEntrega": null,
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV281",
+    "ordenId": "ORD298",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-05T08:47:00Z",
+    "fechaEstimadaEntrega": "2026-10-10",
+    "fechaEntrega": "2026-10-09T13:47:00Z",
+    "destinoCiudad": "Rosario"
+  },
+  {
+    "id": "ENV282",
+    "ordenId": "ORD299",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-05T14:11:00Z",
+    "fechaEstimadaEntrega": "2026-10-13",
+    "fechaEntrega": null,
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV283",
+    "ordenId": "ORD300",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-05T20:05:00Z",
+    "fechaEstimadaEntrega": "2026-10-12",
+    "fechaEntrega": null,
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV284",
+    "ordenId": "ORD301",
+    "transportista": "Correo Pampa",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-11",
+    "fechaEntrega": null,
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV285",
+    "ordenId": "ORD302",
+    "transportista": "Andes Logística",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-05T23:53:00Z",
+    "fechaEstimadaEntrega": "2026-10-12",
+    "fechaEntrega": null,
+    "destinoCiudad": "San Miguel de Tucumán"
+  },
+  {
+    "id": "ENV286",
+    "ordenId": "ORD303",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-06T20:24:00Z",
+    "fechaEstimadaEntrega": "2026-10-13",
+    "fechaEntrega": null,
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV287",
+    "ordenId": "ORD304",
+    "transportista": "Andes Logística",
+    "estado": "demorado",
+    "fechaDespacho": "2026-10-07T20:18:00Z",
+    "fechaEstimadaEntrega": "2026-10-10",
+    "fechaEntrega": null,
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV288",
+    "ordenId": "ORD305",
+    "transportista": "Correo Pampa",
+    "estado": "entregado",
+    "fechaDespacho": "2026-10-07T20:56:00Z",
+    "fechaEstimadaEntrega": "2026-10-11",
+    "fechaEntrega": "2026-10-10T00:56:00Z",
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV289",
+    "ordenId": "ORD306",
+    "transportista": "Correo Pampa",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-12",
+    "fechaEntrega": null,
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV290",
+    "ordenId": "ORD307",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-07T22:53:00Z",
+    "fechaEstimadaEntrega": "2026-10-12",
+    "fechaEntrega": null,
+    "destinoCiudad": "Córdoba"
+  },
+  {
+    "id": "ENV291",
+    "ordenId": "ORD308",
+    "transportista": "Andes Logística",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-08T03:09:00Z",
+    "fechaEstimadaEntrega": "2026-10-16",
+    "fechaEntrega": null,
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV292",
+    "ordenId": "ORD309",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-08T04:23:00Z",
+    "fechaEstimadaEntrega": "2026-10-16",
+    "fechaEntrega": null,
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV293",
+    "ordenId": "ORD310",
+    "transportista": "Andes Logística",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-07T23:04:00Z",
+    "fechaEstimadaEntrega": "2026-10-15",
+    "fechaEntrega": null,
+    "destinoCiudad": "Salta"
+  },
+  {
+    "id": "ENV294",
+    "ordenId": "ORD311",
+    "transportista": "Andes Logística",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-09T14:29:00Z",
+    "fechaEstimadaEntrega": "2026-10-13",
+    "fechaEntrega": null,
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV295",
+    "ordenId": "ORD312",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-08T10:31:00Z",
+    "fechaEstimadaEntrega": "2026-10-12",
+    "fechaEntrega": null,
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV296",
+    "ordenId": "ORD313",
+    "transportista": "Andes Logística",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-09T11:35:00Z",
+    "fechaEstimadaEntrega": "2026-10-16",
+    "fechaEntrega": null,
+    "destinoCiudad": "Mendoza"
+  },
+  {
+    "id": "ENV297",
+    "ordenId": "ORD314",
+    "transportista": "Correo Pampa",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-09T15:18:00Z",
+    "fechaEstimadaEntrega": "2026-10-13",
+    "fechaEntrega": null,
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV298",
+    "ordenId": "ORD315",
+    "transportista": "Expreso Sur",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-13",
+    "fechaEntrega": null,
+    "destinoCiudad": "Ciudad de Buenos Aires"
+  },
+  {
+    "id": "ENV299",
+    "ordenId": "ORD318",
+    "transportista": "Expreso Sur",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-15",
+    "fechaEntrega": null,
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV300",
+    "ordenId": "ORD319",
+    "transportista": "Andes Logística",
+    "estado": "en_transito",
+    "fechaDespacho": "2026-10-10T20:02:00Z",
+    "fechaEstimadaEntrega": "2026-10-17",
+    "fechaEntrega": null,
+    "destinoCiudad": "Neuquén"
+  },
+  {
+    "id": "ENV301",
+    "ordenId": "ORD320",
+    "transportista": "Expreso Sur",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-15",
+    "fechaEntrega": null,
+    "destinoCiudad": "La Plata"
+  },
+  {
+    "id": "ENV302",
+    "ordenId": "ORD321",
+    "transportista": "Andes Logística",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-14",
+    "fechaEntrega": null,
+    "destinoCiudad": "Bahía Blanca"
+  },
+  {
+    "id": "ENV303",
+    "ordenId": "ORD322",
+    "transportista": "Expreso Sur",
+    "estado": "preparando",
+    "fechaDespacho": null,
+    "fechaEstimadaEntrega": "2026-10-16",
+    "fechaEntrega": null,
+    "destinoCiudad": "La Plata"
   }
 ]

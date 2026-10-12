@@ -78,5 +78,285 @@
     "descripcion": "Los auriculares vinieron sin el cable de carga.",
     "estado": "cerrado",
     "fechaCreacion": "2026-09-01T12:10:00Z"
+  },
+  {
+    "id": "TKT009",
+    "clienteId": "CLI028",
+    "ordenId": "ORD014",
+    "categoria": "otro",
+    "asunto": "Cambio de dirección de entrega",
+    "descripcion": "Necesito cambiar la dirección de entrega del pedido ORD014.",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-04-16T05:38:00Z"
+  },
+  {
+    "id": "TKT010",
+    "clienteId": "CLI005",
+    "ordenId": "ORD029",
+    "categoria": "producto",
+    "asunto": "Problema con Notebook Kora 14\"",
+    "descripcion": "La batería dura menos de lo que anuncian. (pedido ORD029).",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-05-10T08:02:00Z"
+  },
+  {
+    "id": "TKT011",
+    "clienteId": "CLI004",
+    "ordenId": "ORD036",
+    "categoria": "producto",
+    "asunto": "Problema con Licuadora Vortex 1200W",
+    "descripcion": "Se calienta mucho y huele a quemado. (pedido ORD036).",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-05-17T02:23:00Z"
+  },
+  {
+    "id": "TKT012",
+    "clienteId": "CLI023",
+    "ordenId": "ORD051",
+    "categoria": "producto",
+    "asunto": "Problema con Auriculares Bluetooth Sonar",
+    "descripcion": "Se desconectan solos de vez en cuando. (pedido ORD051).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-05-25T22:52:00Z"
+  },
+  {
+    "id": "TKT013",
+    "clienteId": "CLI041",
+    "ordenId": "ORD053",
+    "categoria": "envio",
+    "asunto": "Envío sin movimiento",
+    "descripcion": "El seguimiento de mi pedido ORD053 no se actualiza hace varios días.",
+    "estado": "en_proceso",
+    "fechaCreacion": "2026-05-28T16:00:00Z"
+  },
+  {
+    "id": "TKT014",
+    "clienteId": "CLI037",
+    "ordenId": "ORD045",
+    "categoria": "producto",
+    "asunto": "Problema con Licuadora Vortex 1200W",
+    "descripcion": "A los pocos usos empezó a hacer un ruido metálico. (pedido ORD045).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-05-29T11:37:00Z"
+  },
+  {
+    "id": "TKT015",
+    "clienteId": "CLI032",
+    "ordenId": "ORD058",
+    "categoria": "producto",
+    "asunto": "Problema con Licuadora Vortex 1200W",
+    "descripcion": "A los pocos usos empezó a hacer un ruido metálico. (pedido ORD058).",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-06-06T22:09:00Z"
+  },
+  {
+    "id": "TKT016",
+    "clienteId": "CLI026",
+    "ordenId": "ORD068",
+    "categoria": "producto",
+    "asunto": "Problema con Teclado mecánico Kora Tactile",
+    "descripcion": "Las teclas hacen mucho ruido. (pedido ORD068).",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-06-09T01:50:00Z"
+  },
+  {
+    "id": "TKT017",
+    "clienteId": "CLI019",
+    "ordenId": "ORD071",
+    "categoria": "producto",
+    "asunto": "Problema con Auriculares Bluetooth Sonar",
+    "descripcion": "La batería rinde menos de lo anunciado. (pedido ORD071).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-06-15T21:56:00Z"
+  },
+  {
+    "id": "TKT018",
+    "clienteId": "CLI017",
+    "ordenId": "ORD136",
+    "categoria": "pago",
+    "asunto": "Reembolso no recibido",
+    "descripcion": "Cancelé el pedido ORD136 y todavía no veo el reembolso.",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-07-23T18:38:00Z"
+  },
+  {
+    "id": "TKT019",
+    "clienteId": "CLI043",
+    "ordenId": "ORD147",
+    "categoria": "envio",
+    "asunto": "Pedido demorado",
+    "descripcion": "Mi pedido ORD147 no llegó en la fecha estimada y no tengo novedades del envío.",
+    "estado": "abierto",
+    "fechaCreacion": "2026-08-03T13:00:00Z"
+  },
+  {
+    "id": "TKT020",
+    "clienteId": "CLI042",
+    "ordenId": "ORD145",
+    "categoria": "producto",
+    "asunto": "Problema con Silla de escritorio Ergo",
+    "descripcion": "Después de unos meses empezó a ceder el pistón. (pedido ORD145).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-08-09T03:55:00Z"
+  },
+  {
+    "id": "TKT021",
+    "clienteId": "CLI004",
+    "ordenId": "ORD158",
+    "categoria": "producto",
+    "asunto": "Problema con Lámpara LED de escritorio Lumen",
+    "descripcion": "El brazo pierde firmeza. (pedido ORD158).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-08-13T17:39:00Z"
+  },
+  {
+    "id": "TKT022",
+    "clienteId": "CLI002",
+    "ordenId": "ORD181",
+    "categoria": "producto",
+    "asunto": "Problema con Mouse inalámbrico Kora Glide",
+    "descripcion": "La rueda hace ruido. (pedido ORD181).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-08-17T21:25:00Z"
+  },
+  {
+    "id": "TKT023",
+    "clienteId": "CLI028",
+    "ordenId": "ORD159",
+    "categoria": "producto",
+    "asunto": "Problema con Pelota de fútbol Estadio N5",
+    "descripcion": "Perdió aire a las pocas semanas. (pedido ORD159).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-08-22T01:57:00Z"
+  },
+  {
+    "id": "TKT024",
+    "clienteId": "CLI044",
+    "ordenId": "ORD209",
+    "categoria": "pago",
+    "asunto": "Reembolso no recibido",
+    "descripcion": "Cancelé el pedido ORD209 y todavía no veo el reembolso.",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-09-01T02:28:00Z"
+  },
+  {
+    "id": "TKT025",
+    "clienteId": "CLI016",
+    "ordenId": "ORD215",
+    "categoria": "envio",
+    "asunto": "Envío sin movimiento",
+    "descripcion": "El seguimiento de mi pedido ORD215 no se actualiza hace varios días.",
+    "estado": "abierto",
+    "fechaCreacion": "2026-09-12T18:00:00Z"
+  },
+  {
+    "id": "TKT026",
+    "clienteId": "CLI028",
+    "ordenId": "ORD232",
+    "categoria": "producto",
+    "asunto": "Problema con Bicicleta MTB rodado 29 Cordillera",
+    "descripcion": "Los frenos necesitaron ajuste. (pedido ORD232).",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-09-14T09:16:00Z"
+  },
+  {
+    "id": "TKT027",
+    "clienteId": "CLI013",
+    "ordenId": "ORD244",
+    "categoria": "otro",
+    "asunto": "Cambio de dirección de entrega",
+    "descripcion": "Necesito cambiar la dirección de entrega del pedido ORD244.",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-09-19T03:58:00Z"
+  },
+  {
+    "id": "TKT028",
+    "clienteId": "CLI041",
+    "ordenId": "ORD252",
+    "categoria": "pago",
+    "asunto": "Reembolso no recibido",
+    "descripcion": "Cancelé el pedido ORD252 y todavía no veo el reembolso.",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-09-19T21:05:00Z"
+  },
+  {
+    "id": "TKT029",
+    "clienteId": "CLI024",
+    "ordenId": "ORD248",
+    "categoria": "producto",
+    "asunto": "Problema con Silla de escritorio Ergo",
+    "descripcion": "El apoyabrazos se aflojó. (pedido ORD248).",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-09-26T00:09:00Z"
+  },
+  {
+    "id": "TKT030",
+    "clienteId": "CLI013",
+    "ordenId": "ORD270",
+    "categoria": "producto",
+    "asunto": "Problema con Pelota de fútbol Estadio N5",
+    "descripcion": "La costura se despegó con el uso. (pedido ORD270).",
+    "estado": "cerrado",
+    "fechaCreacion": "2026-10-05T17:42:00Z"
+  },
+  {
+    "id": "TKT031",
+    "clienteId": "CLI028",
+    "ordenId": "ORD275",
+    "categoria": "envio",
+    "asunto": "Pedido demorado",
+    "descripcion": "Mi pedido ORD275 no llegó en la fecha estimada y no tengo novedades del envío.",
+    "estado": "resuelto",
+    "fechaCreacion": "2026-10-06T16:00:00Z"
+  },
+  {
+    "id": "TKT032",
+    "clienteId": "CLI025",
+    "ordenId": "ORD291",
+    "categoria": "pago",
+    "asunto": "Reembolso no recibido",
+    "descripcion": "Cancelé el pedido ORD291 y todavía no veo el reembolso.",
+    "estado": "abierto",
+    "fechaCreacion": "2026-10-07T21:38:00Z"
+  },
+  {
+    "id": "TKT033",
+    "clienteId": "CLI047",
+    "ordenId": "ORD317",
+    "categoria": "pago",
+    "asunto": "Transferencia no acreditada",
+    "descripcion": "Hice la transferencia por el pedido ORD317 y la orden sigue pendiente.",
+    "estado": "en_proceso",
+    "fechaCreacion": "2026-10-09T21:08:00Z"
+  },
+  {
+    "id": "TKT034",
+    "clienteId": "CLI018",
+    "ordenId": "ORD316",
+    "categoria": "pago",
+    "asunto": "Transferencia no acreditada",
+    "descripcion": "Hice la transferencia por el pedido ORD316 y la orden sigue pendiente.",
+    "estado": "en_proceso",
+    "fechaCreacion": "2026-10-11T09:00:00Z"
+  },
+  {
+    "id": "TKT035",
+    "clienteId": "CLI002",
+    "ordenId": "ORD292",
+    "categoria": "producto",
+    "asunto": "Problema con Bicicleta MTB rodado 29 Cordillera",
+    "descripcion": "Llegó con el armado incompleto. (pedido ORD292).",
+    "estado": "abierto",
+    "fechaCreacion": "2026-10-11T09:00:00Z"
+  },
+  {
+    "id": "TKT036",
+    "clienteId": "CLI045",
+    "ordenId": "ORD320",
+    "categoria": "otro",
+    "asunto": "Consulta por garantía",
+    "descripcion": "¿Cómo hago valer la garantía del pedido ORD320?",
+    "estado": "en_proceso",
+    "fechaCreacion": "2026-10-11T09:00:00Z"
   }
 ]

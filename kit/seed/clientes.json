@@ -62,5 +62,341 @@
     "ciudad": "San Miguel de Tucumán",
     "provincia": "Tucumán",
     "fechaAlta": "2026-05-08"
+  },
+  {
+    "id": "CLI009",
+    "nombre": "Natalia Delgado",
+    "email": "natalia.delgado@example.com",
+    "ciudad": "Ciudad de Buenos Aires",
+    "provincia": "CABA",
+    "fechaAlta": "2025-01-13"
+  },
+  {
+    "id": "CLI010",
+    "nombre": "Tamara Quiroga",
+    "email": "tamara.quiroga@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-01-24"
+  },
+  {
+    "id": "CLI011",
+    "nombre": "Josefina Domínguez",
+    "email": "josefina.dominguez@example.com",
+    "ciudad": "Bahía Blanca",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-01-26"
+  },
+  {
+    "id": "CLI012",
+    "nombre": "Josefina Benítez",
+    "email": "josefina.benitez@example.com",
+    "ciudad": "Neuquén",
+    "provincia": "Neuquén",
+    "fechaAlta": "2025-02-05"
+  },
+  {
+    "id": "CLI013",
+    "nombre": "Lautaro Franco",
+    "email": "lautaro.franco@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-02-17"
+  },
+  {
+    "id": "CLI014",
+    "nombre": "Ignacio Cabrera",
+    "email": "ignacio.cabrera@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-02-19"
+  },
+  {
+    "id": "CLI015",
+    "nombre": "Micaela Vega",
+    "email": "micaela.vega@example.com",
+    "ciudad": "Ciudad de Buenos Aires",
+    "provincia": "CABA",
+    "fechaAlta": "2025-03-07"
+  },
+  {
+    "id": "CLI016",
+    "nombre": "Nahuel Paz",
+    "email": "nahuel.paz@example.com",
+    "ciudad": "Salta",
+    "provincia": "Salta",
+    "fechaAlta": "2025-03-21"
+  },
+  {
+    "id": "CLI017",
+    "nombre": "Paula Godoy",
+    "email": "paula.godoy@example.com",
+    "ciudad": "Mendoza",
+    "provincia": "Mendoza",
+    "fechaAlta": "2025-04-30"
+  },
+  {
+    "id": "CLI018",
+    "nombre": "Lucas Giménez",
+    "email": "lucas.gimenez@example.com",
+    "ciudad": "Bahía Blanca",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-05-21"
+  },
+  {
+    "id": "CLI019",
+    "nombre": "Pablo Núñez",
+    "email": "pablo.nunez@example.com",
+    "ciudad": "Bahía Blanca",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-06-02"
+  },
+  {
+    "id": "CLI020",
+    "nombre": "Rocío Aguirre",
+    "email": "rocio.aguirre@example.com",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2025-06-13"
+  },
+  {
+    "id": "CLI021",
+    "nombre": "Mariana Torres",
+    "email": "mariana.torres@example.com",
+    "ciudad": "Mar del Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-06-25"
+  },
+  {
+    "id": "CLI022",
+    "nombre": "Ignacio Zárate",
+    "email": "ignacio.zarate@example.com",
+    "ciudad": "Córdoba",
+    "provincia": "Córdoba",
+    "fechaAlta": "2025-07-28"
+  },
+  {
+    "id": "CLI023",
+    "nombre": "Leandro Godoy",
+    "email": "leandro.godoy@example.com",
+    "ciudad": "Mendoza",
+    "provincia": "Mendoza",
+    "fechaAlta": "2025-08-04"
+  },
+  {
+    "id": "CLI024",
+    "nombre": "Rocío Olivera",
+    "email": "rocio.olivera@example.com",
+    "ciudad": "Neuquén",
+    "provincia": "Neuquén",
+    "fechaAlta": "2025-08-20"
+  },
+  {
+    "id": "CLI025",
+    "nombre": "Agustín Esquivel",
+    "email": "agustin.esquivel@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-08-25"
+  },
+  {
+    "id": "CLI026",
+    "nombre": "Facundo Bustos",
+    "email": "facundo.bustos@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-09-02"
+  },
+  {
+    "id": "CLI027",
+    "nombre": "Natalia Ledesma",
+    "email": "natalia.ledesma@example.com",
+    "ciudad": "San Miguel de Tucumán",
+    "provincia": "Tucumán",
+    "fechaAlta": "2025-09-14"
+  },
+  {
+    "id": "CLI028",
+    "nombre": "Agustín Franco",
+    "email": "agustin.franco@example.com",
+    "ciudad": "San Miguel de Tucumán",
+    "provincia": "Tucumán",
+    "fechaAlta": "2025-09-30"
+  },
+  {
+    "id": "CLI029",
+    "nombre": "Silvana Villalba",
+    "email": "silvana.villalba@example.com",
+    "ciudad": "Ciudad de Buenos Aires",
+    "provincia": "CABA",
+    "fechaAlta": "2025-10-22"
+  },
+  {
+    "id": "CLI030",
+    "nombre": "Ximena Álvarez",
+    "email": "ximena.alvarez@example.com",
+    "ciudad": "Salta",
+    "provincia": "Salta",
+    "fechaAlta": "2025-11-05"
+  },
+  {
+    "id": "CLI031",
+    "nombre": "Bruno Maldonado",
+    "email": "bruno.maldonado@example.com",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2025-11-17"
+  },
+  {
+    "id": "CLI032",
+    "nombre": "Silvana Varela",
+    "email": "silvana.varela@example.com",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2025-12-22"
+  },
+  {
+    "id": "CLI033",
+    "nombre": "Ximena Cabrera",
+    "email": "ximena.cabrera@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2025-12-29"
+  },
+  {
+    "id": "CLI034",
+    "nombre": "Joaquín Giménez",
+    "email": "joaquin.gimenez@example.com",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2025-12-30"
+  },
+  {
+    "id": "CLI035",
+    "nombre": "Silvana Aguirre",
+    "email": "silvana.aguirre@example.com",
+    "ciudad": "Mendoza",
+    "provincia": "Mendoza",
+    "fechaAlta": "2026-01-03"
+  },
+  {
+    "id": "CLI036",
+    "nombre": "Carolina Zárate",
+    "email": "carolina.zarate@example.com",
+    "ciudad": "Mendoza",
+    "provincia": "Mendoza",
+    "fechaAlta": "2026-01-09"
+  },
+  {
+    "id": "CLI037",
+    "nombre": "Joaquín Villalba",
+    "email": "joaquin.villalba@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2026-01-11"
+  },
+  {
+    "id": "CLI038",
+    "nombre": "Micaela Sosa",
+    "email": "micaela.sosa@example.com",
+    "ciudad": "Bahía Blanca",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2026-01-24"
+  },
+  {
+    "id": "CLI039",
+    "nombre": "Joaquín Álvarez",
+    "email": "joaquin.alvarez@example.com",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2026-03-13"
+  },
+  {
+    "id": "CLI040",
+    "nombre": "Paula Benítez",
+    "email": "paula.benitez@example.com",
+    "ciudad": "Santa Fe",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2026-04-16"
+  },
+  {
+    "id": "CLI041",
+    "nombre": "Micaela Aguirre",
+    "email": "micaela.aguirre@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2026-04-20"
+  },
+  {
+    "id": "CLI042",
+    "nombre": "Carolina Toledo",
+    "email": "carolina.toledo@example.com",
+    "ciudad": "Córdoba",
+    "provincia": "Córdoba",
+    "fechaAlta": "2026-05-08"
+  },
+  {
+    "id": "CLI043",
+    "nombre": "Antonella Urquiza",
+    "email": "antonella.urquiza@example.com",
+    "ciudad": "Rosario",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2026-05-16"
+  },
+  {
+    "id": "CLI044",
+    "nombre": "Florencia Varela",
+    "email": "florencia.varela@example.com",
+    "ciudad": "San Miguel de Tucumán",
+    "provincia": "Tucumán",
+    "fechaAlta": "2026-05-28"
+  },
+  {
+    "id": "CLI045",
+    "nombre": "Rodrigo Molina",
+    "email": "rodrigo.molina@example.com",
+    "ciudad": "La Plata",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2026-06-01"
+  },
+  {
+    "id": "CLI046",
+    "nombre": "Gonzalo Ledesma",
+    "email": "gonzalo.ledesma@example.com",
+    "ciudad": "Santa Fe",
+    "provincia": "Santa Fe",
+    "fechaAlta": "2026-06-15"
+  },
+  {
+    "id": "CLI047",
+    "nombre": "Mariana Luna",
+    "email": "mariana.luna@example.com",
+    "ciudad": "Mendoza",
+    "provincia": "Mendoza",
+    "fechaAlta": "2026-07-07"
+  },
+  {
+    "id": "CLI048",
+    "nombre": "Lucas Silva",
+    "email": "lucas.silva@example.com",
+    "ciudad": "Bahía Blanca",
+    "provincia": "Buenos Aires",
+    "fechaAlta": "2026-10-01"
+  },
+  {
+    "id": "CLI049",
+    "nombre": "Ximena Franco",
+    "email": "ximena.franco@example.com",
+    "ciudad": "Córdoba",
+    "provincia": "Córdoba",
+    "fechaAlta": "2026-10-03"
+  },
+  {
+    "id": "CLI050",
+    "nombre": "Vicente Maldonado",
+    "email": "vicente.maldonado@example.com",
+    "ciudad": "Ciudad de Buenos Aires",
+    "provincia": "CABA",
+    "fechaAlta": "2026-10-09"
   }
 ]

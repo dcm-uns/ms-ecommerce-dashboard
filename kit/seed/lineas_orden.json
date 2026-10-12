@@ -150,5 +150,3309 @@
     "cantidad": 1,
     "precioUnit": 54000,
     "subtotal": 54000
+  },
+  {
+    "id": "LIN020",
+    "ordenId": "ORD013",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN021",
+    "ordenId": "ORD014",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN022",
+    "ordenId": "ORD015",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN023",
+    "ordenId": "ORD015",
+    "productoId": "PRD018",
+    "cantidad": 2,
+    "precioUnit": 18000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN024",
+    "ordenId": "ORD015",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN025",
+    "ordenId": "ORD016",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN026",
+    "ordenId": "ORD017",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN027",
+    "ordenId": "ORD018",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN028",
+    "ordenId": "ORD018",
+    "productoId": "PRD011",
+    "cantidad": 1,
+    "precioUnit": 28000,
+    "subtotal": 28000
+  },
+  {
+    "id": "LIN029",
+    "ordenId": "ORD019",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN030",
+    "ordenId": "ORD019",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN031",
+    "ordenId": "ORD020",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN032",
+    "ordenId": "ORD020",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN033",
+    "ordenId": "ORD021",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN034",
+    "ordenId": "ORD022",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN035",
+    "ordenId": "ORD022",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN036",
+    "ordenId": "ORD023",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN037",
+    "ordenId": "ORD024",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN038",
+    "ordenId": "ORD025",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN039",
+    "ordenId": "ORD026",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN040",
+    "ordenId": "ORD027",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN041",
+    "ordenId": "ORD027",
+    "productoId": "PRD026",
+    "cantidad": 3,
+    "precioUnit": 24000,
+    "subtotal": 72000
+  },
+  {
+    "id": "LIN042",
+    "ordenId": "ORD028",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN043",
+    "ordenId": "ORD029",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN044",
+    "ordenId": "ORD030",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN045",
+    "ordenId": "ORD030",
+    "productoId": "PRD017",
+    "cantidad": 2,
+    "precioUnit": 22000,
+    "subtotal": 44000
+  },
+  {
+    "id": "LIN046",
+    "ordenId": "ORD031",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN047",
+    "ordenId": "ORD032",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN048",
+    "ordenId": "ORD033",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN049",
+    "ordenId": "ORD033",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN050",
+    "ordenId": "ORD034",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN051",
+    "ordenId": "ORD035",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN052",
+    "ordenId": "ORD035",
+    "productoId": "PRD005",
+    "cantidad": 2,
+    "precioUnit": 65000,
+    "subtotal": 130000
+  },
+  {
+    "id": "LIN053",
+    "ordenId": "ORD036",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN054",
+    "ordenId": "ORD037",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN055",
+    "ordenId": "ORD037",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN056",
+    "ordenId": "ORD037",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN057",
+    "ordenId": "ORD038",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN058",
+    "ordenId": "ORD039",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN059",
+    "ordenId": "ORD039",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN060",
+    "ordenId": "ORD040",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN061",
+    "ordenId": "ORD041",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN062",
+    "ordenId": "ORD041",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN063",
+    "ordenId": "ORD042",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN064",
+    "ordenId": "ORD043",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN065",
+    "ordenId": "ORD044",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN066",
+    "ordenId": "ORD045",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN067",
+    "ordenId": "ORD045",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN068",
+    "ordenId": "ORD046",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN069",
+    "ordenId": "ORD047",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN070",
+    "ordenId": "ORD048",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN071",
+    "ordenId": "ORD049",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN072",
+    "ordenId": "ORD050",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN073",
+    "ordenId": "ORD051",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN074",
+    "ordenId": "ORD051",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN075",
+    "ordenId": "ORD052",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN076",
+    "ordenId": "ORD053",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN077",
+    "ordenId": "ORD053",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN078",
+    "ordenId": "ORD054",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN079",
+    "ordenId": "ORD055",
+    "productoId": "PRD029",
+    "cantidad": 1,
+    "precioUnit": 31000,
+    "subtotal": 31000
+  },
+  {
+    "id": "LIN080",
+    "ordenId": "ORD056",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN081",
+    "ordenId": "ORD056",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN082",
+    "ordenId": "ORD057",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN083",
+    "ordenId": "ORD058",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN084",
+    "ordenId": "ORD059",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN085",
+    "ordenId": "ORD059",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN086",
+    "ordenId": "ORD060",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN087",
+    "ordenId": "ORD061",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN088",
+    "ordenId": "ORD062",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN089",
+    "ordenId": "ORD062",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN090",
+    "ordenId": "ORD063",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN091",
+    "ordenId": "ORD064",
+    "productoId": "PRD017",
+    "cantidad": 2,
+    "precioUnit": 22000,
+    "subtotal": 44000
+  },
+  {
+    "id": "LIN092",
+    "ordenId": "ORD065",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN093",
+    "ordenId": "ORD066",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN094",
+    "ordenId": "ORD067",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN095",
+    "ordenId": "ORD067",
+    "productoId": "PRD030",
+    "cantidad": 1,
+    "precioUnit": 36000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN096",
+    "ordenId": "ORD068",
+    "productoId": "PRD019",
+    "cantidad": 2,
+    "precioUnit": 52000,
+    "subtotal": 104000
+  },
+  {
+    "id": "LIN097",
+    "ordenId": "ORD069",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN098",
+    "ordenId": "ORD070",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN099",
+    "ordenId": "ORD071",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN100",
+    "ordenId": "ORD071",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN101",
+    "ordenId": "ORD072",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN102",
+    "ordenId": "ORD072",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN103",
+    "ordenId": "ORD073",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN104",
+    "ordenId": "ORD073",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN105",
+    "ordenId": "ORD074",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN106",
+    "ordenId": "ORD075",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN107",
+    "ordenId": "ORD076",
+    "productoId": "PRD018",
+    "cantidad": 3,
+    "precioUnit": 18000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN108",
+    "ordenId": "ORD077",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN109",
+    "ordenId": "ORD078",
+    "productoId": "PRD026",
+    "cantidad": 2,
+    "precioUnit": 24000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN110",
+    "ordenId": "ORD079",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN111",
+    "ordenId": "ORD080",
+    "productoId": "PRD030",
+    "cantidad": 1,
+    "precioUnit": 36000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN112",
+    "ordenId": "ORD081",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN113",
+    "ordenId": "ORD082",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN114",
+    "ordenId": "ORD083",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN115",
+    "ordenId": "ORD084",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN116",
+    "ordenId": "ORD085",
+    "productoId": "PRD017",
+    "cantidad": 2,
+    "precioUnit": 22000,
+    "subtotal": 44000
+  },
+  {
+    "id": "LIN117",
+    "ordenId": "ORD086",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN118",
+    "ordenId": "ORD086",
+    "productoId": "PRD005",
+    "cantidad": 2,
+    "precioUnit": 65000,
+    "subtotal": 130000
+  },
+  {
+    "id": "LIN119",
+    "ordenId": "ORD087",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN120",
+    "ordenId": "ORD088",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN121",
+    "ordenId": "ORD089",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN122",
+    "ordenId": "ORD090",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN123",
+    "ordenId": "ORD090",
+    "productoId": "PRD026",
+    "cantidad": 2,
+    "precioUnit": 24000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN124",
+    "ordenId": "ORD091",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN125",
+    "ordenId": "ORD092",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN126",
+    "ordenId": "ORD092",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN127",
+    "ordenId": "ORD093",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN128",
+    "ordenId": "ORD093",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN129",
+    "ordenId": "ORD094",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN130",
+    "ordenId": "ORD094",
+    "productoId": "PRD017",
+    "cantidad": 2,
+    "precioUnit": 22000,
+    "subtotal": 44000
+  },
+  {
+    "id": "LIN131",
+    "ordenId": "ORD095",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN132",
+    "ordenId": "ORD096",
+    "productoId": "PRD016",
+    "cantidad": 1,
+    "precioUnit": 48000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN133",
+    "ordenId": "ORD097",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN134",
+    "ordenId": "ORD098",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN135",
+    "ordenId": "ORD099",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN136",
+    "ordenId": "ORD100",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN137",
+    "ordenId": "ORD100",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN138",
+    "ordenId": "ORD101",
+    "productoId": "PRD025",
+    "cantidad": 1,
+    "precioUnit": 85000,
+    "subtotal": 85000
+  },
+  {
+    "id": "LIN139",
+    "ordenId": "ORD102",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN140",
+    "ordenId": "ORD102",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN141",
+    "ordenId": "ORD103",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN142",
+    "ordenId": "ORD103",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN143",
+    "ordenId": "ORD103",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN144",
+    "ordenId": "ORD104",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN145",
+    "ordenId": "ORD105",
+    "productoId": "PRD030",
+    "cantidad": 1,
+    "precioUnit": 36000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN146",
+    "ordenId": "ORD106",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN147",
+    "ordenId": "ORD106",
+    "productoId": "PRD026",
+    "cantidad": 3,
+    "precioUnit": 24000,
+    "subtotal": 72000
+  },
+  {
+    "id": "LIN148",
+    "ordenId": "ORD106",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN149",
+    "ordenId": "ORD107",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN150",
+    "ordenId": "ORD108",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN151",
+    "ordenId": "ORD109",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN152",
+    "ordenId": "ORD109",
+    "productoId": "PRD011",
+    "cantidad": 2,
+    "precioUnit": 28000,
+    "subtotal": 56000
+  },
+  {
+    "id": "LIN153",
+    "ordenId": "ORD110",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN154",
+    "ordenId": "ORD111",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN155",
+    "ordenId": "ORD111",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN156",
+    "ordenId": "ORD112",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN157",
+    "ordenId": "ORD113",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN158",
+    "ordenId": "ORD114",
+    "productoId": "PRD005",
+    "cantidad": 2,
+    "precioUnit": 65000,
+    "subtotal": 130000
+  },
+  {
+    "id": "LIN159",
+    "ordenId": "ORD115",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN160",
+    "ordenId": "ORD116",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN161",
+    "ordenId": "ORD116",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN162",
+    "ordenId": "ORD117",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN163",
+    "ordenId": "ORD118",
+    "productoId": "PRD016",
+    "cantidad": 1,
+    "precioUnit": 48000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN164",
+    "ordenId": "ORD119",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN165",
+    "ordenId": "ORD119",
+    "productoId": "PRD018",
+    "cantidad": 2,
+    "precioUnit": 18000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN166",
+    "ordenId": "ORD119",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN167",
+    "ordenId": "ORD120",
+    "productoId": "PRD025",
+    "cantidad": 1,
+    "precioUnit": 85000,
+    "subtotal": 85000
+  },
+  {
+    "id": "LIN168",
+    "ordenId": "ORD120",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN169",
+    "ordenId": "ORD120",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN170",
+    "ordenId": "ORD121",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN171",
+    "ordenId": "ORD122",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN172",
+    "ordenId": "ORD122",
+    "productoId": "PRD026",
+    "cantidad": 3,
+    "precioUnit": 24000,
+    "subtotal": 72000
+  },
+  {
+    "id": "LIN173",
+    "ordenId": "ORD122",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN174",
+    "ordenId": "ORD123",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN175",
+    "ordenId": "ORD124",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN176",
+    "ordenId": "ORD125",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN177",
+    "ordenId": "ORD126",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN178",
+    "ordenId": "ORD127",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN179",
+    "ordenId": "ORD128",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN180",
+    "ordenId": "ORD128",
+    "productoId": "PRD029",
+    "cantidad": 2,
+    "precioUnit": 31000,
+    "subtotal": 62000
+  },
+  {
+    "id": "LIN181",
+    "ordenId": "ORD129",
+    "productoId": "PRD011",
+    "cantidad": 2,
+    "precioUnit": 28000,
+    "subtotal": 56000
+  },
+  {
+    "id": "LIN182",
+    "ordenId": "ORD130",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN183",
+    "ordenId": "ORD131",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN184",
+    "ordenId": "ORD131",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN185",
+    "ordenId": "ORD132",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN186",
+    "ordenId": "ORD133",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN187",
+    "ordenId": "ORD134",
+    "productoId": "PRD016",
+    "cantidad": 2,
+    "precioUnit": 48000,
+    "subtotal": 96000
+  },
+  {
+    "id": "LIN188",
+    "ordenId": "ORD135",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN189",
+    "ordenId": "ORD136",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN190",
+    "ordenId": "ORD136",
+    "productoId": "PRD018",
+    "cantidad": 2,
+    "precioUnit": 18000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN191",
+    "ordenId": "ORD137",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN192",
+    "ordenId": "ORD138",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN193",
+    "ordenId": "ORD138",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN194",
+    "ordenId": "ORD139",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN195",
+    "ordenId": "ORD140",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN196",
+    "ordenId": "ORD141",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN197",
+    "ordenId": "ORD142",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN198",
+    "ordenId": "ORD143",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN199",
+    "ordenId": "ORD143",
+    "productoId": "PRD029",
+    "cantidad": 1,
+    "precioUnit": 31000,
+    "subtotal": 31000
+  },
+  {
+    "id": "LIN200",
+    "ordenId": "ORD144",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN201",
+    "ordenId": "ORD145",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN202",
+    "ordenId": "ORD145",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN203",
+    "ordenId": "ORD145",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN204",
+    "ordenId": "ORD146",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN205",
+    "ordenId": "ORD147",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN206",
+    "ordenId": "ORD148",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN207",
+    "ordenId": "ORD149",
+    "productoId": "PRD030",
+    "cantidad": 1,
+    "precioUnit": 36000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN208",
+    "ordenId": "ORD150",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN209",
+    "ordenId": "ORD151",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN210",
+    "ordenId": "ORD151",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN211",
+    "ordenId": "ORD152",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN212",
+    "ordenId": "ORD153",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN213",
+    "ordenId": "ORD154",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN214",
+    "ordenId": "ORD155",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN215",
+    "ordenId": "ORD156",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN216",
+    "ordenId": "ORD157",
+    "productoId": "PRD011",
+    "cantidad": 1,
+    "precioUnit": 28000,
+    "subtotal": 28000
+  },
+  {
+    "id": "LIN217",
+    "ordenId": "ORD158",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN218",
+    "ordenId": "ORD159",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN219",
+    "ordenId": "ORD160",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN220",
+    "ordenId": "ORD160",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN221",
+    "ordenId": "ORD161",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN222",
+    "ordenId": "ORD162",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN223",
+    "ordenId": "ORD163",
+    "productoId": "PRD011",
+    "cantidad": 1,
+    "precioUnit": 28000,
+    "subtotal": 28000
+  },
+  {
+    "id": "LIN224",
+    "ordenId": "ORD164",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN225",
+    "ordenId": "ORD164",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN226",
+    "ordenId": "ORD164",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN227",
+    "ordenId": "ORD165",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN228",
+    "ordenId": "ORD165",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN229",
+    "ordenId": "ORD165",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN230",
+    "ordenId": "ORD166",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN231",
+    "ordenId": "ORD167",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN232",
+    "ordenId": "ORD168",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN233",
+    "ordenId": "ORD168",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN234",
+    "ordenId": "ORD169",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN235",
+    "ordenId": "ORD170",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN236",
+    "ordenId": "ORD170",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN237",
+    "ordenId": "ORD171",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN238",
+    "ordenId": "ORD172",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN239",
+    "ordenId": "ORD173",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN240",
+    "ordenId": "ORD173",
+    "productoId": "PRD011",
+    "cantidad": 1,
+    "precioUnit": 28000,
+    "subtotal": 28000
+  },
+  {
+    "id": "LIN241",
+    "ordenId": "ORD174",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN242",
+    "ordenId": "ORD175",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN243",
+    "ordenId": "ORD175",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN244",
+    "ordenId": "ORD176",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN245",
+    "ordenId": "ORD177",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN246",
+    "ordenId": "ORD177",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN247",
+    "ordenId": "ORD178",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN248",
+    "ordenId": "ORD179",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN249",
+    "ordenId": "ORD180",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN250",
+    "ordenId": "ORD181",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN251",
+    "ordenId": "ORD181",
+    "productoId": "PRD018",
+    "cantidad": 2,
+    "precioUnit": 18000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN252",
+    "ordenId": "ORD182",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN253",
+    "ordenId": "ORD183",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN254",
+    "ordenId": "ORD184",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN255",
+    "ordenId": "ORD185",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN256",
+    "ordenId": "ORD186",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN257",
+    "ordenId": "ORD186",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN258",
+    "ordenId": "ORD187",
+    "productoId": "PRD025",
+    "cantidad": 1,
+    "precioUnit": 85000,
+    "subtotal": 85000
+  },
+  {
+    "id": "LIN259",
+    "ordenId": "ORD187",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN260",
+    "ordenId": "ORD188",
+    "productoId": "PRD021",
+    "cantidad": 2,
+    "precioUnit": 32000,
+    "subtotal": 64000
+  },
+  {
+    "id": "LIN261",
+    "ordenId": "ORD189",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN262",
+    "ordenId": "ORD190",
+    "productoId": "PRD016",
+    "cantidad": 1,
+    "precioUnit": 48000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN263",
+    "ordenId": "ORD191",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN264",
+    "ordenId": "ORD192",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN265",
+    "ordenId": "ORD192",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN266",
+    "ordenId": "ORD193",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN267",
+    "ordenId": "ORD194",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN268",
+    "ordenId": "ORD194",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN269",
+    "ordenId": "ORD194",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN270",
+    "ordenId": "ORD195",
+    "productoId": "PRD030",
+    "cantidad": 2,
+    "precioUnit": 36000,
+    "subtotal": 72000
+  },
+  {
+    "id": "LIN271",
+    "ordenId": "ORD196",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN272",
+    "ordenId": "ORD197",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN273",
+    "ordenId": "ORD197",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN274",
+    "ordenId": "ORD198",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN275",
+    "ordenId": "ORD199",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN276",
+    "ordenId": "ORD199",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN277",
+    "ordenId": "ORD200",
+    "productoId": "PRD005",
+    "cantidad": 2,
+    "precioUnit": 65000,
+    "subtotal": 130000
+  },
+  {
+    "id": "LIN278",
+    "ordenId": "ORD201",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN279",
+    "ordenId": "ORD202",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN280",
+    "ordenId": "ORD202",
+    "productoId": "PRD011",
+    "cantidad": 3,
+    "precioUnit": 28000,
+    "subtotal": 84000
+  },
+  {
+    "id": "LIN281",
+    "ordenId": "ORD203",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN282",
+    "ordenId": "ORD204",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN283",
+    "ordenId": "ORD205",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN284",
+    "ordenId": "ORD205",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN285",
+    "ordenId": "ORD206",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN286",
+    "ordenId": "ORD206",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN287",
+    "ordenId": "ORD207",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN288",
+    "ordenId": "ORD208",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN289",
+    "ordenId": "ORD209",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN290",
+    "ordenId": "ORD209",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN291",
+    "ordenId": "ORD210",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN292",
+    "ordenId": "ORD211",
+    "productoId": "PRD014",
+    "cantidad": 1,
+    "precioUnit": 330000,
+    "subtotal": 330000
+  },
+  {
+    "id": "LIN293",
+    "ordenId": "ORD212",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN294",
+    "ordenId": "ORD213",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN295",
+    "ordenId": "ORD214",
+    "productoId": "PRD025",
+    "cantidad": 1,
+    "precioUnit": 85000,
+    "subtotal": 85000
+  },
+  {
+    "id": "LIN296",
+    "ordenId": "ORD215",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN297",
+    "ordenId": "ORD216",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN298",
+    "ordenId": "ORD217",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN299",
+    "ordenId": "ORD218",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN300",
+    "ordenId": "ORD219",
+    "productoId": "PRD028",
+    "cantidad": 1,
+    "precioUnit": 520000,
+    "subtotal": 520000
+  },
+  {
+    "id": "LIN301",
+    "ordenId": "ORD220",
+    "productoId": "PRD016",
+    "cantidad": 1,
+    "precioUnit": 48000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN302",
+    "ordenId": "ORD221",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN303",
+    "ordenId": "ORD221",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN304",
+    "ordenId": "ORD222",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN305",
+    "ordenId": "ORD223",
+    "productoId": "PRD028",
+    "cantidad": 1,
+    "precioUnit": 520000,
+    "subtotal": 520000
+  },
+  {
+    "id": "LIN306",
+    "ordenId": "ORD224",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN307",
+    "ordenId": "ORD225",
+    "productoId": "PRD029",
+    "cantidad": 1,
+    "precioUnit": 31000,
+    "subtotal": 31000
+  },
+  {
+    "id": "LIN308",
+    "ordenId": "ORD226",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN309",
+    "ordenId": "ORD227",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN310",
+    "ordenId": "ORD228",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN311",
+    "ordenId": "ORD229",
+    "productoId": "PRD029",
+    "cantidad": 1,
+    "precioUnit": 31000,
+    "subtotal": 31000
+  },
+  {
+    "id": "LIN312",
+    "ordenId": "ORD230",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN313",
+    "ordenId": "ORD231",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN314",
+    "ordenId": "ORD231",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN315",
+    "ordenId": "ORD232",
+    "productoId": "PRD028",
+    "cantidad": 1,
+    "precioUnit": 520000,
+    "subtotal": 520000
+  },
+  {
+    "id": "LIN316",
+    "ordenId": "ORD233",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN317",
+    "ordenId": "ORD233",
+    "productoId": "PRD011",
+    "cantidad": 2,
+    "precioUnit": 28000,
+    "subtotal": 56000
+  },
+  {
+    "id": "LIN318",
+    "ordenId": "ORD234",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN319",
+    "ordenId": "ORD234",
+    "productoId": "PRD011",
+    "cantidad": 1,
+    "precioUnit": 28000,
+    "subtotal": 28000
+  },
+  {
+    "id": "LIN320",
+    "ordenId": "ORD235",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN321",
+    "ordenId": "ORD236",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN322",
+    "ordenId": "ORD237",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN323",
+    "ordenId": "ORD238",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN324",
+    "ordenId": "ORD239",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN325",
+    "ordenId": "ORD239",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN326",
+    "ordenId": "ORD240",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN327",
+    "ordenId": "ORD240",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN328",
+    "ordenId": "ORD241",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN329",
+    "ordenId": "ORD241",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN330",
+    "ordenId": "ORD242",
+    "productoId": "PRD030",
+    "cantidad": 1,
+    "precioUnit": 36000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN331",
+    "ordenId": "ORD243",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN332",
+    "ordenId": "ORD244",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN333",
+    "ordenId": "ORD245",
+    "productoId": "PRD028",
+    "cantidad": 1,
+    "precioUnit": 520000,
+    "subtotal": 520000
+  },
+  {
+    "id": "LIN334",
+    "ordenId": "ORD246",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN335",
+    "ordenId": "ORD247",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN336",
+    "ordenId": "ORD247",
+    "productoId": "PRD029",
+    "cantidad": 2,
+    "precioUnit": 31000,
+    "subtotal": 62000
+  },
+  {
+    "id": "LIN337",
+    "ordenId": "ORD248",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN338",
+    "ordenId": "ORD248",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN339",
+    "ordenId": "ORD249",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN340",
+    "ordenId": "ORD250",
+    "productoId": "PRD010",
+    "cantidad": 2,
+    "precioUnit": 32000,
+    "subtotal": 64000
+  },
+  {
+    "id": "LIN341",
+    "ordenId": "ORD251",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN342",
+    "ordenId": "ORD252",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN343",
+    "ordenId": "ORD253",
+    "productoId": "PRD018",
+    "cantidad": 2,
+    "precioUnit": 18000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN344",
+    "ordenId": "ORD254",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN345",
+    "ordenId": "ORD254",
+    "productoId": "PRD026",
+    "cantidad": 2,
+    "precioUnit": 24000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN346",
+    "ordenId": "ORD255",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN347",
+    "ordenId": "ORD255",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN348",
+    "ordenId": "ORD256",
+    "productoId": "PRD030",
+    "cantidad": 1,
+    "precioUnit": 36000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN349",
+    "ordenId": "ORD257",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN350",
+    "ordenId": "ORD257",
+    "productoId": "PRD007",
+    "cantidad": 1,
+    "precioUnit": 54000,
+    "subtotal": 54000
+  },
+  {
+    "id": "LIN351",
+    "ordenId": "ORD258",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN352",
+    "ordenId": "ORD259",
+    "productoId": "PRD002",
+    "cantidad": 1,
+    "precioUnit": 280000,
+    "subtotal": 280000
+  },
+  {
+    "id": "LIN353",
+    "ordenId": "ORD259",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN354",
+    "ordenId": "ORD260",
+    "productoId": "PRD030",
+    "cantidad": 2,
+    "precioUnit": 36000,
+    "subtotal": 72000
+  },
+  {
+    "id": "LIN355",
+    "ordenId": "ORD261",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN356",
+    "ordenId": "ORD262",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN357",
+    "ordenId": "ORD262",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN358",
+    "ordenId": "ORD263",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN359",
+    "ordenId": "ORD264",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN360",
+    "ordenId": "ORD265",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN361",
+    "ordenId": "ORD266",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN362",
+    "ordenId": "ORD267",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN363",
+    "ordenId": "ORD267",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN364",
+    "ordenId": "ORD268",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN365",
+    "ordenId": "ORD269",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN366",
+    "ordenId": "ORD269",
+    "productoId": "PRD018",
+    "cantidad": 2,
+    "precioUnit": 18000,
+    "subtotal": 36000
+  },
+  {
+    "id": "LIN367",
+    "ordenId": "ORD269",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN368",
+    "ordenId": "ORD270",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN369",
+    "ordenId": "ORD271",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN370",
+    "ordenId": "ORD271",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN371",
+    "ordenId": "ORD272",
+    "productoId": "PRD026",
+    "cantidad": 3,
+    "precioUnit": 24000,
+    "subtotal": 72000
+  },
+  {
+    "id": "LIN372",
+    "ordenId": "ORD273",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN373",
+    "ordenId": "ORD273",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN374",
+    "ordenId": "ORD274",
+    "productoId": "PRD005",
+    "cantidad": 1,
+    "precioUnit": 65000,
+    "subtotal": 65000
+  },
+  {
+    "id": "LIN375",
+    "ordenId": "ORD275",
+    "productoId": "PRD019",
+    "cantidad": 2,
+    "precioUnit": 52000,
+    "subtotal": 104000
+  },
+  {
+    "id": "LIN376",
+    "ordenId": "ORD276",
+    "productoId": "PRD027",
+    "cantidad": 2,
+    "precioUnit": 58000,
+    "subtotal": 116000
+  },
+  {
+    "id": "LIN377",
+    "ordenId": "ORD277",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN378",
+    "ordenId": "ORD278",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN379",
+    "ordenId": "ORD279",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN380",
+    "ordenId": "ORD280",
+    "productoId": "PRD021",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN381",
+    "ordenId": "ORD281",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN382",
+    "ordenId": "ORD282",
+    "productoId": "PRD024",
+    "cantidad": 1,
+    "precioUnit": 26000,
+    "subtotal": 26000
+  },
+  {
+    "id": "LIN383",
+    "ordenId": "ORD283",
+    "productoId": "PRD016",
+    "cantidad": 1,
+    "precioUnit": 48000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN384",
+    "ordenId": "ORD284",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN385",
+    "ordenId": "ORD285",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN386",
+    "ordenId": "ORD286",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN387",
+    "ordenId": "ORD287",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN388",
+    "ordenId": "ORD288",
+    "productoId": "PRD016",
+    "cantidad": 1,
+    "precioUnit": 48000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN389",
+    "ordenId": "ORD289",
+    "productoId": "PRD006",
+    "cantidad": 1,
+    "precioUnit": 120000,
+    "subtotal": 120000
+  },
+  {
+    "id": "LIN390",
+    "ordenId": "ORD290",
+    "productoId": "PRD025",
+    "cantidad": 1,
+    "precioUnit": 85000,
+    "subtotal": 85000
+  },
+  {
+    "id": "LIN391",
+    "ordenId": "ORD290",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN392",
+    "ordenId": "ORD291",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN393",
+    "ordenId": "ORD292",
+    "productoId": "PRD028",
+    "cantidad": 1,
+    "precioUnit": 520000,
+    "subtotal": 520000
+  },
+  {
+    "id": "LIN394",
+    "ordenId": "ORD293",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN395",
+    "ordenId": "ORD294",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN396",
+    "ordenId": "ORD295",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN397",
+    "ordenId": "ORD295",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN398",
+    "ordenId": "ORD296",
+    "productoId": "PRD016",
+    "cantidad": 2,
+    "precioUnit": 48000,
+    "subtotal": 96000
+  },
+  {
+    "id": "LIN399",
+    "ordenId": "ORD297",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
+  },
+  {
+    "id": "LIN400",
+    "ordenId": "ORD297",
+    "productoId": "PRD012",
+    "cantidad": 1,
+    "precioUnit": 185000,
+    "subtotal": 185000
+  },
+  {
+    "id": "LIN401",
+    "ordenId": "ORD298",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN402",
+    "ordenId": "ORD299",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN403",
+    "ordenId": "ORD300",
+    "productoId": "PRD009",
+    "cantidad": 1,
+    "precioUnit": 125000,
+    "subtotal": 125000
+  },
+  {
+    "id": "LIN404",
+    "ordenId": "ORD300",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN405",
+    "ordenId": "ORD300",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN406",
+    "ordenId": "ORD301",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN407",
+    "ordenId": "ORD302",
+    "productoId": "PRD004",
+    "cantidad": 1,
+    "precioUnit": 1350000,
+    "subtotal": 1350000
+  },
+  {
+    "id": "LIN408",
+    "ordenId": "ORD303",
+    "productoId": "PRD001",
+    "cantidad": 1,
+    "precioUnit": 450000,
+    "subtotal": 450000
+  },
+  {
+    "id": "LIN409",
+    "ordenId": "ORD304",
+    "productoId": "PRD008",
+    "cantidad": 1,
+    "precioUnit": 98000,
+    "subtotal": 98000
+  },
+  {
+    "id": "LIN410",
+    "ordenId": "ORD304",
+    "productoId": "PRD026",
+    "cantidad": 1,
+    "precioUnit": 24000,
+    "subtotal": 24000
+  },
+  {
+    "id": "LIN411",
+    "ordenId": "ORD304",
+    "productoId": "PRD027",
+    "cantidad": 1,
+    "precioUnit": 58000,
+    "subtotal": 58000
+  },
+  {
+    "id": "LIN412",
+    "ordenId": "ORD305",
+    "productoId": "PRD029",
+    "cantidad": 1,
+    "precioUnit": 31000,
+    "subtotal": 31000
+  },
+  {
+    "id": "LIN413",
+    "ordenId": "ORD306",
+    "productoId": "PRD003",
+    "cantidad": 1,
+    "precioUnit": 890000,
+    "subtotal": 890000
+  },
+  {
+    "id": "LIN414",
+    "ordenId": "ORD307",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN415",
+    "ordenId": "ORD308",
+    "productoId": "PRD029",
+    "cantidad": 1,
+    "precioUnit": 31000,
+    "subtotal": 31000
+  },
+  {
+    "id": "LIN416",
+    "ordenId": "ORD309",
+    "productoId": "PRD019",
+    "cantidad": 1,
+    "precioUnit": 52000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN417",
+    "ordenId": "ORD310",
+    "productoId": "PRD028",
+    "cantidad": 1,
+    "precioUnit": 520000,
+    "subtotal": 520000
+  },
+  {
+    "id": "LIN418",
+    "ordenId": "ORD311",
+    "productoId": "PRD011",
+    "cantidad": 2,
+    "precioUnit": 28000,
+    "subtotal": 56000
+  },
+  {
+    "id": "LIN419",
+    "ordenId": "ORD312",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN420",
+    "ordenId": "ORD312",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN421",
+    "ordenId": "ORD313",
+    "productoId": "PRD010",
+    "cantidad": 1,
+    "precioUnit": 32000,
+    "subtotal": 32000
+  },
+  {
+    "id": "LIN422",
+    "ordenId": "ORD314",
+    "productoId": "PRD024",
+    "cantidad": 2,
+    "precioUnit": 26000,
+    "subtotal": 52000
+  },
+  {
+    "id": "LIN423",
+    "ordenId": "ORD315",
+    "productoId": "PRD029",
+    "cantidad": 1,
+    "precioUnit": 31000,
+    "subtotal": 31000
+  },
+  {
+    "id": "LIN424",
+    "ordenId": "ORD316",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN425",
+    "ordenId": "ORD317",
+    "productoId": "PRD015",
+    "cantidad": 1,
+    "precioUnit": 760000,
+    "subtotal": 760000
+  },
+  {
+    "id": "LIN426",
+    "ordenId": "ORD317",
+    "productoId": "PRD018",
+    "cantidad": 1,
+    "precioUnit": 18000,
+    "subtotal": 18000
+  },
+  {
+    "id": "LIN427",
+    "ordenId": "ORD318",
+    "productoId": "PRD016",
+    "cantidad": 1,
+    "precioUnit": 48000,
+    "subtotal": 48000
+  },
+  {
+    "id": "LIN428",
+    "ordenId": "ORD319",
+    "productoId": "PRD020",
+    "cantidad": 1,
+    "precioUnit": 135000,
+    "subtotal": 135000
+  },
+  {
+    "id": "LIN429",
+    "ordenId": "ORD320",
+    "productoId": "PRD022",
+    "cantidad": 1,
+    "precioUnit": 89000,
+    "subtotal": 89000
+  },
+  {
+    "id": "LIN430",
+    "ordenId": "ORD321",
+    "productoId": "PRD013",
+    "cantidad": 1,
+    "precioUnit": 620000,
+    "subtotal": 620000
+  },
+  {
+    "id": "LIN431",
+    "ordenId": "ORD321",
+    "productoId": "PRD017",
+    "cantidad": 1,
+    "precioUnit": 22000,
+    "subtotal": 22000
+  },
+  {
+    "id": "LIN432",
+    "ordenId": "ORD322",
+    "productoId": "PRD023",
+    "cantidad": 1,
+    "precioUnit": 340000,
+    "subtotal": 340000
   }
 ]

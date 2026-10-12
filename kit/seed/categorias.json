@@ -46,5 +46,29 @@
     "nombre": "Libros",
     "padreId": null,
     "descripcion": "Libros técnicos y de interés general"
+  },
+  {
+    "id": "CAT09",
+    "nombre": "Audio y accesorios",
+    "padreId": "CAT01",
+    "descripcion": "Parlantes, cargadores, periféricos y accesorios"
+  },
+  {
+    "id": "CAT10",
+    "nombre": "Muebles de oficina",
+    "padreId": "CAT04",
+    "descripcion": "Escritorios, iluminación y mobiliario de trabajo"
+  },
+  {
+    "id": "CAT11",
+    "nombre": "Indumentaria deportiva",
+    "padreId": "CAT06",
+    "descripcion": "Ropa y accesorios para entrenar"
+  },
+  {
+    "id": "CAT12",
+    "nombre": "Programación y datos",
+    "padreId": "CAT08",
+    "descripcion": "Libros técnicos de programación, bases de datos y arquitectura"
   }
 ]

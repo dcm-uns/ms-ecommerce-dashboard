@@ -40,5 +40,19 @@
     "ciudad": "San Miguel de Tucumán",
     "provincia": "Tucumán",
     "tipo": "deposito"
+  },
+  {
+    "id": "SUC07",
+    "nombre": "Tienda Mar del Plata Centro",
+    "ciudad": "Mar del Plata",
+    "provincia": "Buenos Aires",
+    "tipo": "tienda"
+  },
+  {
+    "id": "SUC08",
+    "nombre": "Tienda Neuquén Centro",
+    "ciudad": "Neuquén",
+    "provincia": "Neuquén",
+    "tipo": "tienda"
   }
 ]

@@ -94,5 +94,2485 @@
     "monto": 179000,
     "estado": "aprobado",
     "fecha": "2026-10-10T15:38:00Z"
+  },
+  {
+    "id": "PAG013",
+    "ordenId": "ORD013",
+    "medio": "tarjeta_credito",
+    "monto": 120000,
+    "estado": "aprobado",
+    "fecha": "2026-04-01T12:23:00Z"
+  },
+  {
+    "id": "PAG014",
+    "ordenId": "ORD014",
+    "medio": "tarjeta_credito",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-04-03T19:41:00Z"
+  },
+  {
+    "id": "PAG015",
+    "ordenId": "ORD015",
+    "medio": "tarjeta_credito",
+    "monto": 978000,
+    "estado": "aprobado",
+    "fecha": "2026-04-06T23:04:00Z"
+  },
+  {
+    "id": "PAG016",
+    "ordenId": "ORD016",
+    "medio": "tarjeta_debito",
+    "monto": 98000,
+    "estado": "aprobado",
+    "fecha": "2026-04-07T22:56:00Z"
+  },
+  {
+    "id": "PAG017",
+    "ordenId": "ORD017",
+    "medio": "billetera_virtual",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-04-08T21:52:00Z"
+  },
+  {
+    "id": "PAG018",
+    "ordenId": "ORD018",
+    "medio": "tarjeta_credito",
+    "monto": 918000,
+    "estado": "aprobado",
+    "fecha": "2026-04-10T16:30:00Z"
+  },
+  {
+    "id": "PAG019",
+    "ordenId": "ORD019",
+    "medio": "tarjeta_debito",
+    "monto": 56000,
+    "estado": "aprobado",
+    "fecha": "2026-04-12T15:04:00Z"
+  },
+  {
+    "id": "PAG020",
+    "ordenId": "ORD020",
+    "medio": "tarjeta_debito",
+    "monto": 345000,
+    "estado": "aprobado",
+    "fecha": "2026-04-13T12:14:00Z"
+  },
+  {
+    "id": "PAG021",
+    "ordenId": "ORD021",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-04-13T17:21:00Z"
+  },
+  {
+    "id": "PAG022",
+    "ordenId": "ORD022",
+    "medio": "billetera_virtual",
+    "monto": 174000,
+    "estado": "aprobado",
+    "fecha": "2026-04-14T16:59:00Z"
+  },
+  {
+    "id": "PAG023",
+    "ordenId": "ORD023",
+    "medio": "tarjeta_debito",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-04-15T09:30:00Z"
+  },
+  {
+    "id": "PAG024",
+    "ordenId": "ORD024",
+    "medio": "tarjeta_credito",
+    "monto": 340000,
+    "estado": "aprobado",
+    "fecha": "2026-04-15T14:19:00Z"
+  },
+  {
+    "id": "PAG025",
+    "ordenId": "ORD025",
+    "medio": "tarjeta_credito",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-04-16T22:44:00Z"
+  },
+  {
+    "id": "PAG026",
+    "ordenId": "ORD026",
+    "medio": "tarjeta_credito",
+    "monto": 89000,
+    "estado": "reembolsado",
+    "fecha": "2026-04-17T09:54:00Z"
+  },
+  {
+    "id": "PAG027",
+    "ordenId": "ORD027",
+    "medio": "tarjeta_debito",
+    "monto": 104000,
+    "estado": "aprobado",
+    "fecha": "2026-04-20T10:02:00Z"
+  },
+  {
+    "id": "PAG028",
+    "ordenId": "ORD028",
+    "medio": "tarjeta_credito",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-04-21T15:32:00Z"
+  },
+  {
+    "id": "PAG029",
+    "ordenId": "ORD029",
+    "medio": "tarjeta_credito",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-04-21T21:05:00Z"
+  },
+  {
+    "id": "PAG030",
+    "ordenId": "ORD030",
+    "medio": "billetera_virtual",
+    "monto": 324000,
+    "estado": "aprobado",
+    "fecha": "2026-04-23T22:23:00Z"
+  },
+  {
+    "id": "PAG031",
+    "ordenId": "ORD031",
+    "medio": "tarjeta_debito",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-04-27T18:44:00Z"
+  },
+  {
+    "id": "PAG032",
+    "ordenId": "ORD032",
+    "medio": "tarjeta_credito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-04-28T20:57:00Z"
+  },
+  {
+    "id": "PAG033",
+    "ordenId": "ORD033",
+    "medio": "transferencia",
+    "monto": 515000,
+    "estado": "aprobado",
+    "fecha": "2026-04-28T21:47:00Z"
+  },
+  {
+    "id": "PAG034",
+    "ordenId": "ORD034",
+    "medio": "tarjeta_credito",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-04-30T21:51:00Z"
+  },
+  {
+    "id": "PAG035",
+    "ordenId": "ORD035",
+    "medio": "tarjeta_credito",
+    "monto": 460000,
+    "estado": "aprobado",
+    "fecha": "2026-05-01T12:57:00Z"
+  },
+  {
+    "id": "PAG036",
+    "ordenId": "ORD036",
+    "medio": "transferencia",
+    "monto": 54000,
+    "estado": "aprobado",
+    "fecha": "2026-05-02T13:26:00Z"
+  },
+  {
+    "id": "PAG037",
+    "ordenId": "ORD037",
+    "medio": "billetera_virtual",
+    "monto": 180000,
+    "estado": "aprobado",
+    "fecha": "2026-05-02T16:27:00Z"
+  },
+  {
+    "id": "PAG038",
+    "ordenId": "ORD038",
+    "medio": "billetera_virtual",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-05-03T16:24:00Z"
+  },
+  {
+    "id": "PAG039",
+    "ordenId": "ORD039",
+    "medio": "billetera_virtual",
+    "monto": 122000,
+    "estado": "aprobado",
+    "fecha": "2026-05-03T22:09:00Z"
+  },
+  {
+    "id": "PAG040",
+    "ordenId": "ORD040",
+    "medio": "transferencia",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-05-05T18:14:00Z"
+  },
+  {
+    "id": "PAG041",
+    "ordenId": "ORD041",
+    "medio": "billetera_virtual",
+    "monto": 515000,
+    "estado": "aprobado",
+    "fecha": "2026-05-07T09:56:00Z"
+  },
+  {
+    "id": "PAG042",
+    "ordenId": "ORD042",
+    "medio": "transferencia",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-05-10T12:34:00Z"
+  },
+  {
+    "id": "PAG043",
+    "ordenId": "ORD043",
+    "medio": "transferencia",
+    "monto": 98000,
+    "estado": "aprobado",
+    "fecha": "2026-05-12T08:07:00Z"
+  },
+  {
+    "id": "PAG044",
+    "ordenId": "ORD044",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-05-12T09:47:00Z"
+  },
+  {
+    "id": "PAG045",
+    "ordenId": "ORD045",
+    "medio": "tarjeta_credito",
+    "monto": 174000,
+    "estado": "aprobado",
+    "fecha": "2026-05-12T21:40:00Z"
+  },
+  {
+    "id": "PAG046",
+    "ordenId": "ORD046",
+    "medio": "billetera_virtual",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-05-13T19:52:00Z"
+  },
+  {
+    "id": "PAG047",
+    "ordenId": "ORD047",
+    "medio": "transferencia",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-05-13T20:11:00Z"
+  },
+  {
+    "id": "PAG048",
+    "ordenId": "ORD048",
+    "medio": "tarjeta_credito",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-05-14T10:52:00Z"
+  },
+  {
+    "id": "PAG049",
+    "ordenId": "ORD049",
+    "medio": "billetera_virtual",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-05-16T08:56:00Z"
+  },
+  {
+    "id": "PAG050",
+    "ordenId": "ORD050",
+    "medio": "transferencia",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-05-16T09:39:00Z"
+  },
+  {
+    "id": "PAG051",
+    "ordenId": "ORD051",
+    "medio": "billetera_virtual",
+    "monto": 345000,
+    "estado": "aprobado",
+    "fecha": "2026-05-17T12:55:00Z"
+  },
+  {
+    "id": "PAG052",
+    "ordenId": "ORD052",
+    "medio": "transferencia",
+    "monto": 1350000,
+    "estado": "aprobado",
+    "fecha": "2026-05-18T15:51:00Z"
+  },
+  {
+    "id": "PAG053",
+    "ordenId": "ORD053",
+    "medio": "billetera_virtual",
+    "monto": 345000,
+    "estado": "aprobado",
+    "fecha": "2026-05-18T20:36:00Z"
+  },
+  {
+    "id": "PAG054",
+    "ordenId": "ORD054",
+    "medio": "tarjeta_debito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-05-20T17:35:00Z"
+  },
+  {
+    "id": "PAG055",
+    "ordenId": "ORD055",
+    "medio": "tarjeta_debito",
+    "monto": 31000,
+    "estado": "aprobado",
+    "fecha": "2026-05-21T14:07:00Z"
+  },
+  {
+    "id": "PAG056",
+    "ordenId": "ORD056",
+    "medio": "tarjeta_credito",
+    "monto": 908000,
+    "estado": "aprobado",
+    "fecha": "2026-05-22T18:39:00Z"
+  },
+  {
+    "id": "PAG057",
+    "ordenId": "ORD057",
+    "medio": "tarjeta_debito",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-05-22T21:26:00Z"
+  },
+  {
+    "id": "PAG058",
+    "ordenId": "ORD058",
+    "medio": "billetera_virtual",
+    "monto": 54000,
+    "estado": "aprobado",
+    "fecha": "2026-05-27T08:12:00Z"
+  },
+  {
+    "id": "PAG059",
+    "ordenId": "ORD059",
+    "medio": "billetera_virtual",
+    "monto": 156000,
+    "estado": "reembolsado",
+    "fecha": "2026-05-28T13:22:00Z"
+  },
+  {
+    "id": "PAG060",
+    "ordenId": "ORD060",
+    "medio": "billetera_virtual",
+    "monto": 120000,
+    "estado": "aprobado",
+    "fecha": "2026-05-28T16:39:00Z"
+  },
+  {
+    "id": "PAG061",
+    "ordenId": "ORD061",
+    "medio": "tarjeta_debito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-05-29T12:27:00Z"
+  },
+  {
+    "id": "PAG062",
+    "ordenId": "ORD062",
+    "medio": "transferencia",
+    "monto": 174000,
+    "estado": "aprobado",
+    "fecha": "2026-05-31T08:09:00Z"
+  },
+  {
+    "id": "PAG063",
+    "ordenId": "ORD063",
+    "medio": "tarjeta_credito",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-05-31T15:59:00Z"
+  },
+  {
+    "id": "PAG064",
+    "ordenId": "ORD064",
+    "medio": "tarjeta_debito",
+    "monto": 44000,
+    "estado": "aprobado",
+    "fecha": "2026-05-31T19:08:00Z"
+  },
+  {
+    "id": "PAG065",
+    "ordenId": "ORD065",
+    "medio": "billetera_virtual",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-06-01T11:24:00Z"
+  },
+  {
+    "id": "PAG066",
+    "ordenId": "ORD066",
+    "medio": "transferencia",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-06-01T11:37:00Z"
+  },
+  {
+    "id": "PAG067",
+    "ordenId": "ORD067",
+    "medio": "tarjeta_credito",
+    "monto": 926000,
+    "estado": "aprobado",
+    "fecha": "2026-06-01T13:24:00Z"
+  },
+  {
+    "id": "PAG068",
+    "ordenId": "ORD068",
+    "medio": "tarjeta_credito",
+    "monto": 104000,
+    "estado": "aprobado",
+    "fecha": "2026-06-01T14:53:00Z"
+  },
+  {
+    "id": "PAG069",
+    "ordenId": "ORD069",
+    "medio": "tarjeta_credito",
+    "monto": 125000,
+    "estado": "aprobado",
+    "fecha": "2026-06-01T16:51:00Z"
+  },
+  {
+    "id": "PAG070",
+    "ordenId": "ORD070",
+    "medio": "tarjeta_credito",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-06-01T22:50:00Z"
+  },
+  {
+    "id": "PAG071",
+    "ordenId": "ORD071",
+    "medio": "transferencia",
+    "monto": 515000,
+    "estado": "aprobado",
+    "fecha": "2026-06-02T15:59:00Z"
+  },
+  {
+    "id": "PAG072",
+    "ordenId": "ORD072",
+    "medio": "tarjeta_credito",
+    "monto": 525000,
+    "estado": "aprobado",
+    "fecha": "2026-06-03T23:01:00Z"
+  },
+  {
+    "id": "PAG073",
+    "ordenId": "ORD073",
+    "medio": "tarjeta_debito",
+    "monto": 515000,
+    "estado": "aprobado",
+    "fecha": "2026-06-04T11:07:00Z"
+  },
+  {
+    "id": "PAG074",
+    "ordenId": "ORD074",
+    "medio": "tarjeta_debito",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-06-04T14:31:00Z"
+  },
+  {
+    "id": "PAG075",
+    "ordenId": "ORD075",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-06-04T22:46:00Z"
+  },
+  {
+    "id": "PAG076",
+    "ordenId": "ORD076",
+    "medio": "tarjeta_credito",
+    "monto": 54000,
+    "estado": "aprobado",
+    "fecha": "2026-06-05T10:27:00Z"
+  },
+  {
+    "id": "PAG077",
+    "ordenId": "ORD077",
+    "medio": "transferencia",
+    "monto": 58000,
+    "estado": "aprobado",
+    "fecha": "2026-06-07T17:00:00Z"
+  },
+  {
+    "id": "PAG078",
+    "ordenId": "ORD078",
+    "medio": "tarjeta_credito",
+    "monto": 48000,
+    "estado": "rechazado",
+    "fecha": "2026-06-07T17:21:00Z"
+  },
+  {
+    "id": "PAG079",
+    "ordenId": "ORD079",
+    "medio": "tarjeta_debito",
+    "monto": 54000,
+    "estado": "aprobado",
+    "fecha": "2026-06-08T15:25:00Z"
+  },
+  {
+    "id": "PAG080",
+    "ordenId": "ORD080",
+    "medio": "transferencia",
+    "monto": 36000,
+    "estado": "aprobado",
+    "fecha": "2026-06-08T21:19:00Z"
+  },
+  {
+    "id": "PAG081",
+    "ordenId": "ORD081",
+    "medio": "tarjeta_credito",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-06-09T19:24:00Z"
+  },
+  {
+    "id": "PAG082",
+    "ordenId": "ORD082",
+    "medio": "tarjeta_credito",
+    "monto": 22000,
+    "estado": "aprobado",
+    "fecha": "2026-06-10T19:59:00Z"
+  },
+  {
+    "id": "PAG083",
+    "ordenId": "ORD083",
+    "medio": "transferencia",
+    "monto": 22000,
+    "estado": "aprobado",
+    "fecha": "2026-06-11T17:52:00Z"
+  },
+  {
+    "id": "PAG084",
+    "ordenId": "ORD084",
+    "medio": "billetera_virtual",
+    "monto": 125000,
+    "estado": "aprobado",
+    "fecha": "2026-06-12T13:34:00Z"
+  },
+  {
+    "id": "PAG085",
+    "ordenId": "ORD085",
+    "medio": "billetera_virtual",
+    "monto": 44000,
+    "estado": "aprobado",
+    "fecha": "2026-06-12T13:55:00Z"
+  },
+  {
+    "id": "PAG086",
+    "ordenId": "ORD086",
+    "medio": "tarjeta_credito",
+    "monto": 410000,
+    "estado": "aprobado",
+    "fecha": "2026-06-13T17:02:00Z"
+  },
+  {
+    "id": "PAG087",
+    "ordenId": "ORD087",
+    "medio": "transferencia",
+    "monto": 54000,
+    "estado": "aprobado",
+    "fecha": "2026-06-14T15:00:00Z"
+  },
+  {
+    "id": "PAG088",
+    "ordenId": "ORD088",
+    "medio": "billetera_virtual",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-06-15T18:41:00Z"
+  },
+  {
+    "id": "PAG089",
+    "ordenId": "ORD089",
+    "medio": "tarjeta_credito",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-06-15T23:56:00Z"
+  },
+  {
+    "id": "PAG090",
+    "ordenId": "ORD090",
+    "medio": "transferencia",
+    "monto": 80000,
+    "estado": "aprobado",
+    "fecha": "2026-06-16T16:35:00Z"
+  },
+  {
+    "id": "PAG091",
+    "ordenId": "ORD091",
+    "medio": "billetera_virtual",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-06-17T12:16:00Z"
+  },
+  {
+    "id": "PAG092",
+    "ordenId": "ORD092",
+    "medio": "tarjeta_debito",
+    "monto": 908000,
+    "estado": "aprobado",
+    "fecha": "2026-06-17T20:56:00Z"
+  },
+  {
+    "id": "PAG093",
+    "ordenId": "ORD093",
+    "medio": "transferencia",
+    "monto": 122000,
+    "estado": "aprobado",
+    "fecha": "2026-06-17T23:19:00Z"
+  },
+  {
+    "id": "PAG094",
+    "ordenId": "ORD094",
+    "medio": "tarjeta_credito",
+    "monto": 664000,
+    "estado": "aprobado",
+    "fecha": "2026-06-18T14:07:00Z"
+  },
+  {
+    "id": "PAG095",
+    "ordenId": "ORD095",
+    "medio": "billetera_virtual",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-06-19T09:21:00Z"
+  },
+  {
+    "id": "PAG096",
+    "ordenId": "ORD096",
+    "medio": "tarjeta_credito",
+    "monto": 48000,
+    "estado": "aprobado",
+    "fecha": "2026-06-19T12:28:00Z"
+  },
+  {
+    "id": "PAG097",
+    "ordenId": "ORD097",
+    "medio": "billetera_virtual",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-06-20T12:42:00Z"
+  },
+  {
+    "id": "PAG098",
+    "ordenId": "ORD098",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-06-20T20:19:00Z"
+  },
+  {
+    "id": "PAG099",
+    "ordenId": "ORD099",
+    "medio": "transferencia",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-06-24T15:36:00Z"
+  },
+  {
+    "id": "PAG100",
+    "ordenId": "ORD100",
+    "medio": "tarjeta_credito",
+    "monto": 472000,
+    "estado": "aprobado",
+    "fecha": "2026-06-25T17:27:00Z"
+  },
+  {
+    "id": "PAG101",
+    "ordenId": "ORD101",
+    "medio": "billetera_virtual",
+    "monto": 85000,
+    "estado": "aprobado",
+    "fecha": "2026-06-26T11:44:00Z"
+  },
+  {
+    "id": "PAG102",
+    "ordenId": "ORD102",
+    "medio": "tarjeta_debito",
+    "monto": 149000,
+    "estado": "aprobado",
+    "fecha": "2026-06-26T23:41:00Z"
+  },
+  {
+    "id": "PAG103",
+    "ordenId": "ORD103",
+    "medio": "tarjeta_debito",
+    "monto": 1420000,
+    "estado": "aprobado",
+    "fecha": "2026-06-27T17:57:00Z"
+  },
+  {
+    "id": "PAG104",
+    "ordenId": "ORD104",
+    "medio": "billetera_virtual",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-06-27T23:48:00Z"
+  },
+  {
+    "id": "PAG105",
+    "ordenId": "ORD105",
+    "medio": "tarjeta_credito",
+    "monto": 36000,
+    "estado": "aprobado",
+    "fecha": "2026-06-28T09:08:00Z"
+  },
+  {
+    "id": "PAG106",
+    "ordenId": "ORD106",
+    "medio": "tarjeta_debito",
+    "monto": 228000,
+    "estado": "aprobado",
+    "fecha": "2026-06-28T23:46:00Z"
+  },
+  {
+    "id": "PAG107",
+    "ordenId": "ORD107",
+    "medio": "transferencia",
+    "monto": 22000,
+    "estado": "aprobado",
+    "fecha": "2026-07-01T09:20:00Z"
+  },
+  {
+    "id": "PAG108",
+    "ordenId": "ORD108",
+    "medio": "billetera_virtual",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-07-01T16:56:00Z"
+  },
+  {
+    "id": "PAG109",
+    "ordenId": "ORD109",
+    "medio": "tarjeta_debito",
+    "monto": 946000,
+    "estado": "aprobado",
+    "fecha": "2026-07-01T21:10:00Z"
+  },
+  {
+    "id": "PAG110",
+    "ordenId": "ORD110",
+    "medio": "billetera_virtual",
+    "monto": 120000,
+    "estado": "aprobado",
+    "fecha": "2026-07-01T21:57:00Z"
+  },
+  {
+    "id": "PAG111",
+    "ordenId": "ORD111",
+    "medio": "transferencia",
+    "monto": 56000,
+    "estado": "aprobado",
+    "fecha": "2026-07-02T09:14:00Z"
+  },
+  {
+    "id": "PAG112",
+    "ordenId": "ORD112",
+    "medio": "tarjeta_credito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-07-02T21:42:00Z"
+  },
+  {
+    "id": "PAG113",
+    "ordenId": "ORD113",
+    "medio": "tarjeta_debito",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-07-02T21:47:00Z"
+  },
+  {
+    "id": "PAG114",
+    "ordenId": "ORD114",
+    "medio": "tarjeta_credito",
+    "monto": 130000,
+    "estado": "rechazado",
+    "fecha": "2026-07-03T09:36:00Z"
+  },
+  {
+    "id": "PAG115",
+    "ordenId": "ORD115",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-07-03T10:46:00Z"
+  },
+  {
+    "id": "PAG116",
+    "ordenId": "ORD116",
+    "medio": "tarjeta_credito",
+    "monto": 345000,
+    "estado": "aprobado",
+    "fecha": "2026-07-04T12:23:00Z"
+  },
+  {
+    "id": "PAG117",
+    "ordenId": "ORD117",
+    "medio": "tarjeta_credito",
+    "monto": 125000,
+    "estado": "aprobado",
+    "fecha": "2026-07-04T22:11:00Z"
+  },
+  {
+    "id": "PAG118",
+    "ordenId": "ORD118",
+    "medio": "tarjeta_debito",
+    "monto": 48000,
+    "estado": "reembolsado",
+    "fecha": "2026-07-05T16:37:00Z"
+  },
+  {
+    "id": "PAG119",
+    "ordenId": "ORD119",
+    "medio": "tarjeta_debito",
+    "monto": 978000,
+    "estado": "rechazado",
+    "fecha": "2026-07-05T21:07:00Z"
+  },
+  {
+    "id": "PAG120",
+    "ordenId": "ORD120",
+    "medio": "tarjeta_debito",
+    "monto": 167000,
+    "estado": "aprobado",
+    "fecha": "2026-07-06T11:14:00Z"
+  },
+  {
+    "id": "PAG121",
+    "ordenId": "ORD121",
+    "medio": "tarjeta_credito",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-07-06T18:38:00Z"
+  },
+  {
+    "id": "PAG122",
+    "ordenId": "ORD122",
+    "medio": "tarjeta_credito",
+    "monto": 255000,
+    "estado": "aprobado",
+    "fecha": "2026-07-06T21:10:00Z"
+  },
+  {
+    "id": "PAG123",
+    "ordenId": "ORD123",
+    "medio": "tarjeta_debito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-07-06T21:31:00Z"
+  },
+  {
+    "id": "PAG124",
+    "ordenId": "ORD124",
+    "medio": "billetera_virtual",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-07-09T15:21:00Z"
+  },
+  {
+    "id": "PAG125",
+    "ordenId": "ORD125",
+    "medio": "tarjeta_credito",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-07-09T17:29:00Z"
+  },
+  {
+    "id": "PAG126",
+    "ordenId": "ORD126",
+    "medio": "billetera_virtual",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-07-10T20:10:00Z"
+  },
+  {
+    "id": "PAG127",
+    "ordenId": "ORD127",
+    "medio": "tarjeta_credito",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-07-11T17:03:00Z"
+  },
+  {
+    "id": "PAG128",
+    "ordenId": "ORD128",
+    "medio": "billetera_virtual",
+    "monto": 822000,
+    "estado": "aprobado",
+    "fecha": "2026-07-11T19:12:00Z"
+  },
+  {
+    "id": "PAG129",
+    "ordenId": "ORD129",
+    "medio": "billetera_virtual",
+    "monto": 56000,
+    "estado": "aprobado",
+    "fecha": "2026-07-12T19:07:00Z"
+  },
+  {
+    "id": "PAG130",
+    "ordenId": "ORD130",
+    "medio": "transferencia",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-07-14T09:24:00Z"
+  },
+  {
+    "id": "PAG131",
+    "ordenId": "ORD131",
+    "medio": "billetera_virtual",
+    "monto": 122000,
+    "estado": "aprobado",
+    "fecha": "2026-07-14T20:12:00Z"
+  },
+  {
+    "id": "PAG132",
+    "ordenId": "ORD132",
+    "medio": "tarjeta_debito",
+    "monto": 135000,
+    "estado": "reembolsado",
+    "fecha": "2026-07-15T12:21:00Z"
+  },
+  {
+    "id": "PAG133",
+    "ordenId": "ORD133",
+    "medio": "tarjeta_debito",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-07-15T14:41:00Z"
+  },
+  {
+    "id": "PAG134",
+    "ordenId": "ORD134",
+    "medio": "tarjeta_credito",
+    "monto": 96000,
+    "estado": "rechazado",
+    "fecha": "2026-07-16T22:29:00Z"
+  },
+  {
+    "id": "PAG135",
+    "ordenId": "ORD135",
+    "medio": "tarjeta_credito",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-07-16T22:42:00Z"
+  },
+  {
+    "id": "PAG136",
+    "ordenId": "ORD136",
+    "medio": "tarjeta_credito",
+    "monto": 796000,
+    "estado": "reembolsado",
+    "fecha": "2026-07-17T13:41:00Z"
+  },
+  {
+    "id": "PAG137",
+    "ordenId": "ORD137",
+    "medio": "transferencia",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-07-17T13:54:00Z"
+  },
+  {
+    "id": "PAG138",
+    "ordenId": "ORD138",
+    "medio": "tarjeta_credito",
+    "monto": 174000,
+    "estado": "aprobado",
+    "fecha": "2026-07-17T19:59:00Z"
+  },
+  {
+    "id": "PAG139",
+    "ordenId": "ORD139",
+    "medio": "billetera_virtual",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-07-18T22:08:00Z"
+  },
+  {
+    "id": "PAG140",
+    "ordenId": "ORD140",
+    "medio": "tarjeta_debito",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-07-18T22:30:00Z"
+  },
+  {
+    "id": "PAG141",
+    "ordenId": "ORD141",
+    "medio": "tarjeta_credito",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-07-18T22:58:00Z"
+  },
+  {
+    "id": "PAG142",
+    "ordenId": "ORD142",
+    "medio": "tarjeta_credito",
+    "monto": 125000,
+    "estado": "aprobado",
+    "fecha": "2026-07-19T09:05:00Z"
+  },
+  {
+    "id": "PAG143",
+    "ordenId": "ORD143",
+    "medio": "tarjeta_credito",
+    "monto": 921000,
+    "estado": "rechazado",
+    "fecha": "2026-07-21T09:40:00Z"
+  },
+  {
+    "id": "PAG144",
+    "ordenId": "ORD144",
+    "medio": "tarjeta_credito",
+    "monto": 1350000,
+    "estado": "aprobado",
+    "fecha": "2026-07-22T11:35:00Z"
+  },
+  {
+    "id": "PAG145",
+    "ordenId": "ORD145",
+    "medio": "tarjeta_debito",
+    "monto": 551000,
+    "estado": "aprobado",
+    "fecha": "2026-07-22T17:58:00Z"
+  },
+  {
+    "id": "PAG146",
+    "ordenId": "ORD146",
+    "medio": "transferencia",
+    "monto": 620000,
+    "estado": "aprobado",
+    "fecha": "2026-07-23T16:37:00Z"
+  },
+  {
+    "id": "PAG147",
+    "ordenId": "ORD147",
+    "medio": "tarjeta_credito",
+    "monto": 1350000,
+    "estado": "aprobado",
+    "fecha": "2026-07-23T20:52:00Z"
+  },
+  {
+    "id": "PAG148",
+    "ordenId": "ORD148",
+    "medio": "billetera_virtual",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-07-23T23:52:00Z"
+  },
+  {
+    "id": "PAG149",
+    "ordenId": "ORD149",
+    "medio": "tarjeta_debito",
+    "monto": 36000,
+    "estado": "reembolsado",
+    "fecha": "2026-07-25T08:56:00Z"
+  },
+  {
+    "id": "PAG150",
+    "ordenId": "ORD150",
+    "medio": "transferencia",
+    "monto": 125000,
+    "estado": "aprobado",
+    "fecha": "2026-07-26T18:45:00Z"
+  },
+  {
+    "id": "PAG151",
+    "ordenId": "ORD151",
+    "medio": "tarjeta_credito",
+    "monto": 942000,
+    "estado": "aprobado",
+    "fecha": "2026-07-27T15:58:00Z"
+  },
+  {
+    "id": "PAG152",
+    "ordenId": "ORD152",
+    "medio": "tarjeta_credito",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-07-27T19:03:00Z"
+  },
+  {
+    "id": "PAG153",
+    "ordenId": "ORD153",
+    "medio": "tarjeta_credito",
+    "monto": 98000,
+    "estado": "aprobado",
+    "fecha": "2026-07-29T11:09:00Z"
+  },
+  {
+    "id": "PAG154",
+    "ordenId": "ORD154",
+    "medio": "tarjeta_credito",
+    "monto": 98000,
+    "estado": "aprobado",
+    "fecha": "2026-07-29T11:16:00Z"
+  },
+  {
+    "id": "PAG155",
+    "ordenId": "ORD155",
+    "medio": "transferencia",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-07-30T10:08:00Z"
+  },
+  {
+    "id": "PAG156",
+    "ordenId": "ORD156",
+    "medio": "tarjeta_credito",
+    "monto": 620000,
+    "estado": "aprobado",
+    "fecha": "2026-07-30T17:24:00Z"
+  },
+  {
+    "id": "PAG157",
+    "ordenId": "ORD157",
+    "medio": "billetera_virtual",
+    "monto": 28000,
+    "estado": "aprobado",
+    "fecha": "2026-07-30T20:56:00Z"
+  },
+  {
+    "id": "PAG158",
+    "ordenId": "ORD158",
+    "medio": "billetera_virtual",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-07-31T15:42:00Z"
+  },
+  {
+    "id": "PAG159",
+    "ordenId": "ORD159",
+    "medio": "tarjeta_debito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-08-02T17:00:00Z"
+  },
+  {
+    "id": "PAG160",
+    "ordenId": "ORD160",
+    "medio": "tarjeta_credito",
+    "monto": 56000,
+    "estado": "aprobado",
+    "fecha": "2026-08-02T17:46:00Z"
+  },
+  {
+    "id": "PAG161",
+    "ordenId": "ORD161",
+    "medio": "tarjeta_debito",
+    "monto": 1350000,
+    "estado": "aprobado",
+    "fecha": "2026-08-03T14:37:00Z"
+  },
+  {
+    "id": "PAG162",
+    "ordenId": "ORD162",
+    "medio": "billetera_virtual",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-08-03T21:32:00Z"
+  },
+  {
+    "id": "PAG163",
+    "ordenId": "ORD163",
+    "medio": "tarjeta_debito",
+    "monto": 28000,
+    "estado": "aprobado",
+    "fecha": "2026-08-04T11:36:00Z"
+  },
+  {
+    "id": "PAG164",
+    "ordenId": "ORD164",
+    "medio": "tarjeta_credito",
+    "monto": 830000,
+    "estado": "aprobado",
+    "fecha": "2026-08-04T17:40:00Z"
+  },
+  {
+    "id": "PAG165",
+    "ordenId": "ORD165",
+    "medio": "transferencia",
+    "monto": 180000,
+    "estado": "aprobado",
+    "fecha": "2026-08-04T22:01:00Z"
+  },
+  {
+    "id": "PAG166",
+    "ordenId": "ORD166",
+    "medio": "transferencia",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-08-04T22:41:00Z"
+  },
+  {
+    "id": "PAG167",
+    "ordenId": "ORD167",
+    "medio": "tarjeta_credito",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-08-05T12:56:00Z"
+  },
+  {
+    "id": "PAG168",
+    "ordenId": "ORD168",
+    "medio": "billetera_virtual",
+    "monto": 908000,
+    "estado": "aprobado",
+    "fecha": "2026-08-05T21:38:00Z"
+  },
+  {
+    "id": "PAG169",
+    "ordenId": "ORD169",
+    "medio": "tarjeta_credito",
+    "monto": 620000,
+    "estado": "aprobado",
+    "fecha": "2026-08-06T10:57:00Z"
+  },
+  {
+    "id": "PAG170",
+    "ordenId": "ORD170",
+    "medio": "tarjeta_credito",
+    "monto": 525000,
+    "estado": "aprobado",
+    "fecha": "2026-08-06T15:10:00Z"
+  },
+  {
+    "id": "PAG171",
+    "ordenId": "ORD171",
+    "medio": "tarjeta_debito",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-08-06T16:27:00Z"
+  },
+  {
+    "id": "PAG172",
+    "ordenId": "ORD172",
+    "medio": "transferencia",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-08-08T13:34:00Z"
+  },
+  {
+    "id": "PAG173",
+    "ordenId": "ORD173",
+    "medio": "tarjeta_credito",
+    "monto": 788000,
+    "estado": "aprobado",
+    "fecha": "2026-08-08T21:53:00Z"
+  },
+  {
+    "id": "PAG174",
+    "ordenId": "ORD174",
+    "medio": "transferencia",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-08-08T23:05:00Z"
+  },
+  {
+    "id": "PAG175",
+    "ordenId": "ORD175",
+    "medio": "billetera_virtual",
+    "monto": 152000,
+    "estado": "aprobado",
+    "fecha": "2026-08-09T10:40:00Z"
+  },
+  {
+    "id": "PAG176",
+    "ordenId": "ORD176",
+    "medio": "billetera_virtual",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-08-09T20:52:00Z"
+  },
+  {
+    "id": "PAG177",
+    "ordenId": "ORD177",
+    "medio": "transferencia",
+    "monto": 345000,
+    "estado": "aprobado",
+    "fecha": "2026-08-09T23:52:00Z"
+  },
+  {
+    "id": "PAG178",
+    "ordenId": "ORD178",
+    "medio": "tarjeta_credito",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-08-10T18:17:00Z"
+  },
+  {
+    "id": "PAG179",
+    "ordenId": "ORD179",
+    "medio": "tarjeta_credito",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-08-11T15:19:00Z"
+  },
+  {
+    "id": "PAG180",
+    "ordenId": "ORD180",
+    "medio": "tarjeta_credito",
+    "monto": 125000,
+    "estado": "aprobado",
+    "fecha": "2026-08-11T16:34:00Z"
+  },
+  {
+    "id": "PAG181",
+    "ordenId": "ORD181",
+    "medio": "tarjeta_credito",
+    "monto": 796000,
+    "estado": "aprobado",
+    "fecha": "2026-08-12T09:28:00Z"
+  },
+  {
+    "id": "PAG182",
+    "ordenId": "ORD182",
+    "medio": "billetera_virtual",
+    "monto": 620000,
+    "estado": "aprobado",
+    "fecha": "2026-08-12T21:49:00Z"
+  },
+  {
+    "id": "PAG183",
+    "ordenId": "ORD183",
+    "medio": "billetera_virtual",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-08-15T17:03:00Z"
+  },
+  {
+    "id": "PAG184",
+    "ordenId": "ORD184",
+    "medio": "billetera_virtual",
+    "monto": 58000,
+    "estado": "aprobado",
+    "fecha": "2026-08-16T21:44:00Z"
+  },
+  {
+    "id": "PAG185",
+    "ordenId": "ORD185",
+    "medio": "tarjeta_credito",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-08-17T11:56:00Z"
+  },
+  {
+    "id": "PAG186",
+    "ordenId": "ORD186",
+    "medio": "tarjeta_credito",
+    "monto": 56000,
+    "estado": "aprobado",
+    "fecha": "2026-08-17T12:41:00Z"
+  },
+  {
+    "id": "PAG187",
+    "ordenId": "ORD187",
+    "medio": "billetera_virtual",
+    "monto": 143000,
+    "estado": "aprobado",
+    "fecha": "2026-08-17T13:39:00Z"
+  },
+  {
+    "id": "PAG188",
+    "ordenId": "ORD188",
+    "medio": "tarjeta_credito",
+    "monto": 64000,
+    "estado": "aprobado",
+    "fecha": "2026-08-17T17:28:00Z"
+  },
+  {
+    "id": "PAG189",
+    "ordenId": "ORD189",
+    "medio": "tarjeta_credito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-08-18T08:08:00Z"
+  },
+  {
+    "id": "PAG190",
+    "ordenId": "ORD190",
+    "medio": "billetera_virtual",
+    "monto": 48000,
+    "estado": "aprobado",
+    "fecha": "2026-08-18T10:21:00Z"
+  },
+  {
+    "id": "PAG191",
+    "ordenId": "ORD191",
+    "medio": "transferencia",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-08-19T08:47:00Z"
+  },
+  {
+    "id": "PAG192",
+    "ordenId": "ORD192",
+    "medio": "transferencia",
+    "monto": 366000,
+    "estado": "aprobado",
+    "fecha": "2026-08-19T13:38:00Z"
+  },
+  {
+    "id": "PAG193",
+    "ordenId": "ORD193",
+    "medio": "transferencia",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-08-19T23:30:00Z"
+  },
+  {
+    "id": "PAG194",
+    "ordenId": "ORD194",
+    "medio": "tarjeta_credito",
+    "monto": 960000,
+    "estado": "aprobado",
+    "fecha": "2026-08-20T22:27:00Z"
+  },
+  {
+    "id": "PAG195",
+    "ordenId": "ORD195",
+    "medio": "billetera_virtual",
+    "monto": 72000,
+    "estado": "aprobado",
+    "fecha": "2026-08-21T10:26:00Z"
+  },
+  {
+    "id": "PAG196",
+    "ordenId": "ORD196",
+    "medio": "tarjeta_debito",
+    "monto": 330000,
+    "estado": "rechazado",
+    "fecha": "2026-08-21T19:32:00Z"
+  },
+  {
+    "id": "PAG197",
+    "ordenId": "ORD197",
+    "medio": "transferencia",
+    "monto": 942000,
+    "estado": "aprobado",
+    "fecha": "2026-08-22T10:38:00Z"
+  },
+  {
+    "id": "PAG198",
+    "ordenId": "ORD198",
+    "medio": "tarjeta_credito",
+    "monto": 22000,
+    "estado": "aprobado",
+    "fecha": "2026-08-22T11:53:00Z"
+  },
+  {
+    "id": "PAG199",
+    "ordenId": "ORD199",
+    "medio": "tarjeta_credito",
+    "monto": 395000,
+    "estado": "aprobado",
+    "fecha": "2026-08-22T14:29:00Z"
+  },
+  {
+    "id": "PAG200",
+    "ordenId": "ORD200",
+    "medio": "billetera_virtual",
+    "monto": 130000,
+    "estado": "aprobado",
+    "fecha": "2026-08-23T15:37:00Z"
+  },
+  {
+    "id": "PAG201",
+    "ordenId": "ORD201",
+    "medio": "billetera_virtual",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-08-23T16:25:00Z"
+  },
+  {
+    "id": "PAG202",
+    "ordenId": "ORD202",
+    "medio": "billetera_virtual",
+    "monto": 844000,
+    "estado": "aprobado",
+    "fecha": "2026-08-24T09:19:00Z"
+  },
+  {
+    "id": "PAG203",
+    "ordenId": "ORD203",
+    "medio": "tarjeta_debito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-08-24T13:37:00Z"
+  },
+  {
+    "id": "PAG204",
+    "ordenId": "ORD204",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-08-24T15:48:00Z"
+  },
+  {
+    "id": "PAG205",
+    "ordenId": "ORD205",
+    "medio": "transferencia",
+    "monto": 152000,
+    "estado": "aprobado",
+    "fecha": "2026-08-24T16:51:00Z"
+  },
+  {
+    "id": "PAG206",
+    "ordenId": "ORD206",
+    "medio": "tarjeta_credito",
+    "monto": 156000,
+    "estado": "aprobado",
+    "fecha": "2026-08-24T19:27:00Z"
+  },
+  {
+    "id": "PAG207",
+    "ordenId": "ORD207",
+    "medio": "transferencia",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-08-26T14:43:00Z"
+  },
+  {
+    "id": "PAG208",
+    "ordenId": "ORD208",
+    "medio": "billetera_virtual",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-08-26T18:38:00Z"
+  },
+  {
+    "id": "PAG209",
+    "ordenId": "ORD209",
+    "medio": "tarjeta_debito",
+    "monto": 685000,
+    "estado": "reembolsado",
+    "fecha": "2026-08-26T21:31:00Z"
+  },
+  {
+    "id": "PAG210",
+    "ordenId": "ORD210",
+    "medio": "billetera_virtual",
+    "monto": 760000,
+    "estado": "aprobado",
+    "fecha": "2026-08-27T09:07:00Z"
+  },
+  {
+    "id": "PAG211",
+    "ordenId": "ORD211",
+    "medio": "tarjeta_credito",
+    "monto": 330000,
+    "estado": "aprobado",
+    "fecha": "2026-08-27T17:07:00Z"
+  },
+  {
+    "id": "PAG212",
+    "ordenId": "ORD212",
+    "medio": "tarjeta_debito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-08-28T14:54:00Z"
+  },
+  {
+    "id": "PAG213",
+    "ordenId": "ORD213",
+    "medio": "transferencia",
+    "monto": 52000,
+    "estado": "aprobado",
+    "fecha": "2026-08-28T15:58:00Z"
+  },
+  {
+    "id": "PAG214",
+    "ordenId": "ORD214",
+    "medio": "tarjeta_credito",
+    "monto": 85000,
+    "estado": "aprobado",
+    "fecha": "2026-08-29T14:11:00Z"
+  },
+  {
+    "id": "PAG215",
+    "ordenId": "ORD215",
+    "medio": "billetera_virtual",
+    "monto": 340000,
+    "estado": "aprobado",
+    "fecha": "2026-08-29T20:25:00Z"
+  },
+  {
+    "id": "PAG216",
+    "ordenId": "ORD216",
+    "medio": "billetera_virtual",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-08-29T22:28:00Z"
+  },
+  {
+    "id": "PAG217",
+    "ordenId": "ORD217",
+    "medio": "tarjeta_credito",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-08-30T08:39:00Z"
+  },
+  {
+    "id": "PAG218",
+    "ordenId": "ORD218",
+    "medio": "tarjeta_credito",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-08-30T10:15:00Z"
+  },
+  {
+    "id": "PAG219",
+    "ordenId": "ORD219",
+    "medio": "tarjeta_debito",
+    "monto": 520000,
+    "estado": "aprobado",
+    "fecha": "2026-08-31T12:47:00Z"
+  },
+  {
+    "id": "PAG220",
+    "ordenId": "ORD220",
+    "medio": "transferencia",
+    "monto": 48000,
+    "estado": "aprobado",
+    "fecha": "2026-08-31T16:34:00Z"
+  },
+  {
+    "id": "PAG221",
+    "ordenId": "ORD221",
+    "medio": "transferencia",
+    "monto": 908000,
+    "estado": "aprobado",
+    "fecha": "2026-09-01T17:32:00Z"
+  },
+  {
+    "id": "PAG222",
+    "ordenId": "ORD222",
+    "medio": "transferencia",
+    "monto": 760000,
+    "estado": "aprobado",
+    "fecha": "2026-09-01T17:37:00Z"
+  },
+  {
+    "id": "PAG223",
+    "ordenId": "ORD223",
+    "medio": "tarjeta_credito",
+    "monto": 520000,
+    "estado": "aprobado",
+    "fecha": "2026-09-02T23:14:00Z"
+  },
+  {
+    "id": "PAG224",
+    "ordenId": "ORD224",
+    "medio": "tarjeta_credito",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-09-03T08:27:00Z"
+  },
+  {
+    "id": "PAG225",
+    "ordenId": "ORD225",
+    "medio": "tarjeta_credito",
+    "monto": 31000,
+    "estado": "aprobado",
+    "fecha": "2026-09-03T18:34:00Z"
+  },
+  {
+    "id": "PAG226",
+    "ordenId": "ORD226",
+    "medio": "billetera_virtual",
+    "monto": 620000,
+    "estado": "aprobado",
+    "fecha": "2026-09-03T20:48:00Z"
+  },
+  {
+    "id": "PAG227",
+    "ordenId": "ORD227",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-09-04T08:37:00Z"
+  },
+  {
+    "id": "PAG228",
+    "ordenId": "ORD228",
+    "medio": "transferencia",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-09-04T10:17:00Z"
+  },
+  {
+    "id": "PAG229",
+    "ordenId": "ORD229",
+    "medio": "tarjeta_credito",
+    "monto": 31000,
+    "estado": "aprobado",
+    "fecha": "2026-09-04T16:03:00Z"
+  },
+  {
+    "id": "PAG230",
+    "ordenId": "ORD230",
+    "medio": "transferencia",
+    "monto": 280000,
+    "estado": "aprobado",
+    "fecha": "2026-09-04T20:50:00Z"
+  },
+  {
+    "id": "PAG231",
+    "ordenId": "ORD231",
+    "medio": "tarjeta_credito",
+    "monto": 152000,
+    "estado": "aprobado",
+    "fecha": "2026-09-05T09:19:00Z"
+  },
+  {
+    "id": "PAG232",
+    "ordenId": "ORD232",
+    "medio": "tarjeta_debito",
+    "monto": 520000,
+    "estado": "aprobado",
+    "fecha": "2026-09-06T23:19:00Z"
+  },
+  {
+    "id": "PAG233",
+    "ordenId": "ORD233",
+    "medio": "transferencia",
+    "monto": 946000,
+    "estado": "aprobado",
+    "fecha": "2026-09-07T12:02:00Z"
+  },
+  {
+    "id": "PAG234",
+    "ordenId": "ORD234",
+    "medio": "tarjeta_debito",
+    "monto": 918000,
+    "estado": "aprobado",
+    "fecha": "2026-09-07T12:11:00Z"
+  },
+  {
+    "id": "PAG235",
+    "ordenId": "ORD235",
+    "medio": "transferencia",
+    "monto": 1350000,
+    "estado": "aprobado",
+    "fecha": "2026-09-07T14:47:00Z"
+  },
+  {
+    "id": "PAG236",
+    "ordenId": "ORD236",
+    "medio": "billetera_virtual",
+    "monto": 340000,
+    "estado": "aprobado",
+    "fecha": "2026-09-08T15:31:00Z"
+  },
+  {
+    "id": "PAG237",
+    "ordenId": "ORD237",
+    "medio": "tarjeta_credito",
+    "monto": 98000,
+    "estado": "aprobado",
+    "fecha": "2026-09-08T17:16:00Z"
+  },
+  {
+    "id": "PAG238",
+    "ordenId": "ORD238",
+    "medio": "tarjeta_credito",
+    "monto": 125000,
+    "estado": "aprobado",
+    "fecha": "2026-09-08T20:34:00Z"
+  },
+  {
+    "id": "PAG239",
+    "ordenId": "ORD239",
+    "medio": "tarjeta_credito",
+    "monto": 152000,
+    "estado": "aprobado",
+    "fecha": "2026-09-10T16:40:00Z"
+  },
+  {
+    "id": "PAG240",
+    "ordenId": "ORD240",
+    "medio": "tarjeta_credito",
+    "monto": 224000,
+    "estado": "aprobado",
+    "fecha": "2026-09-11T08:47:00Z"
+  },
+  {
+    "id": "PAG241",
+    "ordenId": "ORD241",
+    "medio": "tarjeta_credito",
+    "monto": 152000,
+    "estado": "aprobado",
+    "fecha": "2026-09-12T12:24:00Z"
+  },
+  {
+    "id": "PAG242",
+    "ordenId": "ORD242",
+    "medio": "billetera_virtual",
+    "monto": 36000,
+    "estado": "aprobado",
+    "fecha": "2026-09-13T13:08:00Z"
+  },
+  {
+    "id": "PAG243",
+    "ordenId": "ORD243",
+    "medio": "billetera_virtual",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-09-13T17:09:00Z"
+  },
+  {
+    "id": "PAG244",
+    "ordenId": "ORD244",
+    "medio": "billetera_virtual",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-09-13T19:01:00Z"
+  },
+  {
+    "id": "PAG245",
+    "ordenId": "ORD245",
+    "medio": "billetera_virtual",
+    "monto": 520000,
+    "estado": "aprobado",
+    "fecha": "2026-09-13T22:14:00Z"
+  },
+  {
+    "id": "PAG246",
+    "ordenId": "ORD246",
+    "medio": "transferencia",
+    "monto": 340000,
+    "estado": "aprobado",
+    "fecha": "2026-09-15T10:47:00Z"
+  },
+  {
+    "id": "PAG247",
+    "ordenId": "ORD247",
+    "medio": "billetera_virtual",
+    "monto": 822000,
+    "estado": "aprobado",
+    "fecha": "2026-09-15T13:07:00Z"
+  },
+  {
+    "id": "PAG248",
+    "ordenId": "ORD248",
+    "medio": "billetera_virtual",
+    "monto": 525000,
+    "estado": "aprobado",
+    "fecha": "2026-09-15T15:12:00Z"
+  },
+  {
+    "id": "PAG249",
+    "ordenId": "ORD249",
+    "medio": "tarjeta_credito",
+    "monto": 98000,
+    "estado": "aprobado",
+    "fecha": "2026-09-16T10:12:00Z"
+  },
+  {
+    "id": "PAG250",
+    "ordenId": "ORD250",
+    "medio": "tarjeta_debito",
+    "monto": 64000,
+    "estado": "aprobado",
+    "fecha": "2026-09-17T11:25:00Z"
+  },
+  {
+    "id": "PAG251",
+    "ordenId": "ORD251",
+    "medio": "transferencia",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-09-17T11:54:00Z"
+  },
+  {
+    "id": "PAG252",
+    "ordenId": "ORD252",
+    "medio": "tarjeta_debito",
+    "monto": 890000,
+    "estado": "reembolsado",
+    "fecha": "2026-09-17T21:08:00Z"
+  },
+  {
+    "id": "PAG253",
+    "ordenId": "ORD253",
+    "medio": "tarjeta_debito",
+    "monto": 36000,
+    "estado": "aprobado",
+    "fecha": "2026-09-18T11:07:00Z"
+  },
+  {
+    "id": "PAG254",
+    "ordenId": "ORD254",
+    "medio": "transferencia",
+    "monto": 80000,
+    "estado": "aprobado",
+    "fecha": "2026-09-18T12:37:00Z"
+  },
+  {
+    "id": "PAG255",
+    "ordenId": "ORD255",
+    "medio": "tarjeta_debito",
+    "monto": 642000,
+    "estado": "aprobado",
+    "fecha": "2026-09-18T13:15:00Z"
+  },
+  {
+    "id": "PAG256",
+    "ordenId": "ORD256",
+    "medio": "tarjeta_credito",
+    "monto": 36000,
+    "estado": "aprobado",
+    "fecha": "2026-09-18T16:09:00Z"
+  },
+  {
+    "id": "PAG257",
+    "ordenId": "ORD257",
+    "medio": "billetera_virtual",
+    "monto": 174000,
+    "estado": "aprobado",
+    "fecha": "2026-09-19T10:13:00Z"
+  },
+  {
+    "id": "PAG258",
+    "ordenId": "ORD258",
+    "medio": "billetera_virtual",
+    "monto": 52000,
+    "estado": "aprobado",
+    "fecha": "2026-09-19T19:47:00Z"
+  },
+  {
+    "id": "PAG259",
+    "ordenId": "ORD259",
+    "medio": "billetera_virtual",
+    "monto": 345000,
+    "estado": "aprobado",
+    "fecha": "2026-09-20T08:40:00Z"
+  },
+  {
+    "id": "PAG260",
+    "ordenId": "ORD260",
+    "medio": "tarjeta_debito",
+    "monto": 72000,
+    "estado": "aprobado",
+    "fecha": "2026-09-21T18:44:00Z"
+  },
+  {
+    "id": "PAG261",
+    "ordenId": "ORD261",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-09-22T09:19:00Z"
+  },
+  {
+    "id": "PAG262",
+    "ordenId": "ORD262",
+    "medio": "tarjeta_debito",
+    "monto": 152000,
+    "estado": "aprobado",
+    "fecha": "2026-09-22T11:03:00Z"
+  },
+  {
+    "id": "PAG263",
+    "ordenId": "ORD263",
+    "medio": "tarjeta_credito",
+    "monto": 620000,
+    "estado": "aprobado",
+    "fecha": "2026-09-22T11:38:00Z"
+  },
+  {
+    "id": "PAG264",
+    "ordenId": "ORD264",
+    "medio": "transferencia",
+    "monto": 340000,
+    "estado": "aprobado",
+    "fecha": "2026-09-22T15:43:00Z"
+  },
+  {
+    "id": "PAG265",
+    "ordenId": "ORD265",
+    "medio": "tarjeta_debito",
+    "monto": 58000,
+    "estado": "aprobado",
+    "fecha": "2026-09-22T15:46:00Z"
+  },
+  {
+    "id": "PAG266",
+    "ordenId": "ORD266",
+    "medio": "tarjeta_credito",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-09-22T17:13:00Z"
+  },
+  {
+    "id": "PAG267",
+    "ordenId": "ORD267",
+    "medio": "tarjeta_credito",
+    "monto": 56000,
+    "estado": "aprobado",
+    "fecha": "2026-09-23T09:06:00Z"
+  },
+  {
+    "id": "PAG268",
+    "ordenId": "ORD268",
+    "medio": "billetera_virtual",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-09-23T09:34:00Z"
+  },
+  {
+    "id": "PAG269",
+    "ordenId": "ORD269",
+    "medio": "billetera_virtual",
+    "monto": 848000,
+    "estado": "aprobado",
+    "fecha": "2026-09-23T10:27:00Z"
+  },
+  {
+    "id": "PAG270",
+    "ordenId": "ORD270",
+    "medio": "transferencia",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-09-23T12:45:00Z"
+  },
+  {
+    "id": "PAG271",
+    "ordenId": "ORD271",
+    "medio": "tarjeta_credito",
+    "monto": 472000,
+    "estado": "aprobado",
+    "fecha": "2026-09-23T19:41:00Z"
+  },
+  {
+    "id": "PAG272",
+    "ordenId": "ORD272",
+    "medio": "transferencia",
+    "monto": 72000,
+    "estado": "aprobado",
+    "fecha": "2026-09-24T11:18:00Z"
+  },
+  {
+    "id": "PAG273",
+    "ordenId": "ORD273",
+    "medio": "transferencia",
+    "monto": 472000,
+    "estado": "aprobado",
+    "fecha": "2026-09-24T11:30:00Z"
+  },
+  {
+    "id": "PAG274",
+    "ordenId": "ORD274",
+    "medio": "transferencia",
+    "monto": 65000,
+    "estado": "aprobado",
+    "fecha": "2026-09-24T20:18:00Z"
+  },
+  {
+    "id": "PAG275",
+    "ordenId": "ORD275",
+    "medio": "tarjeta_credito",
+    "monto": 104000,
+    "estado": "aprobado",
+    "fecha": "2026-09-25T09:30:00Z"
+  },
+  {
+    "id": "PAG276",
+    "ordenId": "ORD276",
+    "medio": "tarjeta_credito",
+    "monto": 116000,
+    "estado": "aprobado",
+    "fecha": "2026-09-25T18:53:00Z"
+  },
+  {
+    "id": "PAG277",
+    "ordenId": "ORD277",
+    "medio": "tarjeta_credito",
+    "monto": 185000,
+    "estado": "aprobado",
+    "fecha": "2026-09-26T09:05:00Z"
+  },
+  {
+    "id": "PAG278",
+    "ordenId": "ORD278",
+    "medio": "billetera_virtual",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-09-26T11:43:00Z"
+  },
+  {
+    "id": "PAG279",
+    "ordenId": "ORD279",
+    "medio": "transferencia",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-09-27T09:45:00Z"
+  },
+  {
+    "id": "PAG280",
+    "ordenId": "ORD280",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-09-27T22:45:00Z"
+  },
+  {
+    "id": "PAG281",
+    "ordenId": "ORD281",
+    "medio": "transferencia",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-09-28T18:36:00Z"
+  },
+  {
+    "id": "PAG282",
+    "ordenId": "ORD282",
+    "medio": "billetera_virtual",
+    "monto": 26000,
+    "estado": "aprobado",
+    "fecha": "2026-09-28T20:43:00Z"
+  },
+  {
+    "id": "PAG283",
+    "ordenId": "ORD283",
+    "medio": "transferencia",
+    "monto": 48000,
+    "estado": "aprobado",
+    "fecha": "2026-09-28T22:20:00Z"
+  },
+  {
+    "id": "PAG284",
+    "ordenId": "ORD284",
+    "medio": "billetera_virtual",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-09-30T08:14:00Z"
+  },
+  {
+    "id": "PAG285",
+    "ordenId": "ORD285",
+    "medio": "billetera_virtual",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-09-30T10:40:00Z"
+  },
+  {
+    "id": "PAG286",
+    "ordenId": "ORD286",
+    "medio": "billetera_virtual",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-09-30T22:00:00Z"
+  },
+  {
+    "id": "PAG287",
+    "ordenId": "ORD287",
+    "medio": "tarjeta_credito",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-10-01T09:27:00Z"
+  },
+  {
+    "id": "PAG288",
+    "ordenId": "ORD288",
+    "medio": "billetera_virtual",
+    "monto": 48000,
+    "estado": "aprobado",
+    "fecha": "2026-10-01T12:05:00Z"
+  },
+  {
+    "id": "PAG289",
+    "ordenId": "ORD289",
+    "medio": "tarjeta_credito",
+    "monto": 120000,
+    "estado": "aprobado",
+    "fecha": "2026-10-01T12:35:00Z"
+  },
+  {
+    "id": "PAG290",
+    "ordenId": "ORD290",
+    "medio": "tarjeta_credito",
+    "monto": 109000,
+    "estado": "aprobado",
+    "fecha": "2026-10-01T13:46:00Z"
+  },
+  {
+    "id": "PAG291",
+    "ordenId": "ORD291",
+    "medio": "tarjeta_credito",
+    "monto": 125000,
+    "estado": "reembolsado",
+    "fecha": "2026-10-01T15:41:00Z"
+  },
+  {
+    "id": "PAG292",
+    "ordenId": "ORD292",
+    "medio": "tarjeta_debito",
+    "monto": 520000,
+    "estado": "aprobado",
+    "fecha": "2026-10-01T19:33:00Z"
+  },
+  {
+    "id": "PAG293",
+    "ordenId": "ORD293",
+    "medio": "billetera_virtual",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-10-02T09:07:00Z"
+  },
+  {
+    "id": "PAG294",
+    "ordenId": "ORD294",
+    "medio": "tarjeta_credito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-10-02T09:16:00Z"
+  },
+  {
+    "id": "PAG295",
+    "ordenId": "ORD295",
+    "medio": "tarjeta_credito",
+    "monto": 472000,
+    "estado": "aprobado",
+    "fecha": "2026-10-02T13:40:00Z"
+  },
+  {
+    "id": "PAG296",
+    "ordenId": "ORD296",
+    "medio": "tarjeta_credito",
+    "monto": 96000,
+    "estado": "aprobado",
+    "fecha": "2026-10-03T13:12:00Z"
+  },
+  {
+    "id": "PAG297",
+    "ordenId": "ORD297",
+    "medio": "tarjeta_debito",
+    "monto": 525000,
+    "estado": "aprobado",
+    "fecha": "2026-10-03T17:27:00Z"
+  },
+  {
+    "id": "PAG298",
+    "ordenId": "ORD298",
+    "medio": "tarjeta_debito",
+    "monto": 1350000,
+    "estado": "aprobado",
+    "fecha": "2026-10-04T08:50:00Z"
+  },
+  {
+    "id": "PAG299",
+    "ordenId": "ORD299",
+    "medio": "billetera_virtual",
+    "monto": 52000,
+    "estado": "aprobado",
+    "fecha": "2026-10-04T10:14:00Z"
+  },
+  {
+    "id": "PAG300",
+    "ordenId": "ORD300",
+    "medio": "billetera_virtual",
+    "monto": 207000,
+    "estado": "aprobado",
+    "fecha": "2026-10-04T18:08:00Z"
+  },
+  {
+    "id": "PAG301",
+    "ordenId": "ORD301",
+    "medio": "transferencia",
+    "monto": 18000,
+    "estado": "aprobado",
+    "fecha": "2026-10-04T19:09:00Z"
+  },
+  {
+    "id": "PAG302",
+    "ordenId": "ORD302",
+    "medio": "tarjeta_credito",
+    "monto": 1350000,
+    "estado": "aprobado",
+    "fecha": "2026-10-04T19:56:00Z"
+  },
+  {
+    "id": "PAG303",
+    "ordenId": "ORD303",
+    "medio": "tarjeta_debito",
+    "monto": 450000,
+    "estado": "aprobado",
+    "fecha": "2026-10-05T14:27:00Z"
+  },
+  {
+    "id": "PAG304",
+    "ordenId": "ORD304",
+    "medio": "tarjeta_debito",
+    "monto": 180000,
+    "estado": "aprobado",
+    "fecha": "2026-10-05T18:21:00Z"
+  },
+  {
+    "id": "PAG305",
+    "ordenId": "ORD305",
+    "medio": "billetera_virtual",
+    "monto": 31000,
+    "estado": "aprobado",
+    "fecha": "2026-10-05T18:59:00Z"
+  },
+  {
+    "id": "PAG306",
+    "ordenId": "ORD306",
+    "medio": "tarjeta_credito",
+    "monto": 890000,
+    "estado": "aprobado",
+    "fecha": "2026-10-05T19:12:00Z"
+  },
+  {
+    "id": "PAG307",
+    "ordenId": "ORD307",
+    "medio": "billetera_virtual",
+    "monto": 620000,
+    "estado": "aprobado",
+    "fecha": "2026-10-05T19:56:00Z"
+  },
+  {
+    "id": "PAG308",
+    "ordenId": "ORD308",
+    "medio": "tarjeta_debito",
+    "monto": 31000,
+    "estado": "aprobado",
+    "fecha": "2026-10-05T21:12:00Z"
+  },
+  {
+    "id": "PAG309",
+    "ordenId": "ORD309",
+    "medio": "tarjeta_credito",
+    "monto": 52000,
+    "estado": "aprobado",
+    "fecha": "2026-10-05T23:26:00Z"
+  },
+  {
+    "id": "PAG310",
+    "ordenId": "ORD310",
+    "medio": "tarjeta_credito",
+    "monto": 520000,
+    "estado": "aprobado",
+    "fecha": "2026-10-06T20:07:00Z"
+  },
+  {
+    "id": "PAG311",
+    "ordenId": "ORD311",
+    "medio": "tarjeta_credito",
+    "monto": 56000,
+    "estado": "aprobado",
+    "fecha": "2026-10-07T08:32:00Z"
+  },
+  {
+    "id": "PAG312",
+    "ordenId": "ORD312",
+    "medio": "billetera_virtual",
+    "monto": 224000,
+    "estado": "aprobado",
+    "fecha": "2026-10-07T09:34:00Z"
+  },
+  {
+    "id": "PAG313",
+    "ordenId": "ORD313",
+    "medio": "tarjeta_credito",
+    "monto": 32000,
+    "estado": "aprobado",
+    "fecha": "2026-10-07T10:38:00Z"
+  },
+  {
+    "id": "PAG314",
+    "ordenId": "ORD314",
+    "medio": "tarjeta_credito",
+    "monto": 52000,
+    "estado": "aprobado",
+    "fecha": "2026-10-07T13:21:00Z"
+  },
+  {
+    "id": "PAG315",
+    "ordenId": "ORD315",
+    "medio": "tarjeta_credito",
+    "monto": 31000,
+    "estado": "aprobado",
+    "fecha": "2026-10-07T19:07:00Z"
+  },
+  {
+    "id": "PAG316",
+    "ordenId": "ORD316",
+    "medio": "transferencia",
+    "monto": 135000,
+    "estado": "pendiente",
+    "fecha": "2026-10-08T13:30:00Z"
+  },
+  {
+    "id": "PAG317",
+    "ordenId": "ORD317",
+    "medio": "transferencia",
+    "monto": 778000,
+    "estado": "pendiente",
+    "fecha": "2026-10-08T16:11:00Z"
+  },
+  {
+    "id": "PAG318",
+    "ordenId": "ORD318",
+    "medio": "tarjeta_credito",
+    "monto": 48000,
+    "estado": "aprobado",
+    "fecha": "2026-10-09T18:17:00Z"
+  },
+  {
+    "id": "PAG319",
+    "ordenId": "ORD319",
+    "medio": "tarjeta_credito",
+    "monto": 135000,
+    "estado": "aprobado",
+    "fecha": "2026-10-09T20:05:00Z"
+  },
+  {
+    "id": "PAG320",
+    "ordenId": "ORD320",
+    "medio": "transferencia",
+    "monto": 89000,
+    "estado": "aprobado",
+    "fecha": "2026-10-09T21:33:00Z"
+  },
+  {
+    "id": "PAG321",
+    "ordenId": "ORD321",
+    "medio": "transferencia",
+    "monto": 642000,
+    "estado": "aprobado",
+    "fecha": "2026-10-09T22:57:00Z"
+  },
+  {
+    "id": "PAG322",
+    "ordenId": "ORD322",
+    "medio": "tarjeta_credito",
+    "monto": 340000,
+    "estado": "aprobado",
+    "fecha": "2026-10-10T19:41:00Z"
   }
 ]

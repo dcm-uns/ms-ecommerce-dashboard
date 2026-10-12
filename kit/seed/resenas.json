@@ -88,5 +88,815 @@
     "titulo": "Imprescindible",
     "texto": "Lo uso como material de consulta en el trabajo.",
     "fecha": "2026-09-24T16:05:00Z"
+  },
+  {
+    "id": "RES011",
+    "productoId": "PRD003",
+    "clienteId": "CLI015",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "Arranca rápido y es muy liviana.",
+    "fecha": "2026-04-16T12:01:00Z"
+  },
+  {
+    "id": "RES012",
+    "productoId": "PRD006",
+    "clienteId": "CLI024",
+    "puntaje": 4,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "La espuma de leche sale perfecta. Prepara un café muy parecido al de bar.",
+    "fecha": "2026-04-17T21:20:00Z"
+  },
+  {
+    "id": "RES013",
+    "productoId": "PRD023",
+    "clienteId": "CLI010",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Se regula con suavidad y es muy estable. Sin embargo, el motor hace un zumbido al subir.",
+    "fecha": "2026-04-25T05:16:00Z"
+  },
+  {
+    "id": "RES014",
+    "productoId": "PRD005",
+    "clienteId": "CLI016",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "Cancelan bien el ruido y se sienten cómodos. Sin embargo, se desconectan solos de vez en cuando.",
+    "fecha": "2026-04-27T16:11:00Z"
+  },
+  {
+    "id": "RES015",
+    "productoId": "PRD002",
+    "clienteId": "CLI016",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "La batería rinde más de lo esperado. Muy buena relación precio-calidad para el uso diario.",
+    "fecha": "2026-04-28T17:11:00Z"
+  },
+  {
+    "id": "RES016",
+    "productoId": "PRD010",
+    "clienteId": "CLI032",
+    "puntaje": 5,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Buena para jugar en cancha de césped. Mantiene bien la forma y el pique.",
+    "fecha": "2026-05-03T18:59:00Z"
+  },
+  {
+    "id": "RES017",
+    "productoId": "PRD001",
+    "clienteId": "CLI013",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "La cámara saca fotos excelentes de noche. Sin embargo, se calienta bastante al jugar.",
+    "fecha": "2026-05-06T10:54:00Z"
+  },
+  {
+    "id": "RES018",
+    "productoId": "PRD005",
+    "clienteId": "CLI037",
+    "puntaje": 5,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "Cancelan bien el ruido y se sienten cómodos.",
+    "fecha": "2026-05-09T10:44:00Z"
+  },
+  {
+    "id": "RES019",
+    "productoId": "PRD008",
+    "clienteId": "CLI028",
+    "puntaje": 4,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Amortiguan muy bien en asfalto.",
+    "fecha": "2026-05-13T03:24:00Z"
+  },
+  {
+    "id": "RES020",
+    "productoId": "PRD001",
+    "clienteId": "CLI025",
+    "puntaje": 5,
+    "titulo": "Superó mis expectativas",
+    "texto": "La cámara saca fotos excelentes de noche.",
+    "fecha": "2026-05-16T17:53:00Z"
+  },
+  {
+    "id": "RES021",
+    "productoId": "PRD021",
+    "clienteId": "CLI037",
+    "puntaje": 4,
+    "titulo": "Excelente producto",
+    "texto": "Hierve rápido y corta sola.",
+    "fecha": "2026-05-22T23:44:00Z"
+  },
+  {
+    "id": "RES022",
+    "productoId": "PRD008",
+    "clienteId": "CLI010",
+    "puntaje": 2,
+    "titulo": "No lo recomiendo",
+    "texto": "La suela se desgastó rápido. El talle viene algo chico.",
+    "fecha": "2026-05-23T20:04:00Z"
+  },
+  {
+    "id": "RES023",
+    "productoId": "PRD001",
+    "clienteId": "CLI032",
+    "puntaje": 5,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "La cámara saca fotos excelentes de noche. La batería me dura todo el día con uso intenso.",
+    "fecha": "2026-05-29T06:32:00Z"
+  },
+  {
+    "id": "RES024",
+    "productoId": "PRD003",
+    "clienteId": "CLI029",
+    "puntaje": 5,
+    "titulo": "Superó mis expectativas",
+    "texto": "La pantalla se ve nítida para trabajar.",
+    "fecha": "2026-05-29T06:36:00Z"
+  },
+  {
+    "id": "RES025",
+    "productoId": "PRD004",
+    "clienteId": "CLI019",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "La pantalla de 16 pulgadas es una maravilla. Potencia de sobra para edición y programación.",
+    "fecha": "2026-05-30T22:48:00Z"
+  },
+  {
+    "id": "RES026",
+    "productoId": "PRD029",
+    "clienteId": "CLI028",
+    "puntaje": 4,
+    "titulo": "Lo recomiendo",
+    "texto": "Cubre lo justo y necesario. Muy didáctico, con ejemplos que se entienden.",
+    "fecha": "2026-06-01T17:04:00Z"
+  },
+  {
+    "id": "RES027",
+    "productoId": "PRD005",
+    "clienteId": "CLI023",
+    "puntaje": 5,
+    "titulo": "Superó mis expectativas",
+    "texto": "Cancelan bien el ruido y se sienten cómodos. El sonido es claro y con buenos graves.",
+    "fecha": "2026-06-03T15:52:00Z"
+  },
+  {
+    "id": "RES028",
+    "productoId": "PRD001",
+    "clienteId": "CLI040",
+    "puntaje": 5,
+    "titulo": "Muy conforme con la compra",
+    "texto": "La cámara saca fotos excelentes de noche. La batería me dura todo el día con uso intenso.",
+    "fecha": "2026-06-03T19:24:00Z"
+  },
+  {
+    "id": "RES029",
+    "productoId": "PRD018",
+    "clienteId": "CLI033",
+    "puntaje": 5,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "Preciso y cómodo, la batería dura meses.",
+    "fecha": "2026-06-09T20:56:00Z"
+  },
+  {
+    "id": "RES030",
+    "productoId": "PRD006",
+    "clienteId": "CLI016",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "La espuma de leche sale perfecta. Sin embargo, es difícil de limpiar el depósito.",
+    "fecha": "2026-06-10T23:36:00Z"
+  },
+  {
+    "id": "RES031",
+    "productoId": "PRD012",
+    "clienteId": "CLI012",
+    "puntaje": 3,
+    "titulo": "Bueno pero mejorable",
+    "texto": "El respaldo lumbar es muy cómodo. Sin embargo, después de unos meses empezó a ceder el pistón.",
+    "fecha": "2026-06-15T04:58:00Z"
+  },
+  {
+    "id": "RES032",
+    "productoId": "PRD027",
+    "clienteId": "CLI014",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "Entra todo y es muy cómoda. Sin embargo, el cierre principal se traba.",
+    "fecha": "2026-06-17T01:57:00Z"
+  },
+  {
+    "id": "RES033",
+    "productoId": "PRD030",
+    "clienteId": "CLI004",
+    "puntaje": 4,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Casos reales muy bien elegidos.",
+    "fecha": "2026-06-18T01:21:00Z"
+  },
+  {
+    "id": "RES034",
+    "productoId": "PRD009",
+    "clienteId": "CLI016",
+    "puntaje": 4,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "Excelente agarre en terreno mojado.",
+    "fecha": "2026-06-18T21:48:00Z"
+  },
+  {
+    "id": "RES035",
+    "productoId": "PRD007",
+    "clienteId": "CLI016",
+    "puntaje": 2,
+    "titulo": "Decepcionante",
+    "texto": "Se calienta mucho y huele a quemado.",
+    "fecha": "2026-06-24T18:57:00Z"
+  },
+  {
+    "id": "RES036",
+    "productoId": "PRD014",
+    "clienteId": "CLI016",
+    "puntaje": 2,
+    "titulo": "Tuvo problemas",
+    "texto": "Se queda sin batería a media tarde. Las actualizaciones lo dejaron lento.",
+    "fecha": "2026-06-24T22:28:00Z"
+  },
+  {
+    "id": "RES037",
+    "productoId": "PRD030",
+    "clienteId": "CLI016",
+    "puntaje": 5,
+    "titulo": "Excelente producto",
+    "texto": "Casos reales muy bien elegidos.",
+    "fecha": "2026-06-26T05:16:00Z"
+  },
+  {
+    "id": "RES038",
+    "productoId": "PRD026",
+    "clienteId": "CLI024",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "Tela fresca que seca rápido. Sin embargo, el talle da más chico.",
+    "fecha": "2026-07-02T02:32:00Z"
+  },
+  {
+    "id": "RES039",
+    "productoId": "PRD017",
+    "clienteId": "CLI045",
+    "puntaje": 4,
+    "titulo": "Excelente producto",
+    "texto": "Carga muy rápido y no se calienta. Compacto y práctico para viajar.",
+    "fecha": "2026-07-03T01:04:00Z"
+  },
+  {
+    "id": "RES040",
+    "productoId": "PRD025",
+    "clienteId": "CLI028",
+    "puntaje": 5,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "Muy cómodas para el día a día.",
+    "fecha": "2026-07-06T20:41:00Z"
+  },
+  {
+    "id": "RES041",
+    "productoId": "PRD027",
+    "clienteId": "CLI042",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Entra todo y es muy cómoda. Sin embargo, el cierre principal se traba.",
+    "fecha": "2026-07-08T03:43:00Z"
+  },
+  {
+    "id": "RES042",
+    "productoId": "PRD002",
+    "clienteId": "CLI031",
+    "puntaje": 4,
+    "titulo": "Muy conforme con la compra",
+    "texto": "La batería rinde más de lo esperado.",
+    "fecha": "2026-07-12T05:53:00Z"
+  },
+  {
+    "id": "RES043",
+    "productoId": "PRD014",
+    "clienteId": "CLI019",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "Cumple bien para llamadas y redes. Sin embargo, se queda sin batería a media tarde.",
+    "fecha": "2026-07-12T06:35:00Z"
+  },
+  {
+    "id": "RES044",
+    "productoId": "PRD006",
+    "clienteId": "CLI026",
+    "puntaje": 3,
+    "titulo": "Bueno pero mejorable",
+    "texto": "La espuma de leche sale perfecta. Sin embargo, hace bastante ruido al calentar. El envío llegó tarde.",
+    "fecha": "2026-07-14T02:54:00Z"
+  },
+  {
+    "id": "RES045",
+    "productoId": "PRD011",
+    "clienteId": "CLI016",
+    "puntaje": 4,
+    "titulo": "Lo recomiendo",
+    "texto": "Buen material de consulta para el trabajo.",
+    "fecha": "2026-07-16T02:07:00Z"
+  },
+  {
+    "id": "RES046",
+    "productoId": "PRD009",
+    "clienteId": "CLI036",
+    "puntaje": 3,
+    "titulo": "Bueno pero mejorable",
+    "texto": "Excelente agarre en terreno mojado. Sin embargo, pesan más de lo esperado.",
+    "fecha": "2026-07-16T10:07:00Z"
+  },
+  {
+    "id": "RES047",
+    "productoId": "PRD026",
+    "clienteId": "CLI004",
+    "puntaje": 5,
+    "titulo": "Excelente producto",
+    "texto": "Tela fresca que seca rápido.",
+    "fecha": "2026-07-17T19:11:00Z"
+  },
+  {
+    "id": "RES048",
+    "productoId": "PRD014",
+    "clienteId": "CLI023",
+    "puntaje": 5,
+    "titulo": "Excelente producto",
+    "texto": "Cumple bien para llamadas y redes.",
+    "fecha": "2026-07-18T04:44:00Z"
+  },
+  {
+    "id": "RES049",
+    "productoId": "PRD011",
+    "clienteId": "CLI045",
+    "puntaje": 5,
+    "titulo": "Excelente producto",
+    "texto": "Buen material de consulta para el trabajo.",
+    "fecha": "2026-07-19T06:04:00Z"
+  },
+  {
+    "id": "RES050",
+    "productoId": "PRD017",
+    "clienteId": "CLI030",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "Carga muy rápido y no se calienta.",
+    "fecha": "2026-07-19T15:17:00Z"
+  },
+  {
+    "id": "RES051",
+    "productoId": "PRD029",
+    "clienteId": "CLI016",
+    "puntaje": 5,
+    "titulo": "Excelente producto",
+    "texto": "Muy didáctico, con ejemplos que se entienden. Cubre lo justo y necesario.",
+    "fecha": "2026-07-23T07:09:00Z"
+  },
+  {
+    "id": "RES052",
+    "productoId": "PRD020",
+    "clienteId": "CLI009",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "Cocina crocante con casi nada de aceite.",
+    "fecha": "2026-07-23T22:21:00Z"
+  },
+  {
+    "id": "RES053",
+    "productoId": "PRD007",
+    "clienteId": "CLI028",
+    "puntaje": 2,
+    "titulo": "Tuvo problemas",
+    "texto": "Se calienta mucho y huele a quemado. A los pocos usos empezó a hacer un ruido metálico.",
+    "fecha": "2026-07-28T03:56:00Z"
+  },
+  {
+    "id": "RES054",
+    "productoId": "PRD024",
+    "clienteId": "CLI042",
+    "puntaje": 4,
+    "titulo": "Excelente producto",
+    "texto": "Tiene varios niveles de intensidad.",
+    "fecha": "2026-07-31T01:55:00Z"
+  },
+  {
+    "id": "RES055",
+    "productoId": "PRD012",
+    "clienteId": "CLI042",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "El respaldo lumbar es muy cómodo. Sin embargo, después de unos meses empezó a ceder el pistón.",
+    "fecha": "2026-07-31T05:55:00Z"
+  },
+  {
+    "id": "RES056",
+    "productoId": "PRD006",
+    "clienteId": "CLI028",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "La espuma de leche sale perfecta.",
+    "fecha": "2026-07-31T07:56:00Z"
+  },
+  {
+    "id": "RES057",
+    "productoId": "PRD012",
+    "clienteId": "CLI045",
+    "puntaje": 4,
+    "titulo": "Lo recomiendo",
+    "texto": "El respaldo lumbar es muy cómodo.",
+    "fecha": "2026-08-01T04:49:00Z"
+  },
+  {
+    "id": "RES058",
+    "productoId": "PRD004",
+    "clienteId": "CLI016",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "La pantalla de 16 pulgadas es una maravilla.",
+    "fecha": "2026-08-04T16:32:00Z"
+  },
+  {
+    "id": "RES059",
+    "productoId": "PRD008",
+    "clienteId": "CLI037",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Amortiguan muy bien en asfalto. Sin embargo, la suela se desgastó rápido.",
+    "fecha": "2026-08-05T20:13:00Z"
+  },
+  {
+    "id": "RES060",
+    "productoId": "PRD009",
+    "clienteId": "CLI045",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Excelente agarre en terreno mojado. Sin embargo, rozan al principio hasta que se aflojan.",
+    "fecha": "2026-08-08T03:42:00Z"
+  },
+  {
+    "id": "RES061",
+    "productoId": "PRD011",
+    "clienteId": "CLI037",
+    "puntaje": 5,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Ejemplos claros y bien explicados.",
+    "fecha": "2026-08-09T10:53:00Z"
+  },
+  {
+    "id": "RES062",
+    "productoId": "PRD019",
+    "clienteId": "CLI017",
+    "puntaje": 4,
+    "titulo": "Excelente producto",
+    "texto": "Tacto muy agradable para escribir. La iluminación se ve genial.",
+    "fecha": "2026-08-10T20:55:00Z"
+  },
+  {
+    "id": "RES063",
+    "productoId": "PRD011",
+    "clienteId": "CLI041",
+    "puntaje": 5,
+    "titulo": "Excelente producto",
+    "texto": "Ejemplos claros y bien explicados. Buen material de consulta para el trabajo.",
+    "fecha": "2026-08-14T00:33:00Z"
+  },
+  {
+    "id": "RES064",
+    "productoId": "PRD018",
+    "clienteId": "CLI021",
+    "puntaje": 4,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Se conecta al instante. Preciso y cómodo, la batería dura meses.",
+    "fecha": "2026-08-14T13:53:00Z"
+  },
+  {
+    "id": "RES065",
+    "productoId": "PRD008",
+    "clienteId": "CLI016",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "Amortiguan muy bien en asfalto. Sin embargo, la suela se desgastó rápido.",
+    "fecha": "2026-08-16T19:06:00Z"
+  },
+  {
+    "id": "RES066",
+    "productoId": "PRD015",
+    "clienteId": "CLI012",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Ultraliviana y con muy buena autonomía. Sin embargo, solo tiene dos puertos USB.",
+    "fecha": "2026-08-17T03:50:00Z"
+  },
+  {
+    "id": "RES067",
+    "productoId": "PRD009",
+    "clienteId": "CLI042",
+    "puntaje": 4,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "Excelente agarre en terreno mojado. Son impermeables de verdad.",
+    "fecha": "2026-08-18T03:31:00Z"
+  },
+  {
+    "id": "RES068",
+    "productoId": "PRD018",
+    "clienteId": "CLI034",
+    "puntaje": 3,
+    "titulo": "Esperaba un poco más",
+    "texto": "Preciso y cómodo, la batería dura meses. Sin embargo, la rueda hace ruido.",
+    "fecha": "2026-08-19T20:37:00Z"
+  },
+  {
+    "id": "RES069",
+    "productoId": "PRD008",
+    "clienteId": "CLI043",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Amortiguan muy bien en asfalto. Sin embargo, el talle viene algo chico. El envío llegó tarde.",
+    "fecha": "2026-08-22T04:58:00Z"
+  },
+  {
+    "id": "RES070",
+    "productoId": "PRD020",
+    "clienteId": "CLI032",
+    "puntaje": 5,
+    "titulo": "Excelente producto",
+    "texto": "Es fácil de limpiar y muy rápida. Cocina crocante con casi nada de aceite.",
+    "fecha": "2026-08-22T13:02:00Z"
+  },
+  {
+    "id": "RES071",
+    "productoId": "PRD005",
+    "clienteId": "CLI046",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "El sonido es claro y con buenos graves.",
+    "fecha": "2026-08-23T04:49:00Z"
+  },
+  {
+    "id": "RES072",
+    "productoId": "PRD010",
+    "clienteId": "CLI006",
+    "puntaje": 4,
+    "titulo": "Excelente producto",
+    "texto": "Buena para jugar en cancha de césped. Mantiene bien la forma y el pique.",
+    "fecha": "2026-08-25T14:38:00Z"
+  },
+  {
+    "id": "RES073",
+    "productoId": "PRD014",
+    "clienteId": "CLI042",
+    "puntaje": 3,
+    "titulo": "Bueno pero mejorable",
+    "texto": "Cumple bien para llamadas y redes. Sin embargo, las actualizaciones lo dejaron lento.",
+    "fecha": "2026-08-25T22:53:00Z"
+  },
+  {
+    "id": "RES074",
+    "productoId": "PRD010",
+    "clienteId": "CLI014",
+    "puntaje": 4,
+    "titulo": "Lo recomiendo",
+    "texto": "Mantiene bien la forma y el pique.",
+    "fecha": "2026-08-30T04:45:00Z"
+  },
+  {
+    "id": "RES075",
+    "productoId": "PRD016",
+    "clienteId": "CLI025",
+    "puntaje": 3,
+    "titulo": "Bueno pero mejorable",
+    "texto": "Suena fuerte y con buenos graves para su tamaño. Sin embargo, con volumen alto se distorsiona.",
+    "fecha": "2026-08-31T16:18:00Z"
+  },
+  {
+    "id": "RES076",
+    "productoId": "PRD001",
+    "clienteId": "CLI028",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "La batería me dura todo el día con uso intenso.",
+    "fecha": "2026-09-01T13:05:00Z"
+  },
+  {
+    "id": "RES077",
+    "productoId": "PRD019",
+    "clienteId": "CLI018",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "Tacto muy agradable para escribir.",
+    "fecha": "2026-09-02T16:24:00Z"
+  },
+  {
+    "id": "RES078",
+    "productoId": "PRD008",
+    "clienteId": "CLI006",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Amortiguan muy bien en asfalto. Sin embargo, la suela se desgastó rápido.",
+    "fecha": "2026-09-04T02:24:00Z"
+  },
+  {
+    "id": "RES079",
+    "productoId": "PRD014",
+    "clienteId": "CLI025",
+    "puntaje": 4,
+    "titulo": "Muy buena relación precio-calidad",
+    "texto": "Cumple bien para llamadas y redes. Buen equipo para el precio.",
+    "fecha": "2026-09-04T03:35:00Z"
+  },
+  {
+    "id": "RES080",
+    "productoId": "PRD030",
+    "clienteId": "CLI028",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "Casos reales muy bien elegidos.",
+    "fecha": "2026-09-05T19:23:00Z"
+  },
+  {
+    "id": "RES081",
+    "productoId": "PRD021",
+    "clienteId": "CLI035",
+    "puntaje": 5,
+    "titulo": "Superó mis expectativas",
+    "texto": "Tamaño ideal para toda la familia. Hierve rápido y corta sola.",
+    "fecha": "2026-09-06T21:48:00Z"
+  },
+  {
+    "id": "RES082",
+    "productoId": "PRD022",
+    "clienteId": "CLI022",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "Muy buena terminación. Distribuyen bien el calor y son resistentes.",
+    "fecha": "2026-09-07T00:40:00Z"
+  },
+  {
+    "id": "RES083",
+    "productoId": "PRD027",
+    "clienteId": "CLI006",
+    "puntaje": 5,
+    "titulo": "Lo recomiendo",
+    "texto": "Entra todo y es muy cómoda. Las costuras se sienten sólidas.",
+    "fecha": "2026-09-07T01:24:00Z"
+  },
+  {
+    "id": "RES084",
+    "productoId": "PRD003",
+    "clienteId": "CLI026",
+    "puntaje": 3,
+    "titulo": "Cumple, con detalles",
+    "texto": "Arranca rápido y es muy liviana. Sin embargo, el ventilador hace ruido con cargas altas.",
+    "fecha": "2026-09-08T03:29:00Z"
+  },
+  {
+    "id": "RES085",
+    "productoId": "PRD028",
+    "clienteId": "CLI012",
+    "puntaje": 4,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Muy buena para salidas de fin de semana.",
+    "fecha": "2026-09-10T22:44:00Z"
+  },
+  {
+    "id": "RES086",
+    "productoId": "PRD024",
+    "clienteId": "CLI028",
+    "puntaje": 3,
+    "titulo": "Bueno pero mejorable",
+    "texto": "Luz pareja que no cansa la vista. Sin embargo, el brazo pierde firmeza.",
+    "fecha": "2026-09-11T09:24:00Z"
+  },
+  {
+    "id": "RES087",
+    "productoId": "PRD025",
+    "clienteId": "CLI012",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "Muy cómodas para el día a día.",
+    "fecha": "2026-09-13T21:08:00Z"
+  },
+  {
+    "id": "RES088",
+    "productoId": "PRD013",
+    "clienteId": "CLI004",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "Rendimiento excelente y cámara muy versátil.",
+    "fecha": "2026-09-14T06:45:00Z"
+  },
+  {
+    "id": "RES089",
+    "productoId": "PRD028",
+    "clienteId": "CLI030",
+    "puntaje": 4,
+    "titulo": "Lo recomiendo",
+    "texto": "Muy buena para salidas de fin de semana. Rueda suave y los cambios son precisos.",
+    "fecha": "2026-09-16T01:11:00Z"
+  },
+  {
+    "id": "RES090",
+    "productoId": "PRD021",
+    "clienteId": "CLI046",
+    "puntaje": 1,
+    "titulo": "No lo recomiendo",
+    "texto": "La tapa quedó floja a los pocos meses. Deja sabor a plástico los primeros usos.",
+    "fecha": "2026-09-25T06:37:00Z"
+  },
+  {
+    "id": "RES091",
+    "productoId": "PRD023",
+    "clienteId": "CLI045",
+    "puntaje": 4,
+    "titulo": "Excelente producto",
+    "texto": "Se regula con suavidad y es muy estable.",
+    "fecha": "2026-09-25T22:44:00Z"
+  },
+  {
+    "id": "RES092",
+    "productoId": "PRD021",
+    "clienteId": "CLI016",
+    "puntaje": 4,
+    "titulo": "Lo recomiendo",
+    "texto": "Hierve rápido y corta sola.",
+    "fecha": "2026-09-27T21:51:00Z"
+  },
+  {
+    "id": "RES093",
+    "productoId": "PRD026",
+    "clienteId": "CLI018",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "Cae muy bien y no pierde color.",
+    "fecha": "2026-09-28T00:34:00Z"
+  },
+  {
+    "id": "RES094",
+    "productoId": "PRD015",
+    "clienteId": "CLI019",
+    "puntaje": 2,
+    "titulo": "No lo recomiendo",
+    "texto": "Solo tiene dos puertos USB.",
+    "fecha": "2026-09-29T22:24:00Z"
+  },
+  {
+    "id": "RES095",
+    "productoId": "PRD006",
+    "clienteId": "CLI017",
+    "puntaje": 4,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Prepara un café muy parecido al de bar. La espuma de leche sale perfecta. El envío llegó tarde.",
+    "fecha": "2026-10-02T23:10:00Z"
+  },
+  {
+    "id": "RES096",
+    "productoId": "PRD013",
+    "clienteId": "CLI030",
+    "puntaje": 4,
+    "titulo": "Excelente producto",
+    "texto": "Rendimiento excelente y cámara muy versátil. La pantalla es una belleza y la carga es rápida.",
+    "fecha": "2026-10-04T00:35:00Z"
+  },
+  {
+    "id": "RES097",
+    "productoId": "PRD016",
+    "clienteId": "CLI040",
+    "puntaje": 2,
+    "titulo": "Decepcionante",
+    "texto": "Con volumen alto se distorsiona. El Bluetooth se corta a pocos metros.",
+    "fecha": "2026-10-04T05:17:00Z"
+  },
+  {
+    "id": "RES098",
+    "productoId": "PRD010",
+    "clienteId": "CLI045",
+    "puntaje": 4,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Buena para jugar en cancha de césped. Mantiene bien la forma y el pique.",
+    "fecha": "2026-10-05T10:16:00Z"
+  },
+  {
+    "id": "RES099",
+    "productoId": "PRD022",
+    "clienteId": "CLI038",
+    "puntaje": 5,
+    "titulo": "Muy conforme con la compra",
+    "texto": "Muy buena terminación.",
+    "fecha": "2026-10-10T18:24:00Z"
+  },
+  {
+    "id": "RES100",
+    "productoId": "PRD021",
+    "clienteId": "CLI028",
+    "puntaje": 4,
+    "titulo": "Superó mis expectativas",
+    "texto": "Tamaño ideal para toda la familia. Hierve rápido y corta sola.",
+    "fecha": "2026-10-11T04:42:00Z"
   }
 ]

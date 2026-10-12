@@ -52,5 +52,59 @@
     "productoId": null,
     "fechaInicio": "2026-10-10",
     "fechaFin": "2026-12-31"
+  },
+  {
+    "id": "PRM007",
+    "nombre": "Primavera deportiva",
+    "descuentoPct": 18,
+    "categoriaId": "CAT06",
+    "productoId": null,
+    "fechaInicio": "2026-10-01",
+    "fechaFin": "2026-10-20"
+  },
+  {
+    "id": "PRM008",
+    "nombre": "Cyber Notebooks",
+    "descuentoPct": 15,
+    "categoriaId": "CAT03",
+    "productoId": null,
+    "fechaInicio": "2026-06-15",
+    "fechaFin": "2026-06-30"
+  },
+  {
+    "id": "PRM009",
+    "nombre": "Combo escritorio",
+    "descuentoPct": 10,
+    "categoriaId": "CAT10",
+    "productoId": null,
+    "fechaInicio": "2026-10-05",
+    "fechaFin": "2026-11-05"
+  },
+  {
+    "id": "PRM010",
+    "nombre": "Liquidación calzado urbano",
+    "descuentoPct": 20,
+    "categoriaId": null,
+    "productoId": "PRD025",
+    "fechaInicio": "2026-09-10",
+    "fechaFin": "2026-10-25"
+  },
+  {
+    "id": "PRM011",
+    "nombre": "Día del Padre electrónica",
+    "descuentoPct": 12,
+    "categoriaId": "CAT01",
+    "productoId": null,
+    "fechaInicio": "2026-06-10",
+    "fechaFin": "2026-06-21"
+  },
+  {
+    "id": "PRM012",
+    "nombre": "Black Friday audio",
+    "descuentoPct": 30,
+    "categoriaId": "CAT09",
+    "productoId": null,
+    "fechaInicio": "2026-11-27",
+    "fechaFin": "2026-11-30"
   }
 ]
