@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f2f2ec">
+<title>Reserva de microservicios</title>
+<style>
+  :root { color-scheme: light; --paper:#f2f2ec; --ink:#202824; --muted:#68736d; --line:#cdd4ce; --green:#1d624c; --green-soft:#e2eee7; --red:#a23a34; --white:#fffefa; }
+  * { box-sizing:border-box; }
+  body { margin:0; color:var(--ink); background:var(--paper); font:15px/1.5 "Aptos", "Segoe UI", sans-serif; }
+  header { border-bottom:1px solid var(--line); padding:22px max(20px,calc((100vw - 1000px)/2)); display:flex; justify-content:space-between; align-items:end; gap:24px; }
+  .eyebrow { margin:0 0 4px; color:var(--green); font-size:11px; font-weight:700; text-transform:uppercase; }
+  h1 { margin:0; font:normal 30px/1.15 "Iowan Old Style", "Palatino Linotype", Georgia, serif; }
+  #counter { color:var(--muted); white-space:nowrap; font-variant-numeric:tabular-nums; }
+  main { max-width:1000px; padding:12px 20px 48px; margin:auto; }
+  #notice { min-height:25px; color:var(--muted); font-size:13px; }
+  #list { border-top:1px solid var(--line); }
+  .service { border-bottom:1px solid var(--line); padding:15px 0 14px; }
+  .row { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:12px 20px; align-items:center; }
+  .identity { min-width:0; display:flex; align-items:baseline; flex-wrap:wrap; gap:7px 12px; }
+  .code { color:var(--muted); font:12px/1.4 ui-monospace,Consolas,monospace; }
+  h2 { margin:0; font-size:16px; font-weight:650; }
+  .state { color:var(--green); font-size:12px; font-weight:700; }
+  .state.taken { color:#815522; }
+  .actions { display:flex; flex-wrap:wrap; align-items:center; justify-content:end; gap:7px; }
+  a, button { color:var(--ink); font:inherit; }
+  .action { border:1px solid #aab5ad; border-radius:3px; background:transparent; padding:5px 9px; font-size:13px; line-height:1.35; text-decoration:none; cursor:pointer; }
+  .action:hover { background:var(--white); }
+  .action.primary { color:#fff; background:var(--green); border-color:var(--green); }
+  .action.primary:hover { background:#164d3c; }
+  .description { margin-top:8px; color:var(--muted); font-size:13px; }
+  .description summary { width:max-content; cursor:pointer; color:var(--green); }
+  .description p { margin:7px 0 0; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .endpoints { margin:7px 0 0; padding-left:20px; display:grid; gap:4px; }
+  .endpoints code { font:12px/1.4 ui-monospace,Consolas,monospace; }
+  .endpoints .method { display:inline-block; min-width:42px; color:var(--green); font-weight:700; }
+  .team { grid-column:1/-1; margin:-5px 0 0; font-size:13px; }
+  .team strong { font-weight:650; }
+  .form-panel { grid-column:1/-1; margin-top:2px; padding:13px; background:var(--white); border-left:3px solid var(--green); }
+  .form-panel form { display:grid; grid-template-columns:1fr 1fr auto; gap:9px; align-items:end; }
+  label { display:grid; gap:4px; color:var(--muted); font-size:12px; }
+  input, textarea { width:100%; min-width:0; border:1px solid #aab5ad; border-radius:3px; padding:7px 8px; color:var(--ink); background:white; font:inherit; font-size:13px; }
+  textarea { min-height:38px; resize:vertical; }
+  .form-message { grid-column:1/-1; margin:0; color:var(--red); font-size:13px; }
+  .form-message.good { color:var(--green); }
+  .team-names { grid-column:1/-1; color:var(--muted); }
+  .empty { padding:22px 0; color:var(--muted); }
+  @media (max-width:680px) {
+    header { align-items:start; flex-direction:column; gap:7px; padding:18px 18px 14px; }
+    h1 { font-size:26px; }
+    main { padding:8px 18px 36px; }
+    .row { grid-template-columns:1fr; gap:9px; }
+    .actions { justify-content:start; }
+    .team { grid-column:auto; margin-top:0; }
+    .form-panel { grid-column:auto; }
+    .form-panel form { grid-template-columns:1fr; }
+    .form-message, .team-names { grid-column:auto; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <p class="eyebrow">Proyecto de microservicios</p>
+    <h1>Reserva de implementación</h1>
+  </div>
+  <div id="counter" aria-live="polite">Cargando reservas…</div>
+</header>
+<main>
+  <p id="notice" role="status"></p>
+  <section id="list" aria-label="Microservicios disponibles"></section>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const activeForms = new Map();
+
+function element(tag, props = {}, ...children) {
+  const node = document.createElement(tag);
+  for (const [key, value] of Object.entries(props)) {
+    if (key === 'class') node.className = value;
+    else if (key.startsWith('on')) node[key] = value;
+    else node[key] = value;
+  }
+  node.append(...children);
+  return node;
+}
+
+async function request(url, options) {
+  const response = await fetch(url, options);
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.message || `Error ${response.status}`);
+  return data;
+}
+
+function setMessage(panel, text, good = false) {
+  const message = panel.querySelector('.form-message');
+  message.textContent = text;
+  message.classList.toggle('good', good);
+}
+
+function reservationForm(item) {
+  const panel = element('div', { class: 'form-panel' });
+  const form = element('form');
+  const names = element('textarea', { required: true, maxlength: 720, placeholder: 'Un integrante por línea', 'aria-label': 'Integrantes del equipo' });
+  const key = element('input', { type: 'password', required: true, minlength: 8, maxlength: 128, autocomplete: 'new-password', placeholder: 'Mínimo 8 caracteres', 'aria-label': 'Clave para liberar la reserva' });
+  const submit = element('button', { class: 'action primary', type: 'submit', textContent: 'Guardar reserva' });
+  form.append(
+    element('label', {}, 'Integrantes', names),
+    element('label', {}, 'Clave para liberar', key),
+    submit,
+    element('p', { class: 'form-message', role: 'status' }),
+  );
+  form.onsubmit = async (event) => {
+    event.preventDefault();
+    const estudiantes = names.value.split('\n').map((name) => name.trim()).filter(Boolean);
+    submit.disabled = true;
+    try {
+      await request('/api/reservas', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ codigo: item.codigo, estudiantes, claveLiberacion: key.value }),
+      });
+      activeForms.delete(item.codigo);
+      await load('Reserva guardada. Anotá la clave: no se podrá recuperar si se pierde.');
+    } catch (error) {
+      setMessage(panel, error.message);
+      submit.disabled = false;
+    }
+  };
+  panel.append(form);
+  return panel;
+}
+
+function releaseForm(item) {
+  const panel = element('div', { class: 'form-panel' });
+  const form = element('form');
+  const key = element('input', { type: 'password', required: true, maxlength: 128, autocomplete: 'current-password', placeholder: 'Clave definida al reservar', 'aria-label': 'Clave de liberación' });
+  const submit = element('button', { class: 'action', type: 'submit', textContent: 'Liberar reserva' });
+  form.append(
+    element('label', {}, 'Clave de liberación', key),
+    submit,
+    element('p', { class: 'form-message', role: 'status' }),
+  );
+  form.onsubmit = async (event) => {
+    event.preventDefault();
+    submit.disabled = true;
+    try {
+      await request(`/api/reservas/${encodeURIComponent(item.codigo)}`, {
+        method: 'DELETE',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ claveLiberacion: key.value }),
+      });
+      activeForms.delete(item.codigo);
+      await load('Reserva liberada. El microservicio vuelve a estar disponible.');
+    } catch (error) {
+      setMessage(panel, error.message);
+      submit.disabled = false;
+    }
+  };
+  panel.append(form);
+  return panel;
+}
+
+function render(items) {
+  const taken = items.filter((item) => item.reservado).length;
+  $('counter').textContent = `${taken} de ${items.length} reservados`;
+  $('list').replaceChildren(...items.map((item, index) => {
+    const article = element('article', { class: 'service' });
+    const row = element('div', { class: 'row' });
+    const identity = element('div', { class: 'identity' },
+      element('span', { class: 'code', textContent: String(index + 1).padStart(2, '0') }),
+      element('h2', { textContent: item.titulo }),
+      element('span', { class: `state${item.reservado ? ' taken' : ''}`, textContent: item.reservado ? 'Reservado' : 'Disponible' }),
+    );
+    const yamlUrl = `/api/reservas/${encodeURIComponent(item.codigo)}/openapi`;
+    const datasetUrl = `/api/reservas/${encodeURIComponent(item.codigo)}/dataset`;
+    const actions = element('div', { class: 'actions' },
+      element('a', { class: 'action', href: yamlUrl, download: `${item.coleccion}.yaml`, textContent: 'Descargar YAML' }),
+      element('a', { class: 'action', href: datasetUrl, download: `${item.coleccion}.json`, textContent: 'Descargar datos JSON' }),
+    );
+    const formOpen = activeForms.get(item.codigo);
+    if (item.reservado) {
+      actions.append(element('button', {
+        class: 'action', type: 'button', textContent: formOpen === 'release' ? 'Cerrar' : 'Liberar',
+        onclick: () => { activeForms.set(item.codigo, formOpen === 'release' ? '' : 'release'); load(); },
+      }));
+    } else {
+      actions.append(element('button', {
+        class: 'action primary', type: 'button', textContent: formOpen === 'reserve' ? 'Cerrar' : 'Implementaré este microservicio',
+        onclick: () => { activeForms.set(item.codigo, formOpen === 'reserve' ? '' : 'reserve'); load(); },
+      }));
+    }
+    row.append(identity, actions);
+
+    const description = element('details', { class: 'description' });
+    description.append(element('summary', { textContent: 'Descripción y endpoints' }));
+    description.append(element('p', { textContent: item.descripcion || 'Sin descripción.' }));
+    const endpoints = element('ul', { class: 'endpoints' }, ...item.endpoints.map((endpoint) => {
+      const line = element('li', {},
+        element('span', { class: 'method', textContent: endpoint.metodo }),
+        element('code', { textContent: endpoint.ruta }),
+      );
+      if (endpoint.resumen) line.append(document.createTextNode(` ${endpoint.resumen}`));
+      return line;
+    }));
+    description.append(endpoints);
+    article.append(row, description);
+    if (item.reservado) {
+      article.append(element('p', { class: 'team' },
+        element('strong', { textContent: 'Equipo: ' }),
+        document.createTextNode(item.estudiantes.join(', ')),
+      ));
+    }
+    if (formOpen === 'reserve' && !item.reservado) article.append(reservationForm(item));
+    if (formOpen === 'release' && item.reservado) article.append(releaseForm(item));
+    return article;
+  }));
+  if (!items.length) $('list').append(element('p', { class: 'empty', textContent: 'No se encontraron microservicios.' }));
+}
+
+async function load(message = '') {
+  $('notice').textContent = message;
+  try {
+    render(await request('/api/reservas'));
+  } catch (error) {
+    $('counter').textContent = 'No se pudieron cargar las reservas';
+    $('notice').textContent = error.message;
+  }
+}
+
+load();
+</script>
+</body>
+</html>

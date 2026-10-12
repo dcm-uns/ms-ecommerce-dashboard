@@ -1,9 +1,18 @@
 const path = require('path');
+const fs = require('fs');
 const crypto = require('crypto');
+const { promisify } = require('util');
 const express = require('express');
 const { catalog, find } = require('./lib/catalog');
 const { check, validateBaseUrl } = require('./lib/checker');
 const { createStore } = require('./lib/store');
+const {
+  createReservationStore,
+  createFileReservationStore,
+  ReservationConflictError,
+} = require('./lib/reservations');
+
+const scrypt = promisify(crypto.scrypt);
 
 function safeEqual(a, b) {
   const ha = crypto.createHash('sha256').update(String(a)).digest();
@@ -11,10 +20,38 @@ function safeEqual(a, b) {
   return crypto.timingSafeEqual(ha, hb);
 }
 
-function createApp(store, { adminToken = process.env.ADMIN_TOKEN } = {}) {
+async function hashReleaseKey(key, salt = crypto.randomBytes(16).toString('hex')) {
+  const hash = await scrypt(key, salt, 64);
+  return { salt, hash: hash.toString('hex') };
+}
+
+async function matchesReleaseKey(key, salt, expectedHash) {
+  const actual = await scrypt(key, salt, 64);
+  const expected = Buffer.from(expectedHash || '', 'hex');
+  return expected.length === actual.length && crypto.timingSafeEqual(actual, expected);
+}
+
+function reservationView(entry, record) {
+  return {
+    codigo: entry.codigo,
+    coleccion: entry.coleccion,
+    titulo: entry.titulo,
+    descripcion: entry.descripcionReserva || entry.descripcion,
+    endpoints: entry.endpoints,
+    reservado: Boolean(record),
+    estudiantes: record ? record.estudiantes : [],
+    reservadoEn: record ? record.reservadoEn : null,
+  };
+}
+
+function createApp(store, {
+  adminToken = process.env.ADMIN_TOKEN,
+  reservationStore = createFileReservationStore(process.env.DATA_DIR || path.join(__dirname, 'data')),
+} = {}) {
   const app = express();
   app.set('trust proxy', 1);
   app.use(express.json({ limit: '10kb' }));
+  app.get('/reserva', (_req, res) => res.sendFile(path.join(__dirname, 'public', 'reserva.html')));
   app.use(express.static(path.join(__dirname, 'public')));
 
   const inFlight = new Set();
@@ -49,6 +86,85 @@ function createApp(store, { adminToken = process.env.ADMIN_TOKEN } = {}) {
     try {
       const recs = new Map((await store.all()).map((r) => [r.codigo, r]));
       res.json([...catalog.values()].map((e) => view(e, recs.get(e.codigo))));
+    } catch (e) { next(e); }
+  });
+
+  app.get('/api/reservas', async (_req, res, next) => {
+    try {
+      const records = new Map((await reservationStore.all()).map((record) => [record.codigo, record]));
+      res.json([...catalog.values()].map((entry) => reservationView(entry, records.get(entry.codigo))));
+    } catch (e) { next(e); }
+  });
+
+  app.get('/api/reservas/:codigo/openapi', (req, res) => {
+    const entry = find(req.params.codigo);
+    if (!entry) return res.status(404).json({ error: 'not_found', message: 'Microservicio inexistente.' });
+    const yaml = fs.readFileSync(entry.openapiPath, 'utf8');
+    res.type('application/yaml');
+    res.set('content-disposition', `attachment; filename="${entry.coleccion}.yaml"`);
+    res.send(yaml);
+  });
+
+  app.get('/api/reservas/:codigo/dataset', (req, res) => {
+    const entry = find(req.params.codigo);
+    if (!entry) return res.status(404).json({ error: 'not_found', message: 'Microservicio inexistente.' });
+    const dataset = fs.readFileSync(entry.seedPath, 'utf8');
+    res.type('application/json');
+    res.set('content-disposition', `attachment; filename="${entry.coleccion}.json"`);
+    res.send(dataset);
+  });
+
+  app.post('/api/reservas', async (req, res, next) => {
+    try {
+      if (limited(`reserve:${req.ip}`, 10, 60000)) {
+        return res.status(429).json({ error: 'too_many_requests', message: 'Demasiados intentos, esperá un minuto.' });
+      }
+      const { codigo, estudiantes, claveLiberacion } = req.body || {};
+      const entry = find(codigo);
+      if (!entry) return res.status(400).json({ error: 'bad_request', message: 'Código de microservicio desconocido.' });
+      if (!Array.isArray(estudiantes) || estudiantes.length < 1 || estudiantes.length > 8 ||
+          !estudiantes.every((name) => typeof name === 'string' && name.trim() && name.trim().length <= 80)) {
+        return res.status(400).json({ error: 'bad_request', message: 'Ingresá entre 1 y 8 nombres de integrantes, de hasta 80 caracteres cada uno.' });
+      }
+      if (typeof claveLiberacion !== 'string' || claveLiberacion.trim().length < 8 || claveLiberacion.length > 128) {
+        return res.status(400).json({ error: 'bad_request', message: 'La clave de liberación debe tener entre 8 y 128 caracteres.' });
+      }
+
+      const { salt, hash } = await hashReleaseKey(claveLiberacion);
+      const record = {
+        codigo: entry.codigo,
+        estudiantes: estudiantes.map((name) => name.trim()),
+        reservadoEn: new Date().toISOString(),
+        claveSalt: salt,
+        claveHash: hash,
+      };
+      try {
+        await reservationStore.create(record);
+      } catch (error) {
+        if (error instanceof ReservationConflictError) {
+          return res.status(409).json({ error: 'conflict', message: 'Ese microservicio ya fue reservado por otro equipo.' });
+        }
+        throw error;
+      }
+      res.status(201).json(reservationView(entry, record));
+    } catch (e) { next(e); }
+  });
+
+  app.delete('/api/reservas/:codigo', async (req, res, next) => {
+    try {
+      if (limited(`release:${req.ip}`, 10, 60000)) {
+        return res.status(429).json({ error: 'too_many_requests', message: 'Demasiados intentos, esperá un minuto.' });
+      }
+      const entry = find(req.params.codigo);
+      if (!entry) return res.status(404).json({ error: 'not_found', message: 'Microservicio inexistente.' });
+      const record = await reservationStore.get(entry.codigo);
+      if (!record) return res.status(404).json({ error: 'not_found', message: 'No hay una reserva para liberar.' });
+      const { claveLiberacion } = req.body || {};
+      const valid = typeof claveLiberacion === 'string' &&
+        await matchesReleaseKey(claveLiberacion, record.claveSalt, record.claveHash);
+      if (!valid) return res.status(403).json({ error: 'forbidden', message: 'La clave de liberación no es correcta.' });
+      await reservationStore.remove(entry.codigo);
+      res.json({ codigo: entry.codigo, liberada: true });
     } catch (e) { next(e); }
   });
 
@@ -130,6 +246,15 @@ function createApp(store, { adminToken = process.env.ADMIN_TOKEN } = {}) {
 
   app.get('/api/admin/check', requireAdmin, (_req, res) => res.json({ ok: true }));
 
+  app.delete('/api/admin/reservas/:codigo', requireAdmin, async (req, res, next) => {
+    try {
+      const entry = find(req.params.codigo);
+      if (!entry) return res.status(404).json({ error: 'not_found', message: 'Microservicio inexistente.' });
+      const removed = await reservationStore.remove(entry.codigo);
+      res.json({ codigo: entry.codigo, liberada: removed });
+    } catch (e) { next(e); }
+  });
+
   app.post('/api/admin/microservicios/:codigo/liberar', requireAdmin, async (req, res, next) => {
     try {
       const entry = find(req.params.codigo);
@@ -181,8 +306,10 @@ if (require.main === module) {
     if (!process.env.ADMIN_TOKEN) console.warn('ADMIN_TOKEN no definido: las funciones de administrador están deshabilitadas.');
     const store = await createStore();
     console.log(`Persistencia: ${store.kind}`);
+    const reservationStore = await createReservationStore();
+    console.log(`Reservas: ${reservationStore.kind}`);
     startMonitor(store, Number(process.env.MONITOR_INTERVAL_MS || 120000));
     const port = process.env.PORT || 3000;
-    createApp(store).listen(port, () => console.log(`Dashboard en http://localhost:${port}`));
+    createApp(store, { reservationStore }).listen(port, () => console.log(`Dashboard en http://localhost:${port}`));
   })().catch((e) => { console.error(e); process.exit(1); });
 }
