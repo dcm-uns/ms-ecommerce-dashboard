@@ -209,7 +209,9 @@ async function loadServices() {
 }
 
 function getEtapa(codigo) {
-  if (ETAPA1.some(e => codigo.includes(e))) return 'etapa1';
+  // Etapa 1: MS-{algo}
+  if (codigo.startsWith('MS-')) return 'etapa1';
+  // Etapa 2: exacta coincidencia con la lista
   if (ETAPA2.some(e => codigo === e)) return 'etapa2';
   return 'unknown';
 }
