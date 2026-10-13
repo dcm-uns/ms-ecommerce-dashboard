@@ -4,8 +4,10 @@
 
 ### 1. Documentación y Guías para Estudiantes
 
-#### 📄 GUIA_REGISTRO_ETAPA2.pdf (397 KB)
+#### 📄 GUIA_REGISTRO_ETAPA2.pdf (398 KB) - SOLO ADMIN
 **Guía visual paso-a-paso para estudiantes**
+- Ubicación: `/public/GUIA_REGISTRO_ETAPA2.pdf`
+- Acceso: Botón "📖 Guía PDF" en Dashboard (visible solo en modo admin)
 - Explicación de qué es Etapa 2
 - 6 pasos principales:
   1. Seleccionar servicio derivado
@@ -34,8 +36,9 @@
 
 #### Homepage mejorada (public/index.html)
 - ✅ Nuevo botón "📖 Guía PDF" en header
-- Descarga directa: `/GUIA_REGISTRO_ETAPA2.pdf`
-- Posicionado junto a Monitor y Registrar
+- ✅ **Visible solo en modo admin** (token válido)
+- Descarga directa: `/GUIA_REGISTRO_ETAPA2.pdf` (desde public/)
+- Posicionado junto a Monitor y Registrar (en modo admin)
 
 #### Sistema Backend Etapa 2 (completado en checkpoint anterior)
 - ✅ 12 servicios derivados pre-configurados en ETAPA2_ENDPOINTS
@@ -76,11 +79,12 @@ Archivos ya generados en checkpoint anterior:
 
 ```
 ms-ecommerce-dashboard/
-├── GUIA_REGISTRO_ETAPA2.pdf          ← PRINCIPAL (para estudiantes)
 ├── GUIA_REGISTRO_ETAPA2.html         ← Fuente (editable)
 ├── GUIA_REGISTRO_ETAPA2_README.md    ← Instrucciones de uso
+├── generate-pdf.js                   ← Script para regenerar PDF
 ├── public/
-│   ├── index.html                    ← Con botón descarga PDF
+│   ├── GUIA_REGISTRO_ETAPA2.pdf      ← PRINCIPAL (solo admin en UI, público en URL)
+│   ├── index.html                    ← Con botón descarga PDF (solo admin)
 │   ├── monitor.html                  ← Dashboard monitoreo (24 servicios)
 │   └── ...
 ├── kit/
@@ -92,6 +96,7 @@ ms-ecommerce-dashboard/
 ├── ETAPA2_SETUP.md                   ← Guía técnica
 ├── RESUMEN_ETAPA2.md                 ← Resumen ejecutivo
 ├── ARQUITECTURA_ETAPA2.md            ← Documentación técnica
+├── FINAL_SUMMARY.md                  ← Este archivo
 └── package.json                      ← Con script generate-pdf
 
 ```
@@ -99,25 +104,31 @@ ms-ecommerce-dashboard/
 ## 🎯 Cómo Usar Este Sistema
 
 ### Para Estudiantes:
-1. Descargar o acceder a `/GUIA_REGISTRO_ETAPA2.pdf`
-2. Seguir paso-a-paso
+1. **Obtener guía**: Profesor les proporciona PDF (desde modo admin)
+2. Seguir paso-a-paso en la guía
 3. Implementar su servicio derivado
 4. Registrar en Dashboard
 5. Verificar en Monitor
 
-### Para Profesores:
-1. Distribuir PDF a grupos (impreso o digital)
-2. Monitorear progreso en `/monitor.html`
-3. Verificar que todos vean status ✓ ONLINE
-4. Usar como panel de control durante la materia
+### Para Profesores/Admin:
+1. Acceder en modo admin (ingresar token)
+2. Ver botón "📖 Guía PDF" en header
+3. Descargar PDF
+4. Distribuir a estudiantes (impreso o digital)
+5. Monitorear progreso en `/monitor.html`
+6. Usar como panel de control durante la materia
+
+**Nota:** El botón PDF solo aparece cuando está logeado como admin. El archivo en sí es públicamente descargable via URL directa, pero no es visible en el UI para usuarios normales.
 
 ### Para Administrador del Dashboard:
 1. Si necesita actualizar guía:
    ```bash
    # Editar GUIA_REGISTRO_ETAPA2.html
    npm run generate-pdf  # Regenera PDF
+   git add public/GUIA_REGISTRO_ETAPA2.pdf
+   git commit -m "Actualizar guía"
    ```
-2. El PDF estará disponible en `/GUIA_REGISTRO_ETAPA2.pdf`
+2. El PDF estará disponible en `/GUIA_REGISTRO_ETAPA2.pdf` (via botón en admin)
 
 ## ✨ Características Destacadas
 
@@ -201,4 +212,7 @@ Para estudiantes que no pueden seguir la guía:
 Commits:
 - c8eaad1: Agregar guía PDF para registro de Etapa 2
 - fe79916: Agregar botón de descarga de Guía PDF en header del Dashboard
+- 89c151b: Agregar resumen final del sistema Etapa 2 completo
+- 2f62e6b: Mover guía PDF a carpeta public y hacer visible solo en modo admin
+- ed8097d: Actualizar documentación de guía PDF - Acceso solo admin
 
