@@ -27,6 +27,8 @@
   button.primary { background:#2f6fdd; color:#fff; border-color:#2f6fdd; }
   button.danger { color:#b02a2a; border-color:#d9a0a0; }
   button:disabled { opacity:.5; cursor:wait; }
+  a.btn { display: inline-block; padding: 5px 12px; border-radius: 6px; border: 1px solid #b9c0ca; background: #fff; cursor: pointer; text-decoration: none; font-size: 14px; }
+  a.btn.secondary { background:#6366f1; color:#fff; border-color:#6366f1; }
   dialog { border:1px solid var(--bd); border-radius:10px; padding:20px; width:min(480px,92vw); }
   dialog::backdrop { background:rgba(0,0,0,.4); }
   label { display:block; margin:10px 0 4px; font-weight:600; font-size:13px; }
@@ -41,6 +43,7 @@
   <h1>Dashboard de microservicios</h1>
   <div class="right">
     <span id="adminTag" class="mut" style="color:#9fe0b6" hidden>Modo admin</span>
+    <a href="/GUIA_REGISTRO_ETAPA2.pdf" download class="btn secondary">📖 Guía PDF</a>
     <button id="btnMonitor" onclick="location.href='/monitor.html'" style="background:#10b981;color:#fff;border-color:#10b981">📊 Monitor</button>
     <button id="btnRegister" class="primary">Registrar microservicio</button>
     <button id="btnAdmin">Admin</button>
