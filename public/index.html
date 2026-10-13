@@ -43,7 +43,7 @@
   <h1>Dashboard de microservicios</h1>
   <div class="right">
     <span id="adminTag" class="mut" style="color:#9fe0b6" hidden>Modo admin</span>
-    <a href="/GUIA_REGISTRO_ETAPA2.pdf" download class="btn secondary">📖 Guía PDF</a>
+    <a id="btnGuiaPDF" href="/GUIA_REGISTRO_ETAPA2.pdf" download class="btn secondary" hidden>📖 Guía PDF</a>
     <button id="btnMonitor" onclick="location.href='/monitor.html'" style="background:#10b981;color:#fff;border-color:#10b981">📊 Monitor</button>
     <button id="btnRegister" class="primary">Registrar microservicio</button>
     <button id="btnAdmin">Admin</button>
@@ -117,6 +117,7 @@ async function api(method, url, body, auth) {
 
 function render() {
   $('adminTag').hidden = !token;
+  $('btnGuiaPDF').hidden = !token;
   const counts = { libre: 0, registrado: 0, online: 0, offline: 0 };
   items.forEach((i) => counts[i.estado]++);
   $('summary').replaceChildren(...Object.entries(counts).map(([k, v]) => el('span', { class: 'chip', textContent: `${k}: ${v}` })));
