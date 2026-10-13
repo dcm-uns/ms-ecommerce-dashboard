@@ -4,10 +4,11 @@
 
 ### 1. Documentación y Guías para Estudiantes
 
-#### 📄 GUIA_REGISTRO_ETAPA2.pdf (398 KB) - SOLO ADMIN
+#### 📄 GUIA_REGISTRO_ETAPA2.pdf (398 KB) - CONTROL TOTAL
 **Guía visual paso-a-paso para estudiantes**
 - Ubicación: `/public/GUIA_REGISTRO_ETAPA2.pdf`
-- Acceso: Botón "📖 Guía PDF" en Dashboard (visible solo en modo admin)
+- Acceso: Botón "📖 Guía PDF" en Dashboard
+- **VISIBLE SOLO cuando `GUIDE_ETAPA2_ENABLED=1`**
 - Explicación de qué es Etapa 2
 - 6 pasos principales:
   1. Seleccionar servicio derivado
@@ -36,9 +37,10 @@
 
 #### Homepage mejorada (public/index.html)
 - ✅ Nuevo botón "📖 Guía PDF" en header
-- ✅ **Visible solo en modo admin** (token válido)
+- ✅ **Visible solo cuando `GUIDE_ETAPA2_ENABLED=1`** (configurable)
 - Descarga directa: `/GUIA_REGISTRO_ETAPA2.pdf` (desde public/)
-- Posicionado junto a Monitor y Registrar (en modo admin)
+- Posicionado junto a Monitor y Registrar
+- Independiente del token admin
 
 #### Sistema Backend Etapa 2 (completado en checkpoint anterior)
 - ✅ 12 servicios derivados pre-configurados en ETAPA2_ENDPOINTS
@@ -103,22 +105,48 @@ ms-ecommerce-dashboard/
 
 ## 🎯 Cómo Usar Este Sistema
 
+### Control de Disponibilidad (IMPORTANTE)
+
+**La guía está DESHABILITADA por defecto.**
+
+Tú decides cuándo hacerla visible:
+
+```bash
+# DESHABILITADA (default)
+GUIDE_ETAPA2_ENABLED=0
+→ Botón 📖 NO aparece
+
+# HABILITADA 
+GUIDE_ETAPA2_ENABLED=1
+→ Botón 📖 SÍ aparece
+```
+
+**Cambiar en:**
+- Local: Editar `.env` y hacer `npm start`
+- Render: Dashboard → Environment → Guardar (auto-redeploy)
+
+**Ver estado actual:**
+```bash
+curl https://tu-dashboard.onrender.com/api/guide-etapa2-enabled
+```
+
 ### Para Estudiantes:
-1. **Obtener guía**: Profesor les proporciona PDF (desde modo admin)
-2. Seguir paso-a-paso en la guía
-3. Implementar su servicio derivado
-4. Registrar en Dashboard
-5. Verificar en Monitor
+1. Esperar a que profesor habilite la guía
+2. Ver botón "📖 Guía PDF" en Dashboard (cuando esté habilitada)
+3. Hacer clic → descargar PDF
+4. Seguir paso-a-paso
+5. Implementar su servicio derivado
+6. Registrar en Dashboard
+7. Verificar en Monitor
 
 ### Para Profesores/Admin:
-1. Acceder en modo admin (ingresar token)
-2. Ver botón "📖 Guía PDF" en header
-3. Descargar PDF
-4. Distribuir a estudiantes (impreso o digital)
-5. Monitorear progreso en `/monitor.html`
-6. Usar como panel de control durante la materia
-
-**Nota:** El botón PDF solo aparece cuando está logeado como admin. El archivo en sí es públicamente descargable via URL directa, pero no es visible en el UI para usuarios normales.
+1. Cuando sea momento de comenzar Etapa 2:
+   - Cambiar `GUIDE_ETAPA2_ENABLED=1`
+2. Los estudiantes verán el botón automáticamente
+3. Pueden descargar la guía
+4. Monitorear progreso en `/monitor.html`
+5. Si quieres que dejen de ver la guía:
+   - Cambiar `GUIDE_ETAPA2_ENABLED=0`
 
 ### Para Administrador del Dashboard:
 1. Si necesita actualizar guía:
@@ -128,7 +156,7 @@ ms-ecommerce-dashboard/
    git add public/GUIA_REGISTRO_ETAPA2.pdf
    git commit -m "Actualizar guía"
    ```
-2. El PDF estará disponible en `/GUIA_REGISTRO_ETAPA2.pdf` (via botón en admin)
+2. El cambio es visible inmediatamente en todos los clientes
 
 ## ✨ Características Destacadas
 
@@ -215,4 +243,8 @@ Commits:
 - 89c151b: Agregar resumen final del sistema Etapa 2 completo
 - 2f62e6b: Mover guía PDF a carpeta public y hacer visible solo en modo admin
 - ed8097d: Actualizar documentación de guía PDF - Acceso solo admin
+- 5605d6c: Agregar documentación de flujo de acceso a PDF
+- aa069b8: Actualizar resumen final - Guía PDF solo en modo admin
+- 777c558: Controlar disponibilidad de Guía PDF con variable de entorno ✨ NUEVO
+- e193a8a: Agregar documentación del control de Guía PDF ✨ NUEVO
 
