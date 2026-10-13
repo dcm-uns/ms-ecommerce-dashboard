@@ -70,6 +70,10 @@ function createApp(store, {
   app.set('trust proxy', 1);
   app.use(express.json({ limit: '10kb' }));
   app.get('/reserva', (_req, res) => res.sendFile(path.join(__dirname, 'public', 'reserva.html')));
+  
+  // Guía Etapa 2 - accesible solo en ruta /guia2
+  app.get('/guia2', (_req, res) => res.sendFile(path.join(__dirname, 'public', 'GUIA_REGISTRO_ETAPA2.pdf')));
+  
   app.use(express.static(path.join(__dirname, 'public')));
 
   const inFlight = new Set();
@@ -374,11 +378,6 @@ function createApp(store, {
   };
 
   app.get('/api/admin/check', requireAdmin, (_req, res) => res.json({ ok: true }));
-
-  app.get('/api/guide-etapa2-enabled', (_req, res) => {
-    const enabled = process.env.GUIDE_ETAPA2_ENABLED === '1';
-    res.json({ enabled });
-  });
 
   app.delete('/api/admin/reservas/:codigo', requireAdmin, async (req, res, next) => {
     try {
