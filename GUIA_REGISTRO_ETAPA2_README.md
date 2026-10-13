@@ -5,7 +5,10 @@
 Este directorio contiene documentación para estudiantes sobre cómo registrar sus microservicios Etapa 2:
 
 ### 📄 GUIA_REGISTRO_ETAPA2.pdf
-**Archivo principal - Usar este para distribución a estudiantes**
+**Archivo principal - Disponible solo en modo admin**
+
+Ubicación: `/public/GUIA_REGISTRO_ETAPA2.pdf`
+Acceso: Botón "📖 Guía PDF" en el Dashboard (solo visible cuando está en modo admin)
 
 Contiene:
 - Paso a paso completo de desarrollo, deployment y registro
@@ -16,12 +19,15 @@ Contiene:
 - Checklist final de verificación
 
 **Cómo usar:**
-1. Descargar o imprimir GUIA_REGISTRO_ETAPA2.pdf
-2. Distribuir a grupos de estudiantes
-3. Seguir pasos en orden
+1. Ingresar en modo admin en el Dashboard
+2. Hacer clic en botón "📖 Guía PDF" en la barra superior
+3. Se descarga el archivo PDF
+4. Distribuir a grupos de estudiantes (impreso o digital)
+
+**Nota:** El PDF NO es visible en el home page inicial. Solo está disponible para administradores.
 
 ### 🔗 GUIA_REGISTRO_ETAPA2.html
-**Versión HTML - Para visualización en navegador**
+**Versión HTML - Fuente para generar PDF**
 
 - Misma contenido que el PDF pero en formato web
 - Se puede visualizar directamente en navegador
@@ -42,28 +48,27 @@ npm install   # Si no tiene puppeteer instalado
 npm run generate-pdf
 ```
 
-Esto regenerará `GUIA_REGISTRO_ETAPA2.pdf` desde `GUIA_REGISTRO_ETAPA2.html`
+Esto regenerará `public/GUIA_REGISTRO_ETAPA2.pdf` desde `GUIA_REGISTRO_ETAPA2.html`
 
 ## Distribución a Estudiantes
 
-### Opción 1: PDF impreso
+### Opción 1: Desde Dashboard (Recomendado)
 ```
-Descargar GUIA_REGISTRO_ETAPA2.pdf → Imprimir → Distribuir físicamente
-```
-
-### Opción 2: Enlace en línea
-```
-Incluir link en la syllabus o LMS:
-/GUIA_REGISTRO_ETAPA2.pdf
+1. Ingresar en modo admin
+2. Hacer clic "📖 Guía PDF" 
+3. Descargar el archivo
+4. Imprimir y distribuir
 ```
 
-### Opción 3: Dashboard integrado
-Considerar agregar botón en `public/index.html` para descargar el PDF:
-```html
-<a href="/GUIA_REGISTRO_ETAPA2.pdf" download class="btn btn-secondary">
-  Descargar Guía PDF
-</a>
+### Opción 2: Enlace directo (si está en carpeta public)
 ```
+GET /GUIA_REGISTRO_ETAPA2.pdf
+```
+
+**Nota:** Este endpoint es accesible públicamente. Si necesita restringir acceso solo a admin, debe agregar middleware de autenticación en server.js.
+
+### Opción 3: En modo admin solo (actual)
+El botón solo aparece cuando está logged como admin, pero el archivo es públicamente descargable si alguien conoce la URL.
 
 ## Contenido de la Guía
 
@@ -86,9 +91,34 @@ Si necesita modificar la guía:
 1. Editar `GUIA_REGISTRO_ETAPA2.html`
 2. Regenerar PDF: `npm run generate-pdf`
 3. Commit cambios
+4. El botón del Dashboard descargará automáticamente la versión nueva
 
 Ejemplos de cambios comunes:
 - Reemplazar URLs ejemplo con URLs reales
 - Agregar nombres de profesor/materia
 - Cambiar colores o branding institucional
 - Agregar referencias a plataforma específica (Blackboard, Canvas, etc.)
+
+## Tecnología
+
+- **HTML**: Plantilla auto-contenida con estilos CSS
+- **PDF**: Generado con Puppeteer en server.js
+- **Almacenamiento**: public/GUIA_REGISTRO_ETAPA2.pdf (static file)
+- **Servido por**: Express.static() desde carpeta public
+- **Control de acceso**: Via UI (botón solo visible en admin), no en server
+
+## Seguridad
+
+**Nota importante:** El PDF es accesible públicamente en `/GUIA_REGISTRO_ETAPA2.pdf`. Si necesita restringir:
+
+1. Agregar middleware de autenticación:
+```javascript
+app.get('/GUIA_REGISTRO_ETAPA2.pdf', (req, res, next) => {
+  if (!req.headers.authorization) return res.status(401).send('Unauthorized');
+  // validar token...
+  next();
+});
+```
+
+2. O servir desde endpoint protegido en lugar de static file
+
