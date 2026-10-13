@@ -375,6 +375,11 @@ function createApp(store, {
 
   app.get('/api/admin/check', requireAdmin, (_req, res) => res.json({ ok: true }));
 
+  app.get('/api/guide-etapa2-enabled', (_req, res) => {
+    const enabled = process.env.GUIDE_ETAPA2_ENABLED === '1';
+    res.json({ enabled });
+  });
+
   app.delete('/api/admin/reservas/:codigo', requireAdmin, async (req, res, next) => {
     try {
       const entry = find(req.params.codigo);
