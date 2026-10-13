@@ -118,7 +118,8 @@ async function api(method, url, body, auth) {
 
 function render() {
   $('adminTag').hidden = !token;
-  $('btnGuiaPDF').hidden = !guideEnabled;
+  const guideBtn = $('btnGuiaPDF');
+  if (guideBtn) guideBtn.hidden = !guideEnabled;
   const counts = { libre: 0, registrado: 0, online: 0, offline: 0 };
   items.forEach((i) => counts[i.estado]++);
   $('summary').replaceChildren(...Object.entries(counts).map(([k, v]) => el('span', { class: 'chip', textContent: `${k}: ${v}` })));
@@ -152,9 +153,13 @@ function render() {
 
 async function load() {
   try {
-    items = await api('GET', '/api/microservicios');
-    const guideStatus = await api('GET', '/api/guide-etapa2-enabled');
+    const [services, guideStatus] = await Promise.all([
+      api('GET', '/api/microservicios'),
+      api('GET', '/api/guide-etapa2-enabled')
+    ]);
+    items = services;
     guideEnabled = guideStatus.enabled;
+    console.log('Guide enabled:', guideEnabled);
     $('updated').textContent = 'Actualizado: ' + new Date().toLocaleTimeString();
     render();
   } catch (e) { $('updated').textContent = 'Error al cargar: ' + e.message; }
