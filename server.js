@@ -320,16 +320,47 @@ function createApp(store, {
 
   app.post('/api/microservicios/:codigo/ping', async (req, res, next) => {
     try {
-      const entry = find(req.params.codigo);
+      const codigo = req.params.codigo;
+      let entry = find(codigo);
+      let isEtapa2 = false;
+      if (!entry && Object.keys(ETAPA2_ENDPOINTS).includes(codigo)) {
+        isEtapa2 = true;
+        entry = {
+          codigo: codigo,
+          coleccion: codigo,
+          titulo: codigo,
+          descripcion: `Servicio derivado ${codigo}`,
+          endpoints: ETAPA2_ENDPOINTS[codigo],
+        };
+      }
       if (!entry) return res.status(404).json({ error: 'not_found', message: 'Microservicio inexistente.' });
       if (limited(`ping:${req.ip}`, 30, 60000)) {
         return res.status(429).json({ error: 'too_many_requests', message: 'Demasiados pings, esperá un minuto.' });
       }
-      const rec = await store.get(entry.codigo);
+      const rec = await store.get(codigo);
       if (!rec) return res.status(409).json({ error: 'conflict', message: 'El microservicio está libre; no hay nada para probar.' });
-      const result = await check(entry, rec.url);
-      await store.patch(entry.codigo, { ultimoCheck: result });
-      res.json(view(entry, { ...rec, ultimoCheck: result }));
+      
+      const result = isEtapa2 
+        ? await check(entry, rec.url, { etapa2: true })
+        : await check(entry, rec.url);
+      
+      await store.patch(codigo, { ultimoCheck: result });
+      
+      // Preparar respuesta
+      const response = {
+        codigo: codigo,
+        coleccion: entry.coleccion,
+        titulo: entry.titulo,
+        descripcion: entry.descripcion,
+        estado: result.ok ? 'online' : 'offline',
+        url: rec.url,
+        grupo: rec.grupo,
+        estudiantes: rec.estudiantes,
+        registradoEn: rec.registradoEn,
+        ultimoCheck: result,
+        endpoints: (entry.endpoints || ETAPA2_ENDPOINTS[codigo] || []).map(ep => typeof ep === 'string' ? ep : `${ep.metodo} ${ep.ruta}`),
+      };
+      res.json(response);
     } catch (e) { next(e); }
   });
 
