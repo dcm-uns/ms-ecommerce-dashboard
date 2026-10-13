@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía de Registro - Etapa 2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: white;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      border-bottom: 3px solid #2f6fdd;
+      padding-bottom: 20px;
+    }
+    
+    header h1 {
+      font-size: 32px;
+      color: #1c2330;
+      margin-bottom: 10px;
+    }
+    
+    header p {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .step {
+      margin: 30px 0;
+      padding: 20px;
+      border-left: 4px solid #2f6fdd;
+      background: #f9fafb;
+      page-break-inside: avoid;
+    }
+    
+    .step-number {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background: #2f6fdd;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 32px;
+      font-weight: bold;
+      margin-right: 10px;
+      font-size: 14px;
+    }
+    
+    .step-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #1c2330;
+      margin-bottom: 10px;
+    }
+    
+    .step-content {
+      font-size: 14px;
+      margin-left: 42px;
+    }
+    
+    .code-block {
+      background: #1c2330;
+      color: #e0e6ed;
+      padding: 12px;
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      overflow-x: auto;
+      margin: 10px 0;
+      border-left: 3px solid #10b981;
+    }
+    
+    .warning {
+      background: #fef3c7;
+      border-left: 4px solid #f59e0b;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    
+    .success {
+      background: #d1fae5;
+      border-left: 4px solid #10b981;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    
+    .error {
+      background: #fee2e2;
+      border-left: 4px solid #ef4444;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    
+    .diagram {
+      background: #f0f2f5;
+      padding: 15px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+      font-size: 13px;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background: #2f6fdd;
+      color: white;
+      font-weight: bold;
+    }
+    
+    tr:nth-child(even) {
+      background: #f9fafb;
+    }
+    
+    .services-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 10px 0;
+      font-size: 13px;
+    }
+    
+    .service-item {
+      background: #f0f2f5;
+      padding: 8px 12px;
+      border-radius: 4px;
+      border-left: 3px solid #2f6fdd;
+    }
+    
+    .checklist {
+      list-style: none;
+      margin: 10px 0;
+      font-size: 13px;
+    }
+    
+    .checklist li {
+      padding: 6px 0;
+      padding-left: 24px;
+      position: relative;
+    }
+    
+    .checklist li:before {
+      content: "☐";
+      position: absolute;
+      left: 0;
+      font-size: 16px;
+    }
+    
+    .section {
+      margin: 40px 0;
+      padding: 20px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    
+    .section:last-child {
+      border-bottom: none;
+    }
+    
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1c2330;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #2f6fdd;
+    }
+    
+    .info-box {
+      background: #dbeafe;
+      border-left: 4px solid #2f6fdd;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+    
+    .highlight {
+      background: #fef3c7;
+      padding: 2px 4px;
+      border-radius: 2px;
+      font-weight: bold;
+    }
+    
+    @media print {
+      body {
+        padding: 0;
+      }
+      
+      .container {
+        max-width: 100%;
+      }
+      
+      .step {
+        page-break-inside: avoid;
+      }
+      
+      .section {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>📋 Guía de Registro: Etapa 2</h1>
+    <p>Microservicios Derivados - Paso a Paso</p>
+  </header>
+
+  <!-- SECCIÓN 1: RESUMEN -->
+  <div class="section">
+    <div class="section-title">¿Qué es Etapa 2?</div>
+    
+    <p>En la Etapa 2, implementarán un <strong>servicio derivado</strong> que:</p>
+    <ul style="margin-left: 20px; margin-top: 10px;">
+      <li>Usa datos de su propia colección (Etapa 1)</li>
+      <li>Consume un microservicio de otro grupo via HTTP</li>
+      <li>Produce información nueva combinando ambas fuentes</li>
+    </ul>
+    
+    <div class="info-box" style="margin-top: 15px;">
+      <strong>Ejemplo:</strong> Si hicieron MS-clientes, ahora hacen clientes-resumen que consume 
+      MS-ordenes para calcular total gastado, cantidad de órdenes, etc.
+    </div>
+  </div>
+
+  <!-- SECCIÓN 2: SELECCIONAR SERVICIO -->
+  <div class="section">
+    <div class="section-title">Paso 1: Seleccionar su Servicio</div>
+    
+    <p>Su grupo debe implementar <strong>uno de estos servicios derivados</strong>:</p>
+    
+    <div class="services-list">
+      <div class="service-item">clientes-resumen</div>
+      <div class="service-item">ordenes-detalle</div>
+      <div class="service-item">productos-ficha</div>
+      <div class="service-item">categorias-catalogo</div>
+      <div class="service-item">inventario-alertas</div>
+      <div class="service-item">sucursales-stock</div>
+      <div class="service-item">ranking-productos</div>
+      <div class="service-item">pagos-conciliacion</div>
+      <div class="service-item">envios-demorados</div>
+      <div class="service-item">resenas-criticas</div>
+      <div class="service-item">promociones-precios</div>
+      <div class="service-item">tickets-contexto</div>
+    </div>
+    
+    <div class="warning" style="margin-top: 15px;">
+      <strong>⚠️ Importante:</strong> El servicio depende de cuál fue su Etapa 1. 
+      Revisen la tabla en la guía oficial CONTRATO_ETAPA_2.md
+    </div>
+  </div>
+
+  <!-- SECCIÓN 3: DESARROLLO LOCAL -->
+  <div class="section">
+    <div class="section-title">Paso 2: Desarrollo Local</div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">1</span>
+        <span class="step-title">Crear estructura del proyecto</span>
+      </div>
+      <div class="step-content">
+        <p>Crear un nuevo repositorio con esta estructura:</p>
+        <div class="code-block">
+mi-servicio-etapa2/
+├── server.js
+├── package.json
+├── .env (local, NO commitear)
+├── .env.example
+├── README.md
+└── test/
+    └── service.test.js
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">2</span>
+        <span class="step-title">Implementar GET /health</span>
+      </div>
+      <div class="step-content">
+        <p>Este endpoint es <strong>obligatorio</strong> y debe responder:</p>
+        <div class="code-block">
+GET /health
+Status: 200
+{
+  "status": "ok",
+  "timestamp": "2026-10-13T14:30:00.000Z",
+  "service": "clientes-resumen"
+}
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">3</span>
+        <span class="step-title">Implementar 2 endpoints derivados</span>
+      </div>
+      <div class="step-content">
+        <p>Implementar según su servicio. Ejemplo para clientes-resumen:</p>
+        <div class="code-block">
+GET /clientes/{id}/resumen
+GET /clientes/top?limit=5
+        </div>
+        <p style="margin-top: 10px;">Consultar <span class="highlight">CONTRATO_ETAPA_2.md</span> 
+        para especificación exacta de respuestas JSON</p>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">4</span>
+        <span class="step-title">Configurar variables de entorno</span>
+      </div>
+      <div class="step-content">
+        <p>Crear archivo <code>.env</code> con:</p>
+        <div class="code-block">
+PORT=3000
+# URL del servicio que consumen (se obtiene del Dashboard)
+MS_ORDENES_URL=https://servicio-upstream.onrender.com
+        </div>
+        <div class="warning" style="margin-top: 10px;">
+          <strong>⚠️ Nunca commitear .env</strong><br>
+          Crear .env.example sin valores secretos para documentar variables
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">5</span>
+        <span class="step-title">Probar localmente</span>
+      </div>
+      <div class="step-content">
+        <div class="code-block">
+npm install
+npm start
+
+# Verificar en otra terminal:
+curl http://localhost:3000/health
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 4: DEPLOY EN RENDER -->
+  <div class="section">
+    <div class="section-title">Paso 3: Desplegar en Render</div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">1</span>
+        <span class="step-title">Push a GitHub</span>
+      </div>
+      <div class="step-content">
+        <div class="code-block">
+git add .
+git commit -m "Implementar servicio clientes-resumen"
+git push origin main
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">2</span>
+        <span class="step-title">Crear servicio en Render</span>
+      </div>
+      <div class="step-content">
+        <ol style="margin-left: 20px;">
+          <li>Ir a <span class="highlight">https://dashboard.render.com</span></li>
+          <li>Clic en <span class="highlight">New +</span></li>
+          <li>Seleccionar <span class="highlight">Web Service</span></li>
+          <li>Conectar repositorio GitHub</li>
+          <li>Rellenar:
+            <ul style="margin-top: 8px; margin-left: 20px;">
+              <li><strong>Nombre:</strong> nombre-servicio-etapa2</li>
+              <li><strong>Runtime:</strong> Node</li>
+              <li><strong>Build Command:</strong> npm ci</li>
+              <li><strong>Start Command:</strong> npm start</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">3</span>
+        <span class="step-title">Configurar variables de entorno</span>
+      </div>
+      <div class="step-content">
+        <p>En Render, ir a <span class="highlight">Environment</span> y agregar:</p>
+        <div class="code-block">
+PORT = 3000
+MS_ORDENES_URL = https://servicio-grupo-upstream.onrender.com
+        </div>
+        <div class="info-box" style="margin-top: 10px;">
+          💡 Obtener la URL del servicio upstream del Dashboard 
+          en la página de Monitor (/monitor.html)
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">4</span>
+        <span class="step-title">Esperar a que termine el deploy</span>
+      </div>
+      <div class="step-content">
+        <p>Render construirá automáticamente. Esperar a que aparezca:</p>
+        <div class="success">
+          ✓ Your service is live at: https://grupo-clientes-resumen.onrender.com
+        </div>
+        <p style="margin-top: 10px;">Pueden verificar visitando:</p>
+        <div class="code-block">
+https://grupo-clientes-resumen.onrender.com/health
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 5: OBTENER URL DEL UPSTREAM -->
+  <div class="section">
+    <div class="section-title">Paso 4: Obtener URL del Servicio Upstream</div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">1</span>
+        <span class="step-title">Abrir el Monitor del Dashboard</span>
+      </div>
+      <div class="step-content">
+        <p>Visitar:</p>
+        <div class="code-block">
+http://localhost:3000/monitor.html
+        </div>
+        <p style="margin-top: 10px;">(o la URL de producción si el Dashboard está deployado)</p>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">2</span>
+        <span class="step-title">Buscar servicio upstream ONLINE</span>
+      </div>
+      <div class="step-content">
+        <p>En el Monitor:</p>
+        <ul style="margin-left: 20px; margin-top: 10px;">
+          <li>Usar filtro <span class="highlight">Etapa 1</span></li>
+          <li>Ver servicios con estado <span class="highlight">✓ ONLINE</span> (verde)</li>
+          <li>Ejemplo: Buscar "MS-ordenes" si necesitan consumir órdenes</li>
+        </ul>
+        <div class="diagram" style="margin-top: 10px;">
+┌─ MS-ordenes                    ✓ ONLINE
+│  Grupo: Equipo B
+│  URL: https://grupo-ordenes.onrender.com
+│  Endpoints:
+│  • GET /items
+│  • GET /items/{id}
+└─ Última verificación: OK (145ms)
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">3</span>
+        <span class="step-title">Copiar la URL</span>
+      </div>
+      <div class="step-content">
+        <p>Copiar la URL del servicio que consumen. Ejemplo:</p>
+        <div class="code-block">
+https://grupo-ordenes.onrender.com
+        </div>
+        <p style="margin-top: 10px;">Esta URL va en la variable de entorno <code>MS_ORDENES_URL</code></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 6: REGISTRAR EN DASHBOARD -->
+  <div class="section">
+    <div class="section-title">Paso 5: Registrar en el Dashboard</div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">1</span>
+        <span class="step-title">Ir a la página Home del Dashboard</span>
+      </div>
+      <div class="step-content">
+        <div class="code-block">
+http://localhost:3000
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">2</span>
+        <span class="step-title">Hacer clic en "Registrar microservicio"</span>
+      </div>
+      <div class="step-content">
+        <p>Se abrirá un diálogo con un formulario</p>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">3</span>
+        <span class="step-title">Rellenar el formulario</span>
+      </div>
+      <div class="step-content">
+        <table>
+          <tr>
+            <th>Campo</th>
+            <th>Qué ingresar</th>
+            <th>Ejemplo</th>
+          </tr>
+          <tr>
+            <td><strong>Microservicio</strong></td>
+            <td>Seleccionar de la lista</td>
+            <td>clientes-resumen</td>
+          </tr>
+          <tr>
+            <td><strong>URL base pública</strong></td>
+            <td>URL de Render de su servicio</td>
+            <td>https://grupo-clientes-resumen.onrender.com</td>
+          </tr>
+          <tr>
+            <td><strong>Nombre del grupo</strong></td>
+            <td>Opcional, para identificación</td>
+            <td>Equipo A</td>
+          </tr>
+          <tr>
+            <td><strong>Estudiantes</strong></td>
+            <td>Uno por línea</td>
+            <td>Juan Pérez<br>María García<br>Pedro López</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">4</span>
+        <span class="step-title">Hacer clic en "Registrar"</span>
+      </div>
+      <div class="step-content">
+        <p>El Dashboard validará automáticamente:</p>
+        <ul style="margin-left: 20px; margin-top: 10px;">
+          <li>✓ La URL es válida (http/https, pública)</li>
+          <li>✓ El servicio responde</li>
+          <li>✓ GET /health devuelve { status: "ok", ... }</li>
+        </ul>
+        
+        <div class="success" style="margin-top: 15px;">
+          <strong>Si todo es correcto:</strong><br>
+          "¡clientes-resumen registrado!"
+        </div>
+        
+        <div class="error" style="margin-top: 10px;">
+          <strong>Si algo falla:</strong><br>
+          Se mostrará un error específico. Revisar la URL y GET /health
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 7: VERIFICAR EN MONITOR -->
+  <div class="section">
+    <div class="section-title">Paso 6: Verificar en el Monitor</div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">1</span>
+        <span class="step-title">Abrir el Monitor</span>
+      </div>
+      <div class="step-content">
+        <div class="code-block">
+http://localhost:3000/monitor.html
+        </div>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">2</span>
+        <span class="step-title">Filtrar por "Etapa 2"</span>
+      </div>
+      <div class="step-content">
+        <p>Ver solo servicios derivados para verificar que el suyo aparece</p>
+      </div>
+    </div>
+    
+    <div class="step">
+      <div>
+        <span class="step-number">3</span>
+        <span class="step-title">Verificar estado</span>
+      </div>
+      <div class="step-content">
+        <div class="diagram">
+┌─ clientes-resumen              ✓ ONLINE
+│  Etapa 2
+│  Equipo A: Juan Pérez, María García, Pedro López
+│  URL: https://grupo-clientes-resumen.onrender.com
+│  
+│  Endpoints:
+│  • GET /clientes/{id}/resumen
+│  • GET /clientes/top
+│  
+│  Última verificación: OK (234ms)
+└─
+        </div>
+        
+        <p style="margin-top: 15px;">
+          Si ven <span class="highlight">✓ ONLINE</span> (verde): ¡Éxito!<br>
+          Si ven <span class="highlight">✗ OFFLINE</span> (rojo): Revisar el error mostrado
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 8: TROUBLESHOOTING -->
+  <div class="section">
+    <div class="section-title">Solución de Problemas</div>
+    
+    <div style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+      <strong>❌ "La URL no es válida"</strong>
+      <div style="margin-top: 8px; font-size: 13px;">
+        • Verificar que sea https://, no http://<br>
+        • No debe tener rutas (ej: /api)<br>
+        • No debe tener puertos (ej: :3000)<br>
+        • Ejemplo correcto: https://grupo-clientes-resumen.onrender.com
+      </div>
+    </div>
+    
+    <div style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+      <strong>❌ "No se pudo conectar (timeout)"</strong>
+      <div style="margin-top: 8px; font-size: 13px;">
+        • El servicio aún está deployándose en Render (esperar 2-3 minutos)<br>
+        • Probar directamente: https://su-url.onrender.com/health<br>
+        • Si responde ahí pero falla en el dashboard, esperar unos segundos y reintentar
+      </div>
+    </div>
+    
+    <div style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+      <strong>❌ "GET /health: se esperaba { status: 'ok', ... }"</strong>
+      <div style="margin-top: 8px; font-size: 13px;">
+        • El endpoint /health no existe o devuelve formato incorrecto<br>
+        • Revisar server.js e implementar GET /health correctamente<br>
+        • Debe responder: { "status": "ok", "timestamp": "...", ... }<br>
+        • Redeploy en Render después de corregir
+      </div>
+    </div>
+    
+    <div style="background: #fee2e2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 4px;">
+      <strong>❌ "No se pudo conectar al servicio upstream"</strong>
+      <div style="margin-top: 8px; font-size: 13px;">
+        • La variable de entorno MS_ORDENES_URL (o similar) está mal<br>
+        • O el servicio upstream está offline<br>
+        • Verificar en Monitor que el servicio que consumen esté ✓ ONLINE<br>
+        • Revisar que la URL sea exacta (sin /health al final)
+      </div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 9: CHECKLIST FINAL -->
+  <div class="section">
+    <div class="section-title">✅ Checklist Final</div>
+    
+    <ul class="checklist">
+      <li>Repositorio creado con código del servicio derivado</li>
+      <li>GET /health implementado y responde correctamente</li>
+      <li>2 endpoints derivados implementados según contrato</li>
+      <li>.env.example documentado con variables necesarias</li>
+      <li>README.md con instrucciones de setup</li>
+      <li>Push a GitHub</li>
+      <li>Servicio desplegado en Render</li>
+      <li>Variables de entorno configuradas en Render</li>
+      <li>URL pública de Render obtenida</li>
+      <li>URL del servicio upstream confirmada en Monitor</li>
+      <li>Servicio registrado en Dashboard</li>
+      <li>Servicio aparece en Monitor con estado ✓ ONLINE</li>
+    </ul>
+  </div>
+
+  <!-- SECCIÓN 10: REFERENCIAS -->
+  <div class="section">
+    <div class="section-title">📚 Referencias</div>
+    
+    <div style="background: #dbeafe; border-left: 4px solid #2f6fdd; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+      <strong>CONTRATO_ETAPA_2.md</strong><br>
+      Especificación completa de endpoints para cada servicio derivado
+    </div>
+    
+    <div style="background: #dbeafe; border-left: 4px solid #2f6fdd; padding: 15px; border-radius: 4px; margin-bottom: 15px;">
+      <strong>ETAPA2_SETUP.md</strong><br>
+      Guía de setup técnico con ejemplos de código
+    </div>
+    
+    <div style="background: #dbeafe; border-left: 4px solid #2f6fdd; padding: 15px; border-radius: 4px;">
+      <strong>Render Dashboard</strong><br>
+      https://dashboard.render.com
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb; font-size: 12px; color: #666;">
+    <p>Dashboard de Microservicios - Etapa 2</p>
+    <p>2026</p>
+  </div>
+
+</div>
+
+</body>
+</html>
