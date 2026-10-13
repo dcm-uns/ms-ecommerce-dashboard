@@ -70,6 +70,7 @@ function createApp(store, {
   app.set('trust proxy', 1);
   app.use(express.json({ limit: '10kb' }));
   app.get('/reserva', (_req, res) => res.sendFile(path.join(__dirname, 'public', 'reserva.html')));
+  app.get('/monitor', (_req, res) => res.sendFile(path.join(__dirname, 'public', 'monitor.html')));
   
   // Guía Etapa 2 - accesible solo en ruta /guia2
   app.get('/guia2', (_req, res) => res.sendFile(path.join(__dirname, 'public', 'GUIA_REGISTRO_ETAPA2.pdf')));

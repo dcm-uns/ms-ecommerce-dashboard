@@ -107,9 +107,21 @@
     border-radius: 4px;
     font-size: 12px;
     border-left: 2px solid var(--ok);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .endpoint-item:hover {
+    background: rgba(0,0,0,0.4);
+    transform: translateX(2px);
   }
   .endpoint-item.pending { border-left-color: var(--warn); }
   .endpoint-item.error { border-left-color: var(--err); }
+  .endpoint-text { flex: 1; }
+  .endpoint-btn { font-size: 10px; padding: 2px 6px; background: rgba(47, 111, 221, 0.3); border-color: #2f6fdd; color: #93c5fd; }
+  .endpoint-btn:hover { background: rgba(47, 111, 221, 0.5); }
   .status-icon {
     display: inline-block;
     width: 10px;
@@ -129,6 +141,55 @@
     font-size: 12px;
     color: #fca5a5;
   }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+  }
+  .modal-content {
+    background: var(--card);
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid var(--bd);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--bd);
+    padding-bottom: 12px;
+  }
+  .modal-header h2 { margin: 0; }
+  .modal-close {
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--mut);
+  }
+  .modal-close:hover { color: var(--txt); }
+  .response-box {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--bd);
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 12px;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    overflow-x: auto;
+  }
+  .response-loading { color: var(--warn); }
+  .response-success { color: var(--ok); }
+  .response-error { color: var(--err); }
   .auto-refresh {
     display: flex;
     gap: 8px;
@@ -182,6 +243,19 @@
 
 <div class="footer">
   <p>Dashboard de monitoreo en tiempo real | Última actualización: <span id="lastUpdate">--:--:--</span></p>
+</div>
+
+<!-- Modal para ver resultados de endpoints -->
+<div id="endpointModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="modalTitle">Resultado del Endpoint</h2>
+      <span class="modal-close" onclick="closeEndpointModal()">&times;</span>
+    </div>
+    <div id="modalBody">
+      <div class="response-box response-loading">Cargando...</div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -256,9 +330,12 @@ function createServiceCard(service) {
     endpoints = `
       <div class="endpoints-list">
         <strong style="font-size: 12px; color: var(--mut);">Endpoints:</strong>
-        ${service.endpoints.map(ep => `
-          <div class="endpoint-item">
-            <span class="status-icon ok"></span>${ep}
+        ${service.endpoints.map((ep, idx) => `
+          <div class="endpoint-item" onclick="testEndpoint('${service.codigo}', '${service.url || ''}', '${ep}', ${idx})">
+            <span class="endpoint-text">
+              <span class="status-icon ok"></span>${ep}
+            </span>
+            <button class="endpoint-btn">Probar</button>
           </div>
         `).join('')}
       </div>
@@ -343,6 +420,72 @@ function startAutoRefresh() {
     refreshTimer = setInterval(() => loadServices(), interval);
   }
 }
+
+// Función para procesar endpoints - reemplaza {id} con valor hardcodeado
+function processEndpoint(endpoint, baseUrl) {
+  if (!baseUrl) return null;
+  
+  const method = endpoint.split(' ')[0]; // GET, POST, etc
+  let path = endpoint.split(' ').slice(1).join(' ').trim();
+  
+  // Reemplaza {id} con un valor hardcodeado
+  path = path.replace(/{id}/g, '123').replace(/{[^}]+}/g, 'value');
+  
+  const fullUrl = baseUrl.replace(/\/$/, '') + path;
+  return { method, path, fullUrl };
+}
+
+// Función para abrir el modal y testear el endpoint
+async function testEndpoint(codigo, baseUrl, endpoint, idx) {
+  const modal = document.getElementById('endpointModal');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalBody = document.getElementById('modalBody');
+  
+  modalTitle.textContent = `${codigo.toUpperCase()} - ${endpoint}`;
+  modalBody.innerHTML = '<div class="response-box response-loading">⏳ Probando endpoint...</div>';
+  modal.style.display = 'block';
+  
+  try {
+    const processed = processEndpoint(endpoint, baseUrl);
+    if (!processed || !processed.fullUrl) {
+      throw new Error('URL base del servicio no disponible');
+    }
+    
+    const response = await fetch(processed.fullUrl);
+    const data = await response.json();
+    
+    const statusClass = response.ok ? 'response-success' : 'response-error';
+    const statusText = response.ok ? '✓ OK' : `✗ Error ${response.status}`;
+    
+    modalBody.innerHTML = `
+      <div class="response-box ${statusClass}">
+        <strong>${statusText}</strong><br>
+        <strong>URL:</strong> ${processed.fullUrl}<br><br>
+        <strong>Respuesta:</strong><br>
+        <pre>${JSON.stringify(data, null, 2)}</pre>
+      </div>
+    `;
+  } catch (error) {
+    modalBody.innerHTML = `
+      <div class="response-box response-error">
+        <strong>✗ Error:</strong><br>
+        ${error.message}
+      </div>
+    `;
+  }
+}
+
+function closeEndpointModal() {
+  document.getElementById('endpointModal').style.display = 'none';
+}
+
+// Cerrar modal al hacer click afuera
+window.addEventListener('click', (e) => {
+  const modal = document.getElementById('endpointModal');
+  if (e.target === modal) {
+    closeEndpointModal();
+  }
+});
 
 // Event Listeners
 document.getElementById('btnRefresh').addEventListener('click', () => {
