@@ -16,6 +16,22 @@ const {
 
 const scrypt = promisify(crypto.scrypt);
 
+// Mapeo de servicios Etapa 2 con sus endpoints
+const ETAPA2_ENDPOINTS = {
+  'clientes-resumen': ['GET /clientes/{id}/resumen', 'GET /clientes/top'],
+  'ordenes-detalle': ['GET /ordenes/{id}/detalle', 'GET /ordenes/{id}/verificacion'],
+  'productos-ficha': ['GET /productos/{id}/ficha', 'GET /productos/mejor-puntuados'],
+  'categorias-catalogo': ['GET /categorias/{id}/resumen', 'GET /categorias/sin-productos'],
+  'inventario-alertas': ['GET /alertas/stock-bajo', 'GET /alertas/sin-stock'],
+  'sucursales-stock': ['GET /sucursales/{id}/stock', 'GET /sucursales/ranking'],
+  'ranking-productos': ['GET /ranking/mas-vendidos', 'GET /ranking/ingresos-por-categoria'],
+  'pagos-conciliacion': ['GET /conciliacion/{ordenId}', 'GET /conciliacion/inconsistencias'],
+  'envios-demorados': ['GET /envios/demorados', 'GET /envios/valor-en-riesgo'],
+  'resenas-criticas': ['GET /resenas/criticas', 'GET /resenas/por-categoria'],
+  'promociones-precios': ['GET /promociones/vigentes/precios', 'GET /promociones/{id}/productos'],
+  'tickets-contexto': ['GET /tickets/{id}/contexto', 'GET /tickets/abiertos-por-ciudad'],
+};
+
 function safeEqual(a, b) {
   const ha = crypto.createHash('sha256').update(String(a)).digest();
   const hb = crypto.createHash('sha256').update(String(b)).digest();
@@ -70,6 +86,7 @@ function createApp(store, {
   const view = (entry, rec) => {
     let estado = 'libre';
     if (rec) estado = !rec.ultimoCheck ? 'registrado' : rec.ultimoCheck.ok ? 'online' : 'offline';
+    const endpoints = entry.endpoints || ETAPA2_ENDPOINTS[entry.codigo.toLowerCase().replace('ms-', '')] || [];
     return {
       codigo: entry.codigo,
       coleccion: entry.coleccion,
@@ -81,13 +98,54 @@ function createApp(store, {
       estudiantes: rec ? rec.estudiantes : [],
       registradoEn: rec ? rec.registradoEn : null,
       ultimoCheck: rec ? rec.ultimoCheck || null : null,
+      endpoints: endpoints.map(ep => typeof ep === 'string' ? ep : `${ep.metodo} ${ep.ruta}`),
     };
   };
 
   app.get('/api/microservicios', async (_req, res, next) => {
     try {
       const recs = new Map((await store.all()).map((r) => [r.codigo, r]));
-      res.json([...catalog.values()].map((e) => view(e, recs.get(e.codigo))));
+      
+      // Servicios Etapa 1 (del catálogo)
+      const etapa1 = [...catalog.values()].map((e) => view(e, recs.get(e.codigo)));
+      
+      // Servicios Etapa 2 (virtuales, si no están en la tienda)
+      const etapa2 = Object.entries(ETAPA2_ENDPOINTS).map(([codigo, endpoints]) => {
+        const etapa2Code = codigo.split('-')[0]; // obtiene el prefijo
+        const consumes = {
+          'clientes-resumen': 'MS-ordenes',
+          'ordenes-detalle': 'MS-lineas_orden',
+          'productos-ficha': 'MS-resenas',
+          'categorias-catalogo': 'MS-productos',
+          'inventario-alertas': 'MS-productos',
+          'sucursales-stock': 'MS-inventario',
+          'ranking-productos': 'MS-productos',
+          'pagos-conciliacion': 'MS-ordenes',
+          'envios-demorados': 'MS-ordenes',
+          'resenas-criticas': 'MS-productos',
+          'promociones-precios': 'MS-productos',
+          'tickets-contexto': 'MS-clientes',
+        };
+        const rec = recs.get(codigo) || null;
+        let estado = 'libre';
+        if (rec) estado = !rec.ultimoCheck ? 'registrado' : rec.ultimoCheck.ok ? 'online' : 'offline';
+        
+        return {
+          codigo: codigo,
+          coleccion: codigo,
+          titulo: `${codigo.toUpperCase()} (Etapa 2)`,
+          descripcion: `Servicio derivado que consume ${consumes[codigo] || 'otro servicio'}`,
+          estado,
+          url: rec ? rec.url : null,
+          grupo: rec ? rec.grupo : null,
+          estudiantes: rec ? rec.estudiantes : [],
+          registradoEn: rec ? rec.registradoEn : null,
+          ultimoCheck: rec ? rec.ultimoCheck || null : null,
+          endpoints: endpoints,
+        };
+      });
+      
+      res.json([...etapa1, ...etapa2]);
     } catch (e) { next(e); }
   });
 
@@ -177,9 +235,24 @@ function createApp(store, {
         return res.status(429).json({ error: 'too_many_requests', message: 'Demasiados intentos, esperá un minuto.' });
       }
       const { codigo, url, estudiantes, grupo } = req.body || {};
-      const entry = find(codigo);
+      
+      // Buscar en Etapa 1 o Etapa 2
+      let entry = find(codigo);
+      let isEtapa2 = false;
+      if (!entry && Object.keys(ETAPA2_ENDPOINTS).includes(codigo)) {
+        isEtapa2 = true;
+        entry = {
+          codigo: codigo,
+          coleccion: codigo,
+          titulo: codigo,
+          descripcion: `Servicio derivado ${codigo}`,
+          endpoints: ETAPA2_ENDPOINTS[codigo],
+        };
+      }
+      
       if (!entry) {
-        return res.status(400).json({ error: 'bad_request', message: `Código desconocido. Opciones: ${[...catalog.values()].map((e) => e.codigo).join(', ')}.` });
+        const allCodes = [...catalog.values()].map((e) => e.codigo).concat(Object.keys(ETAPA2_ENDPOINTS));
+        return res.status(400).json({ error: 'bad_request', message: `Código desconocido. Opciones: ${allCodes.join(', ')}.` });
       }
       if (!Array.isArray(estudiantes) || estudiantes.length < 1 || estudiantes.length > 8 ||
           !estudiantes.every((s) => typeof s === 'string' && s.trim() && s.length <= 80)) {
@@ -193,22 +266,30 @@ function createApp(store, {
         return res.status(400).json({ error: 'bad_request', message: e.message });
       }
 
-      lockKey = entry.codigo;
+      lockKey = codigo;
       if (inFlight.has(lockKey)) {
         lockKey = undefined;
         return res.status(409).json({ error: 'conflict', message: 'Hay otra registración en curso para este microservicio.' });
       }
       inFlight.add(lockKey);
 
-      if (await store.get(entry.codigo)) {
-        return res.status(409).json({ error: 'conflict', message: `${entry.codigo} ya está registrado. Pedí al administrador que lo libere.` });
+      if (await store.get(codigo)) {
+        return res.status(409).json({ error: 'conflict', message: `${codigo} ya está registrado. Pedí al administrador que lo libere.` });
       }
-      const result = await check(entry, base, { strict: true });
+      
+      // Para Etapa 2, validar solo /health; para Etapa 1, validar completo
+      let result;
+      if (isEtapa2) {
+        result = await check(entry, base, { etapa2: true });
+      } else {
+        result = await check(entry, base, { strict: true });
+      }
+      
       if (!result.ok) {
         return res.status(422).json({ error: 'registration_rejected', message: `Registración rechazada: ${result.error}` });
       }
       const rec = {
-        codigo: entry.codigo,
+        codigo: codigo,
         url: base,
         grupo: grupo ? grupo.trim() : null,
         estudiantes: estudiantes.map((s) => s.trim()),
@@ -216,7 +297,22 @@ function createApp(store, {
         ultimoCheck: result,
       };
       await store.put(rec);
-      res.status(201).json(view(entry, rec));
+      
+      // Preparar respuesta
+      const response = {
+        codigo: codigo,
+        coleccion: entry.coleccion,
+        titulo: entry.titulo,
+        descripcion: entry.descripcion,
+        estado: 'online',
+        url: rec.url,
+        grupo: rec.grupo,
+        estudiantes: rec.estudiantes,
+        registradoEn: rec.registradoEn,
+        ultimoCheck: rec.ultimoCheck,
+        endpoints: (entry.endpoints || ETAPA2_ENDPOINTS[codigo] || []).map(ep => typeof ep === 'string' ? ep : `${ep.metodo} ${ep.ruta}`),
+      };
+      res.status(201).json(response);
     } catch (e) { next(e); } finally {
       if (lockKey) inFlight.delete(lockKey);
     }

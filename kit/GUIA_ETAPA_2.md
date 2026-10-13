@@ -9,11 +9,11 @@ En la etapa 2 cada grupo implementa un **servicio derivado**: además de usar lo
 
 ## Reglas
 
-1. **Tu colección sigue siendo tuya.** El servicio derivado lee tu propia colección (Mongo/seed) y consulta a Z **solo por HTTP**, usando su contrato (`GET /items`, `GET /items/{id}`).
+1. **Tu colección sigue siendo tuya.** El servicio derivado usa tu microservicio  y consulta a Z **solo por HTTP**, usando su contrato (`GET /items`, `GET /items/{id}`).
 2. **Z lo hace otro grupo.** Obtén su URL en `GET /api/microservicios` del dashboard y elige un servicio con estado `online`. La URL va en una variable de entorno (`Z_URL`), nunca fija en el código.
 3. **Contrato mínimo del derivado**: `GET /health` y los dos endpoints que se indican abajo (solo lectura, JSON).
 4. **Tolerancia a fallos**: timeout de 5 s al llamar a Z. Si Z falla, responde `502` con `{ "error": "upstream_unavailable", "message": "..." }`; nunca un 500 ni un cuelgue.
-5. **Sin cálculos ocultos**: la respuesta debe incluir un campo `fuentes` (por ejemplo `["MS-clientes", "MS-ordenes"]`) indicando de qué servicios salieron los datos.
+. **
 6. **Pruebas**: una prueba con Z simulado (mock con datos de `kit/seed`) y una contra el servicio real de otro grupo.
 7. **Alcance**: dos endpoints por servicio. Si sobra tiempo, agrega filtros o más datos, pero no antes.
 
@@ -35,20 +35,17 @@ En la etapa 2 cada grupo implementa un **servicio derivado**: además de usar lo
 | **MS-tickets_soporte** | `tickets-contexto` | MS-clientes | `GET /tickets/{id}/contexto`: el ticket con nombre, email y ciudad del cliente. `GET /tickets/abiertos-por-ciudad`: conteo de tickets abiertos por ciudad. |
 
 Notas:
-- Los grupos que ya no tengan a otro grupo `online` para su Z usan el mock de `kit/seed` y lo indican en la entrega.
-- Si hay más de un grupo con el mismo Z, elijan servicios distintos para repartir la carga.
 - Las promociones son informativas: calcula el precio con descuento solo en la respuesta, sin modificar datos.
 - La semilla toma como “hoy” el `2026-10-11`; admite un parámetro `fecha` para pruebas deterministas.
 
 ## Sugerencias para hacerlo simple
 
-- Llama a Z con `GET /items?<filtro>&limit=100` y pagina con `offset` si `total > limit`.
 - Si necesitas muchos `GET /items/{id}`, junta los ids y pídelos una sola vez; no hagas una llamada por fila en un bucle largo.
 - Valida lo que recibes de Z: un campo ausente o con otro tipo debe generar `502`, no un error interno.
 - Verifica los resultados con las filas conocidas de la semilla: INV001/INV009/INV011 bajo el mínimo, el envío demorado de ORD007, el ticket TKT001, la reseña negativa RES003, el pago pendiente de ORD009 y la promoción vencida PRM004.
 
 ## Entrega
 
-1. Repositorio con el servicio derivado, README con `Z_URL` y ejemplos de `curl`.
-2. Servicio desplegado, con `GET /health` respondiendo.
-3. Captura o salida de `curl` de ambos endpoints funcionando contra el servicio real de otro grupo.
+1. Nuevo Repositorio con el servicio derivado, README con `Z_URL` y ejemplos de `curl`.
+2. Nuevo Servicio desplegado en Render, con `GET /health` respondiendo.
+
